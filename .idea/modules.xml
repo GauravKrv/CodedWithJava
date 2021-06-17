@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APPLET/APPLET.iml" filepath="$PROJECT_DIR$/APPLET/APPLET.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CLASS/CLASS.iml" filepath="$PROJECT_DIR$/CLASS/CLASS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CODECHEF/CODECHEF.iml" filepath="$PROJECT_DIR$/CODECHEF/CODECHEF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeIt.iml" filepath="$PROJECT_DIR$/CodeIt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DESIGN_AND_ANALYSIS/DESIGN_AND_ANALYSIS.iml" filepath="$PROJECT_DIR$/DESIGN_AND_ANALYSIS/DESIGN_AND_ANALYSIS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DS IN JAVA NPTL/DS IN JAVA NPTL.iml" filepath="$PROJECT_DIR$/DS IN JAVA NPTL/DS IN JAVA NPTL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA SERIES QUESTIONS/DSA SERIES QUESTIONS.iml" filepath="$PROJECT_DIR$/DSA SERIES QUESTIONS/DSA SERIES QUESTIONS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DYNAMIC_PROGRAMMING/DYNAMIC_PROGRAMMING.iml" filepath="$PROJECT_DIR$/DYNAMIC_PROGRAMMING/DYNAMIC_PROGRAMMING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/EXCEPTIONhANDLING/EXCEPTIONhANDLING.iml" filepath="$PROJECT_DIR$/EXCEPTIONhANDLING/EXCEPTIONhANDLING.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FileHandeling/FileHandeling.iml" filepath="$PROJECT_DIR$/FileHandeling/FileHandeling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HackerRank/HackerRank.iml" filepath="$PROJECT_DIR$/HackerRank/HackerRank.iml" />
+      <module fileurl="file://$PROJECT_DIR$/INHERITENCE/INHERITENCE.iml" filepath="$PROJECT_DIR$/INHERITENCE/INHERITENCE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LASTpart/INTERFACES/LASTpart/INTERFACES.iml" filepath="$PROJECT_DIR$/LASTpart/INTERFACES/LASTpart/INTERFACES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JCF/JCF.iml" filepath="$PROJECT_DIR$/JCF/JCF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/LASTpart/OOP/LASTpart.iml" filepath="$PROJECT_DIR$/OOP/LASTpart/OOP/LASTpart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Videos of OOP/Videos of OOP/Lastpart.iml" filepath="$PROJECT_DIR$/Videos of OOP/Videos of OOP/Lastpart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCodeQues/LeetCodeQues.iml" filepath="$PROJECT_DIR$/LeetCodeQues/LeetCodeQues.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MATHEMATICAL_FUNCTIONS/MATHEMATICAL_FUNCTIONS.iml" filepath="$PROJECT_DIR$/MATHEMATICAL_FUNCTIONS/MATHEMATICAL_FUNCTIONS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PACKAGES/PACKAGES.iml" filepath="$PROJECT_DIR$/PACKAGES/PACKAGES.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PROGRAMMINGPROBLEMS/PROGRAMMINGPROBLEMS.iml" filepath="$PROJECT_DIR$/PROGRAMMINGPROBLEMS/PROGRAMMINGPROBLEMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SOCKET/SOCKET.iml" filepath="$PROJECT_DIR$/SOCKET/SOCKET.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DS IN JAVA NPTL/SORTING_W11.iml" filepath="$PROJECT_DIR$/DS IN JAVA NPTL/SORTING_W11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/THREADS/THREADS.iml" filepath="$PROJECT_DIR$/THREADS/THREADS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TryProgToCheck/TryProgToCheck.iml" filepath="$PROJECT_DIR$/TryProgToCheck/TryProgToCheck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Videos of OOP/Videos of OOP.iml" filepath="$PROJECT_DIR$/Videos of OOP/Videos of OOP.iml" />
+    </modules>
+  </component>
+</project>

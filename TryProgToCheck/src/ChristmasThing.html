@@ -1,0 +1,91 @@
+<html>
+<body>
+
+
+<script>
+var name = prompt("Enter Your Name : ")
+
+
+var init = 11;
+var c = 11 + init
+ d = 11 + init;
+for (var i = 0; i < 10; i++) {
+for (var j = 0; j < 21 + init; j++) {
+if (j >= c && j <= d) {
+document.write("*");
+} else {
+document.write(" ");
+}
+
+}
+c--;
+d++;
+document.write("\n");
+}
+
+
+var c2 = 4 + init, d2 = 18 + init;
+for (var i = 0; i < 7; i++) {
+for (var j = 0; j < 26 + init; j++) {
+if (j >= c2 && j <= d2) {
+document.write("*");
+} else {
+document.write(" ");
+}
+
+}
+c2--;
+d2++;
+document.write("\n");
+}
+for (var i = 0; i <= d2; i++) {
+if (i >= c2)
+document.write("*");
+else document.write(" ");
+}
+document.write("\n");
+
+
+var c3 = 2 + init, d3 = 21 + init;
+for (var i = 0; i < 5; i++) {
+for (var j = 0; j < 27 + init; j++) {
+if (j >= c3 && j <= d3) {
+document.write("*");
+} else {
+document.write(" ");
+}
+
+}
+c3--;
+d3++;
+document.write("\n");
+}
+for (var j = c3; j > 0; j--) {
+for (var i = 0; i <= d3; i++) {
+if (i >= c3)
+document.write("*");
+document.write(" ");
+}
+c3--;
+d3++;
+document.write("\n");
+}
+for (var j=1;j<init;j++) {
+for (var i = 0; i < d3; i++) {
+if (i >=init+5 && i <= 18+init) {
+document.write("*");
+} else {
+document.write(" ");
+}
+}
+document.write("\n");
+}
+
+document.write("\n");
+document.write("*******  "+name+"  *******");
+
+
+</script>
+
+</body>
+</html>
