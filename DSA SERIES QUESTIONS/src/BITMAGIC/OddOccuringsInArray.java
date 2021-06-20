@@ -47,9 +47,9 @@ public class OddOccuringsInArray {
     public static void main(String[] args) {
         int n = (new Scanner(System.in)).nextInt();// anonymous object creation
         //Scanner sc = new Scanner(System.in);
-        int[] arr = new int[n];
+
        ArrayInput arrayInput = new ArrayInput();
-       arrayInput.createArray(arr,n);
+        int[] arr = arrayInput.createArray(n);
 
       // arrayInput.printArray(arr,n);
        twoOddAppearing(arr,n);
