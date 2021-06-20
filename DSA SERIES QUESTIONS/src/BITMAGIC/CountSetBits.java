@@ -1,46 +1,47 @@
 package BITMAGIC;
 
-import java.util.Scanner;
-
 public class CountSetBits {
-    public static void main(String[] args) {
-        Solution s = new Solution();
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter n value : ");
-        int n = sc.nextInt();
-        System.out.println( s.countSetBits(n));
+    static int []table = new int[256];
 
+    // recursive function to count set bits
+    public static void initialize() {
 
-    }
-}
-
-class Solution{
-
-    //Function to return sum of count of set bits in the integers from 1 to n.
-    static int[] table = new int[256];
-
-    static void initialising(){
+        // To initially generate the table algorithmically:
         table[0] = 0;
-        for(int i=1;i<256;i++){
-            table[i] = (i&1)+table[i/2];
+        for (int i = 0; i < 256; i++)
+        {
+            table[i] = (i & 1) + table[i / 2];
         }
+    }
+// LOOKUP TABLE METHOD -- TAKES O(1) to count set bits
+    public static int countSetBits(int n)
+    {
+        return table[n & 0xff] +
+                table[(n >> 8) & 0xff] +
+                table[(n >> 16) & 0xff] +
+                table[n >> 24];
+
+
 
     }
 
-    public int countSetBits(int n){
-        initialising();
-        int res = 0;
-
-        for(int i=1;i<=n;i++){
-            int n2 = i;
-            while(n2>0){
-                res = res + table[n2&0xff];
-                n2 = n2>>8;
-            }
+    /* Function to get no of set bits in binary representation-- TAKES O(count) --BRIAN KERNINGHAM ALGO*/
+    static int countSetBits2(int n)
+    {
+        int count = 0;
+        while (n > 0) {
+            n &= (n - 1);
+            count++;
         }
-        return res;
-        // Your code here
+        return count;
+    }
 
+
+    // Driver function
+    public static void main(String[] args) {
+        initialize();
+        int n = 15;
+        System.out.println(countSetBits2(n));
     }
 
 }
