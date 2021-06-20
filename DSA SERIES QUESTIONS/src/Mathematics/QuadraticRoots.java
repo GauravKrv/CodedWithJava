@@ -21,6 +21,7 @@ public class QuadraticRoots {
 
        }else {
            al.add(-1);
+           al.add(-1);
        }
        return al;
     }
@@ -28,6 +29,6 @@ public class QuadraticRoots {
     public static void main(String[] args) {
         //ArrayList<Integer> al = calRoots(752, 904 ,164);
         ArrayList<Integer> al = calRoots(280, 399 ,573);
-      //  System.out.println(al.get(0)+" "+al.get(1));
+        System.out.println("x1 = " + al.get(0)+", x2 = "+al.get(1));
     }
 }
