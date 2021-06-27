@@ -5,15 +5,14 @@ public class ArrayOfInt {
     ArrayOfInt(int a[]){
         this.a = a;
     }
-   public void printInt(){
+   public void printArray(){
         for(int x =0;x<a.length;x++){
             System.out.println(a[x]);
         }
     }
-    void reverseInt(){
+    void reverseArray(){
         int temp;
-
-            int j = a.length-1;
+        int j = a.length-1;
             System.out.println(j);
             for (int i = 0; i <= j; i++) {
 
@@ -26,16 +25,12 @@ public class ArrayOfInt {
     }
 
     public static void main(String[] args) {
-     /*   int a[] ={1,2,3,4,559};
-    ArrayOfInt b =
-    b.printInt();
-    b.reverseInt();
-    b.printInt();*/
+
        int a[] ={1,2,3,4,55};
         ArrayOfInt aObj =new ArrayOfInt(a);
-        aObj.printInt();
-        aObj.reverseInt();
-        aObj.printInt();
+        aObj.printArray();
+        aObj.reverseArray();
+        aObj.printArray();
     }
 
 }

@@ -10,11 +10,6 @@ The reason is that you can’t create an array of T is that there is no
 way for the compiler to know what type of array to actually create
 
 
-
-
-
-
-
 * */
 
 
@@ -70,7 +65,7 @@ public class GenericArray<T> {
         GenericArray<Integer> aInt = new GenericArray<>(x);
         //store dataa into generic array
         aInt.printData(x);
-        aInt.reverseArray(x);
+         aInt.reverseArray(x);
         aInt.printData(x); //print the reversed array :
         // as we see referenced is passed here
 
