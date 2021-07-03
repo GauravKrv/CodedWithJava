@@ -92,3 +92,70 @@ Number of args = 4
 hello -2 3 Wow
 * */
 }
+
+/*
+The syntax for declaring a generic class is as follows:
+[<<Access] class <ClassName><<Type1> [, <Type2>, …]> {
+… body of the class
+}
+Here, is the full syntax for declaring a reference to a generic class and
+instance creation:
+<className><typeList> varName = new <className><typeList> (<InputArray>);
+* */
+class Generic6Class <G>{
+    //WORKS ... Cannot(use static functions) refer a function which prints generic array with Class objects
+   //A generic method or any method in a generic class can be declared as zstatic.
+    private G x;
+    private G[] arr;
+    //Constructor
+    public Generic6Class(G g){
+        x = g;
+    }
+    public Generic6Class(G[] a){
+       arr = a;
+    }
+
+    public void printData(){
+        System.out.println(x);
+    }
+
+      static <G> void printGenericArray(G A[]){
+        for (int i = 0;  i<A.length;i ++) {
+            System.out.print(A[i]+" ");
+        }
+    }
+
+    public static void main(String[] args) {
+        Generic6Class<String> g1 = new Generic6Class<>("ghello");
+        Generic6Class<Integer> g2 = new Generic6Class<>(21);
+        g1.printData();
+        g2.printData();
+        Integer[] ar = {1,2,3,4,5};
+/*You cannot instantiate an array whose element type is a type
+parameter. That is following is invalid.
+T a = new T[5];
+The reason is that you can’t create an array of T is that there is no way for the compiler to know what type of array to actually creat*/
+       printGenericArray(ar);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
