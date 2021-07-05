@@ -2,7 +2,18 @@ package SEARCHING;
 
 import ARRAYS.ArrayInput;
 //**********WORKS O(LOGN)
-public class MinElementSortedRotated {
+/*
+HINT
+The minimum element is the only element whose previous element is greater than itself. If there is no previous element greater than current element then there is no rotation (first element is minimum). We check this condition for middle element by comparing it with (mid-1)’th and (mid+1)’th elements.
+
+Traverse over the array using two pointers and use binary search.
+If array is not rotated or both pointers are same, return the result.
+Check for minimum element at mid and mid+1 and return if found.
+If minimum element is not at middle (neither mid nor mid + 1), then minimum element lies in either left half or right half.
+If middle element is smaller than last element, then the minimum element lies in left half
+Else minimum element lies in right half.
+* */
+public class MinElementSortedRotated_ {
     static int minNumber(int a[], int l, int h)
     {
         int min = a[l];
