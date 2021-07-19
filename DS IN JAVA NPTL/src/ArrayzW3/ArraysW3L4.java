@@ -1,6 +1,5 @@
 package ArrayzW3;
 
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -100,8 +99,9 @@ class ArrayToListDemo {
     public static void main(String[] args) {
         int intArr[] = { 10, 20, 15, 22, 35}; // An array of int
         System.out.println("Integer Array as List: " );
-        for (int i =0;i<intArr.length;i++)
-        System.out.println( Arrays.asList(intArr[i])); // To convert the elements as List
+        for (int i =0;i<intArr.length;i++) {
+            System.out.println(Arrays.asList(intArr[i]));
+        } // To convert the elements as List
     }
 }
 
@@ -299,10 +299,10 @@ class Sorting{
         System.out.println("Unsorted");
         for(int i = 0; i<arr.length; i++)
             System.out.println(arr[i]);
-        Arrays.sort(arr, 1, 2, new Sortbyroll());
+        Arrays.sort(arr, new Sortbyroll());
         System.out.println("\nSorted by rollno");
         for(int i = 0; i<arr.length; i++)
             System.out.println(arr[i]);
     }
-}///-->WRONG output
+}///-->CORRECT output
 //MORE PROGRAMSS ARE THERE IN ORACLE SITES WHICH ARE REQUESTD BY THE PROFFSR TO CHECK
