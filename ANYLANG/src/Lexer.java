@@ -1,6 +1,6 @@
 import java.util.Arrays;
-import java.util.Scanner;
 import java.util.Stack;
+import java.util.StringTokenizer;
 
 public class Lexer {
 
@@ -77,15 +77,29 @@ public class Lexer {
 
     }
 
+   static void checkToken(){
+        StringTokenizer str = new StringTokenizer("Hello world?? class{ " +
+                "int i = 20;" +
+                "int b = 22"
+        +"if(i==b) print(true); " +
+                "else print(false);" +
+                "}");
+
+        while (str.hasMoreTokens()){
+            System.out.println(str.nextToken());
+        }
+    }
 
     public static void main(String[] args) {
         //tokenize("hello world>");
-        Scanner sc = new Scanner(System.in);
+       /* Scanner sc = new Scanner(System.in);
         String input = "ifoifoelseoooif_else if else if";
         Stack<String> tokens = tokenize2(input);
         for (String x:tokens) {
             System.out.print("{"+x+"}"+", ");
-        }
+        }*/
+
+        checkToken();
     }
 }
 
@@ -98,6 +112,8 @@ class TestFun{
         tokens.push(s.substring(0,2));
         System.out.println(tokens.pop());
     }
+
+
 
     public static void main(String[] args) {
         testFunc();
