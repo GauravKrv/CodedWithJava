@@ -57,3 +57,38 @@ F
 ANYLANG/src/Lexer.java,c\2\c2fb50039106d77add0a41ced35869842693f2f8
 N
 FileHandeling/src/FileHP1.java,b\2\b25a022c5dda95200646844f2188f442dd428bb7
+S
+#HackerRank/src/Regex/RegexDemo.java,2\0\2036cf6a8ce00aec07ddad2c03975a75a61112a3
+f
+6HackerRank/src/Regex/RegexClassMethodsApplication.java,4\a\4a2d5100095f8f97183988fad34d273d681f2d5e
+T
+$Competitions/src/MacroTemplates.java,c\9\c986326fbe1240afd827546558fa09ac66d8b208
+K
+Competitions/src/Setup.java,0\b\0b867f39aeac1c0556fa9d7fe26891d5a28402d3
+M
+Competitions/Competitions.iml,8\1\8160d397282aa3abab57fdc3ea9be8f8efed9d0f
+j
+:DSA SERIES QUESTIONS/src/BITMAGIC/OddOccuringsInArray.java,7\9\791e9f078baf3edb4430a8289c7ef46aed71f79a
+a
+1DSA SERIES QUESTIONS/src/RECURSION/PowerSet_.java,4\3\43b63e914ed75ee35ef8b1354a46c9434e500f25
+U
+%HackerRank/src/Regex/RegexBasics.java,b\4\b43e8df3b1c07c1c9d51a2271684b53f5cea497b
+Q
+!LeetCodeQues/src/ReachHeight.java,b\1\b170f4abfa39082cd1bddac871ce6f52afaa85f6
+Q
+!NOTHING_WILL_HAPPEN/src/inputcode,f\9\f96dc6b1359ad3146bb23e9c9728164822e4eafe
+R
+"NOTHING_WILL_HAPPEN/src/inputcode2,5\c\5ce775dade41b22b4e045ccb8e1e8f4c7c383f99
+R
+"NOTHING_WILL_HAPPEN/src/inputcode3,e\5\e5f87eaea006d4dbd73bd91d5b3812d2bc7f1d39
+R
+"NOTHING_WILL_HAPPEN/src/Lexer.java,3\4\345f0699280196df5c60e45179c53d858b27492e
+i
+9NOTHING_WILL_HAPPEN/src/ReadingEntireFileWithoutLoop.java,e\5\e50187db1f44df7877ba10873ab90a758016557b
+R
+"NOTHING_WILL_HAPPEN/src/Token.java,8\1\81e010272c5126d91006d4bb109913b8df6a309b
+V
+&NOTHING_WILL_HAPPEN/src/TokenType.java,b\6\b6b08dd84ae22ad1c26e7e822db809d2b6113f42
+:
+
+output.txt,a\d\adbe6c7d3c0d8b19ecd492bec9532c13a6e1c9ad
