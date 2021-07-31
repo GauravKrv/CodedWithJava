@@ -1,0 +1,15 @@
+
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÂê¶úÿÿÿÿ8±Ù‰ä¬/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÂê¶úÿÿÿÿ8²Ù‰ä¬/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌÂê¶úÿÿÿÿ8²Ù‰ä¬/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â±¦
+\
+java:S1118":Add a private constructor to hide the implicit public one.(íõï÷ıÿÿÿÿ8µÙ‰ä¬/
+Z
+java:S1197"8Move the array designator from the variable to the type.(ÌÂê¶úÿÿÿÿ8¶Ù‰ä¬/
+Z
+java:S1197"8Move the array designator from the variable to the type.(ÌÂê¶úÿÿÿÿ8·Ù‰ä¬/
+Q
+java:S6212"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ8íãä¬/
+Q
+java:S6212"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ8ïãä¬/

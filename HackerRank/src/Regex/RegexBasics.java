@@ -18,7 +18,7 @@ class CharacterExmple{
     public static void main(String[] args) {
         System.out.println(Pattern.matches("[xyz]*","wbcd"));//false becoz x,or,y or z is not pres in inut
         System.out.println(Pattern.matches("[xyz]","x"));//true
-        System.out.println(Pattern.matches("[xyz]","xxyyyyz"));//false becoz x and y comes more than once
+        System.out.println(Pattern.matches("[xyz]*","xxyyyyz"));//false becoz x and y comes more than once
 
     }
 
@@ -88,11 +88,11 @@ class Demo
     {
         // Following line prints "true" because the whole
         // text "geeksforgeeks" matches pattern "geeksforge*ks"
-        System.out.println (Pattern.matches("geeksforge*ks","geeksforgeeks"));
+        System.out.println (Pattern.matches("geeksforge*ks","geeksforgeeeeeks"));
 
         // Following line prints "false" because the whole
         // text "geeksfor" doesn't match pattern "g*geeks*"
-        System.out.println (Pattern.matches("g*geeks*","geeksfor"));
+        System.out.println (Pattern.matches("g*geeks*","geeks"));
     }
 }
 

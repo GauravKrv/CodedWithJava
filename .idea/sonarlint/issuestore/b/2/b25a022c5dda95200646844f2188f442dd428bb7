@@ -1,0 +1,17 @@
+
+i
+java:S20950"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(ëÿØøÿÿÿÿ
+b
+java:S2095"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(±øät
+b
+java:S2095-"MUse try-with-resources or close this "FileInputStream" in a "finally" clause.(±øät
+]
+java:S2095i"HUse try-with-resources or close this "FileWriter" in a "finally" clause.(ÔÚşy
+^
+java:S2095f"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ŒÔÚ
+^
+java:S2095K"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ŒÔÚ
+‰
+java:S1192"tDefine a constant instead of duplicating this literal "D:\\JAVA\\programming OOP\\FileHandeling\\src\\hola" 4 times.(±øät
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¶ƒºùúÿÿÿÿ
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(©Åâãşÿÿÿÿ

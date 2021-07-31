@@ -1,0 +1,110 @@
+
+g
+java:S1192q"QDefine a constant instead of duplicating this literal "Integer Array: " 11 times.(Ñõ¡¦
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Úæ’
+]
+java:S2094"BRemove this empty class, write its code or make it an "interface".(Ü¡Ñ¢üÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ÀéÉûÿÿÿÿÿ
+J
+java:S6212d"/Declare this local variable with "var" instead.(Œáš·ùÿÿÿÿ
+S
+java:S1197d"8Move the array designator from the variable to the type.(Œáš·ùÿÿÿÿ
+N	java:S106e"9Replace this use of System.out or System.err by a logger.(Ë‹ú…
+D
+java:S6212f"/Declare this local variable with "var" instead.(¡ÿý-
+M	java:S106g"9Replace this use of System.out or System.err by a logger.(Ö‡—%
+J
+java:S6212p"/Declare this local variable with "var" instead.(üèµ±ùÿÿÿÿ
+S
+java:S1197p"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ
+N	java:S106q"9Replace this use of System.out or System.err by a logger.(Ñõ¡¦
+E
+java:S6212s"/Declare this local variable with "var" instead.(“Ìµ¡
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(ö‹÷õûÿÿÿÿ
+J
+java:S6212|"/Declare this local variable with "var" instead.(üèµ±ùÿÿÿÿ
+S
+java:S1197|"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(À„¼ûýÿÿÿÿ
+K
+java:S6212‡"/Declare this local variable with "var" instead.(ý†þàÿÿÿÿÿ
+T
+java:S1197‡"8Move the array designator from the variable to the type.(ý†þàÿÿÿÿÿ
+T	java:S106‰"9Replace this use of System.out or System.err by a logger.(À„¼ûýÿÿÿÿ
+F
+java:S6212‘"/Declare this local variable with "var" instead.(Ë¸òç
+O
+java:S1197‘"8Move the array designator from the variable to the type.(Ë¸òç
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(ö‡ýñûÿÿÿÿ
+T	java:S106”"9Replace this use of System.out or System.err by a logger.(à½™Ÿýÿÿÿÿ
+O	java:S106•"9Replace this use of System.out or System.err by a logger.(½›÷–
+F
+java:S6212œ"/Declare this local variable with "var" instead.(Ô£Ûâ
+O
+java:S1197œ"8Move the array designator from the variable to the type.(Ô£Ûâ
+T	java:S106ž"9Replace this use of System.out or System.err by a logger.(ö‡ýñûÿÿÿÿ
+O	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(š®´š
+T	java:S106¡"9Replace this use of System.out or System.err by a logger.(À„¼ûýÿÿÿÿ
+F
+java:S6212©"/Declare this local variable with "var" instead.(Üùîá
+O
+java:S1197©"8Move the array designator from the variable to the type.(Üùîá
+K
+java:S6212ª"/Declare this local variable with "var" instead.(ñóî·þÿÿÿÿ
+T
+java:S1197ª"8Move the array designator from the variable to the type.(ñóî·þÿÿÿÿ
+O	java:S106¬"9Replace this use of System.out or System.err by a logger.(þäÐŸ
+F
+java:S6212¶"/Declare this local variable with "var" instead.(‹Ú­
+O
+java:S1197¶"8Move the array designator from the variable to the type.(‹Ú­
+T	java:S106¹"9Replace this use of System.out or System.err by a logger.(À„¼ûýÿÿÿÿ
+K
+java:S6212Â"/Declare this local variable with "var" instead.(üèµ±ùÿÿÿÿ
+T
+java:S1197Â"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ
+K
+java:S6212Ã"/Declare this local variable with "var" instead.(ò¥”–ùÿÿÿÿ
+T	java:S106Æ"9Replace this use of System.out or System.err by a logger.(»ÍÞŠüÿÿÿÿ
+K
+java:S6212Ó"/Declare this local variable with "var" instead.(üèµ±ùÿÿÿÿ
+T
+java:S1197Ó"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ
+K
+java:S6212Õ"/Declare this local variable with "var" instead.(ò¥”–ùÿÿÿÿ
+T	java:S106Ö"9Replace this use of System.out or System.err by a logger.(½ã²Ûùÿÿÿÿ
+K
+java:S6212Þ"/Declare this local variable with "var" instead.(Û»Îøÿÿÿÿ
+T
+java:S1197Þ"8Move the array designator from the variable to the type.(Û»Îøÿÿÿÿ
+K
+java:S6212à"/Declare this local variable with "var" instead.(»Çù‚ûÿÿÿÿ
+T	java:S106á"9Replace this use of System.out or System.err by a logger.(½ã²Ûùÿÿÿÿ
+K
+java:S6212í"/Declare this local variable with "var" instead.(üèµ±ùÿÿÿÿ
+T
+java:S1197í"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ
+T	java:S106ð"9Replace this use of System.out or System.err by a logger.(À„¼ûýÿÿÿÿ
+K
+java:S6212ù"/Declare this local variable with "var" instead.(âµöœûÿÿÿÿ
+T
+java:S1197ù"8Move the array designator from the variable to the type.(âµöœûÿÿÿÿ
+T	java:S106ü"9Replace this use of System.out or System.err by a logger.(ö‡ýñûÿÿÿÿ
+K
+java:S6212…"/Declare this local variable with "var" instead.(üèµ±ùÿÿÿÿ
+T
+java:S1197…"8Move the array designator from the variable to the type.(üèµ±ùÿÿÿÿ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(À„¼ûýÿÿÿÿ
+R	java:S125‹"<This block of commented-out lines of code should be removed.(Û¨Æ
+<
+java:S1659’"%Declare "address" on a separate line.(®¿îæ
+F
+java:S6212¨"/Declare this local variable with "var" instead.(çËœÿ
+O	java:S106«"9Replace this use of System.out or System.err by a logger.(ÚøÝæ
+E
+java:S6212¬"/Declare this local variable with "var" instead.(Ÿã‚}
+N	java:S106­"9Replace this use of System.out or System.err by a logger.(ÇÑ×
+O	java:S106¯"9Replace this use of System.out or System.err by a logger.(î±ØÁ
+E
+java:S6212°"/Declare this local variable with "var" instead.(Ÿã‚}
+U	java:S106±"9Replace this use of System.out or System.err by a logger.(ÇÑ×8®‹ôôª/

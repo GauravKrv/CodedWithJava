@@ -1,0 +1,36 @@
+
+‰
+java:S1319"nThe type of the "vec" object should be an interface such as "List" rather than the implementation "ArrayList".(øÜİ—şÿÿÿÿ
+‰
+java:S1319"nThe type of the "vec" object should be an interface such as "List" rather than the implementation "ArrayList".(ßûûÿÿÿÿ
+ƒ
+java:S1319"nThe type of the "vec" object should be an interface such as "List" rather than the implementation "ArrayList".(¾»ñ8
+‰
+java:S1319"nThe type of the "vec" object should be an interface such as "List" rather than the implementation "ArrayList".(ªÙ¿ÿÿÿÿÿ
+l	java:S127"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+O
+java:S4973"9Use the "equals" method if value comparison was intended.(—ûÿà
+E
+java:S6212"/Declare this local variable with "var" instead.(–ã±
+E
+java:S6212!"/Declare this local variable with "var" instead.(”Ğò¿
+S	java:S106""9Replace this use of System.out or System.err by a logger.(Ï©Ûøÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ
+J
+java:S6212)"/Declare this local variable with "var" instead.(‡£ÉÉøÿÿÿÿ
+S
+java:S1197)"8Move the array designator from the variable to the type.(‡£ÉÉøÿÿÿÿ
+E
+java:S6212-"/Declare this local variable with "var" instead.(»³½‹
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(‹ÚÖÙøÿÿÿÿ
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(­²Êˆ
+M	java:S1065"9Replace this use of System.out or System.err by a logger.( ŸÏ*
+Z	java:S1069"9Replace this use of System.out or System.err by a logger.(„û¯ôıÿÿÿÿ8Ø˜à–¬/
+Z	java:S106:"9Replace this use of System.out or System.err by a logger.(ÌÃôîùÿÿÿÿ8âŸá–¬/
+E
+java:S6212="/Declare this local variable with "var" instead.(›Éø×
+N
+java:S1197="8Move the array designator from the variable to the type.(›Éø×
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ŞÒ—üÿÿÿÿ8˜ûá–¬/
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(­²Êˆ8Ššã–¬/
+T	java:S106A"9Replace this use of System.out or System.err by a logger.( ŸÏ*8 ´æ–¬/

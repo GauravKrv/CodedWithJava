@@ -1,0 +1,50 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(öş™Úşÿÿÿÿ8¬›Şôª/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Æáñşÿÿÿÿ
+S
+java:S1197	"8Move the array designator from the variable to the type.(¹îåÎøÿÿÿÿ
+J
+java:S6212
+"/Declare this local variable with "var" instead.(ı¼œ°ùÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(²íá†ûÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ı¼œ°ùÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(æÕ¿¼
+S
+java:S1197+"8Move the array designator from the variable to the type.(£õ¬şÿÿÿÿ
+E
+java:S6212,"/Declare this local variable with "var" instead.(»³½‹
+N
+java:S11972"8Move the array designator from the variable to the type.(³œ´´
+E
+java:S62123"/Declare this local variable with "var" instead.(æÕ¿¼
+E
+java:S62125"/Declare this local variable with "var" instead.(»³½‹
+E
+java:S62129"/Declare this local variable with "var" instead.(»³½‹
+J
+java:S6212="/Declare this local variable with "var" instead.(ı¼œ°ùÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(éÓßÎ
+]	java:S125O"<This block of commented-out lines of code should be removed.(ô–ª¿ıÿÿÿÿ8ÛÏØôª/
+N
+java:S1197X"8Move the array designator from the variable to the type.(Â›¿
+E
+java:S6212Y"/Declare this local variable with "var" instead.(æÕ¿¼
+J
+java:S6212["/Declare this local variable with "var" instead.(ı¼œ°ùÿÿÿÿ
+J
+java:S6212j"/Declare this local variable with "var" instead.(¹Ó³Ğøÿÿÿÿ
+J
+java:S6212l"/Declare this local variable with "var" instead.(‡È¿­ÿÿÿÿÿ
+J
+java:S6212m"/Declare this local variable with "var" instead.(Å„äÄûÿÿÿÿ
+S
+java:S1197n"8Move the array designator from the variable to the type.(‹ÑÅ–ÿÿÿÿÿ
+N	java:S106q"9Replace this use of System.out or System.err by a logger.(õ°ò”
+N	java:S106r"9Replace this use of System.out or System.err by a logger.(¢ÚñÖ
+N	java:S106v"9Replace this use of System.out or System.err by a logger.(çØÖ
+N	java:S106w"9Replace this use of System.out or System.err by a logger.(†ÀÏš
+S	java:S106x"9Replace this use of System.out or System.err by a logger.(½µ¹¾ÿÿÿÿÿ
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(«âá

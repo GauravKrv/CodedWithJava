@@ -1,0 +1,15 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â±¦
+k	java:S116"QRename this field "BUCKET" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦ÆÑÑùÿÿÿÿ
+o
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(èıÿä
+E
+java:S6212"/Declare this local variable with "var" instead.(¢¢½Ë
+J
+java:S6212#"/Declare this local variable with "var" instead.(öİ¡Âÿÿÿÿÿ
+D
+java:S6212%"/Declare this local variable with "var" instead.(“ˆT
+M
+java:S1197%"8Move the array designator from the variable to the type.(“ˆT
+E
+java:S6212&"/Declare this local variable with "var" instead.(ŸğÑµ

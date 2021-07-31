@@ -1,0 +1,48 @@
+
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(³†¾”ÿÿÿÿÿ8ËÈİÒª/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²…²¥şÿÿÿÿ8„ãÜÒª/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã‰ĞŠ
+S
+java:S1197"8Move the array designator from the variable to the type.(²…²¥şÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(æÕ¿¼
+<
+java:S1659"Declare "r" on a separate line.(ß…õó8‰ãÜÒª/
+S
+java:S1197&"8Move the array designator from the variable to the type.(€­¯Çşÿÿÿÿ
+L
+java:S6212*"/Declare this local variable with "var" instead.(æÕ¿¼8Éå¨Òª/
+E
+java:S6212+"/Declare this local variable with "var" instead.(›ç¶Ù
+U
+java:S11973"8Move the array designator from the variable to the type.(Á ×8²Ç¨Òª/
+L
+java:S62126"/Declare this local variable with "var" instead.(æÕ¿¼8Àñ¹Òª/
+E
+java:S62127"/Declare this local variable with "var" instead.(›ç¶Ù
+Z
+java:S1197>"8Move the array designator from the variable to the type.(©Ÿ©Òúÿÿÿÿ8¡ÉÛÒª/
+L
+java:S6212B"/Declare this local variable with "var" instead.(Åõ“µ8Àñ¹Òª/
+L
+java:S6212C"/Declare this local variable with "var" instead.(…Ïœš8Ëå¨Òª/
+L
+java:S6212I"/Declare this local variable with "var" instead.(æÕ¿¼8ãÜÒª/
+]	java:S125H"<This block of commented-out lines of code should be removed.(ûÿúõúÿÿÿÿ8§ûÉÒª/
+L
+java:S6212J"/Declare this local variable with "var" instead.(›ç¶Ù8Áñ¹Òª/
+]	java:S125W"<This block of commented-out lines of code should be removed.(ÇÊÌÁûÿÿÿÿ8ÌàÎÒª/
+D
+java:S6212["/Declare this local variable with "var" instead.(Æî¬
+Q
+java:S6212]"/Declare this local variable with "var" instead.(¸şõöúÿÿÿÿ8Âñ¹Òª/
+J
+java:S6212g"/Declare this local variable with "var" instead.(ÇÊÌÁûÿÿÿÿ
+Z
+java:S1197g"8Move the array designator from the variable to the type.(ÇÊÌÁûÿÿÿÿ8ãÜÒª/
+]	java:S125e"<This block of commented-out lines of code should be removed.(•†´àüÿÿÿÿ8¬˜Òª/
+J
+java:S6212h"/Declare this local variable with "var" instead.(²¦£•üÿÿÿÿ
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(ˆ«½Õøÿÿÿÿ
+G
+java:S1481B"*Remove this unused "dupli" local variable.(Åõ“µ8«ûÉÒª/

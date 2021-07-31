@@ -1,0 +1,6 @@
+class Myclass{
+public (funname (int a ){
+string s = "hello world";
+char c = 'c' ;
+return a * 2 ;
+}}

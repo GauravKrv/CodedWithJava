@@ -1,0 +1,42 @@
+
+‹
+java:S1319
+"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¬Ï«ïúÿÿÿÿ
+`
+java:S1155(">Use isEmpty() to check whether the collection is empty or not.(ÇäÉúÿÿÿÿ8…Ô¢’¬/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â±¦
+S
+java:S1197
+"8Move the array designator from the variable to the type.(¬Ï«ïúÿÿÿÿ
+n
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(£¾ô
+J
+java:S6212"/Declare this local variable with "var" instead.(ÀÃö¸ûÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ğ­ãüÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(»³½‹
+L
+java:S6212"/Declare this local variable with "var" instead.(ßÅÍ”8ÆÅ£’¬/
+Q
+java:S6212"/Declare this local variable with "var" instead.(”„Óöùÿÿÿÿ8ÉÅ£’¬/
+L
+java:S6212"/Declare this local variable with "var" instead.(ŒÆñƒ8ËÅ£’¬/
+Q
+java:S6212"/Declare this local variable with "var" instead.(Ğí„ûÿÿÿÿ8ÌÅ£’¬/
+Q
+java:S6212 "/Declare this local variable with "var" instead.(İò»¤ıÿÿÿÿ8ÕÔ¢’¬/
+Z
+java:S1197 "8Move the array designator from the variable to the type.(İò»¤ıÿÿÿÿ8ÖÔ¢’¬/
+Z
+java:S1197!"8Move the array designator from the variable to the type.(ªßçúÿÿÿÿ8ÖÔ¢’¬/
+L
+java:S6212""/Declare this local variable with "var" instead.(»³½‹8ØÔ¢’¬/
+L
+java:S6212'"/Declare this local variable with "var" instead.(Õé«¦8ÚÔ¢’¬/
+Z	java:S106)"9Replace this use of System.out or System.err by a logger.(œ³ãœøÿÿÿÿ8İÔ¢’¬/
+Q
+java:S6212*"/Declare this local variable with "var" instead.(Åÿ·îùÿÿÿÿ8ŞÔ¢’¬/
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(÷™Âšùÿÿÿÿ8àÔ¢’¬/
+Z	java:S106-"9Replace this use of System.out or System.err by a logger.(¨Ä¯ÿÿÿÿÿ8áÔ¢’¬/
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8äÔ¢’¬/

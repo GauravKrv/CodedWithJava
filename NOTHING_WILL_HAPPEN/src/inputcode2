@@ -1,0 +1,17 @@
+using namespace std;
+class myclass {
+
+}
+int main() {
+	int t;
+	string a, b;
+	b = "helloworld"
+	cin >> t;
+	for(int i=0; i<t; i++){
+	    cin >> a >> b;
+	    int max_length = a.length() > b.length() ? a.length(): b.length();
+	    cout << max_length<< " " << endl;
+	    cout << a.append(b)<<endl;
+	}
+	return 0;
+}

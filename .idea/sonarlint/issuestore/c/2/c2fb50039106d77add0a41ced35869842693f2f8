@@ -1,0 +1,42 @@
+
+k	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ýãƒ€úÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›«´¸ýÿÿÿÿ
+f	java:S1175"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’™ƒÖ
+k	java:S1177"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›«´¸ýÿÿÿÿ
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(êžâ¼þÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Ú¸Çªúÿÿÿÿ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(›«´¸ýÿÿÿÿ
+k
+java:S11494"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(’ƒ¥Áûÿÿÿÿ
+k
+java:S11497"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(›«´¸ýÿÿÿÿ
+P	java:S125"<This block of commented-out lines of code should be removed.(ùÕÍo
+J
+java:S6212
+"/Declare this local variable with "var" instead.(ýãƒ€úÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ƒ·ÒÏ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šóˆ»ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(šÍêÏúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ñÊ½ýÿÿÿÿ
+Q	java:S125'"<This block of commented-out lines of code should be removed.(àöÅï
+J
+java:S62128"/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(¦³˜‡
+S	java:S106="9Replace this use of System.out or System.err by a logger.(šÍêÏúÿÿÿÿ
+E
+java:S6212Q"/Declare this local variable with "var" instead.(ž²Õ¹
+N	java:S106Y"9Replace this use of System.out or System.err by a logger.(Ú¤µ†
+Q	java:S125^"<This block of commented-out lines of code should be removed.(­ø¶†
+f
+java:S1149l"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ß‡ö
+E
+java:S6212m"/Declare this local variable with "var" instead.(¬º¦Ú
+S	java:S106n"9Replace this use of System.out or System.err by a logger.(þ¬Ý’ýÿÿÿÿ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(šÞó×øÿÿÿÿ
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(†™Êûúÿÿÿÿ
