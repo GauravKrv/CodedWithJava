@@ -222,6 +222,8 @@ public class MacroTemplates
                 }
         return res;
     }
+
+    //???
     public static long[][] power(long[][] grid, long pow)
     {
         long[][] res = new long[grid.length][grid[0].length];

@@ -5,7 +5,7 @@ import static java.lang.System.out;
 class Main {
 
     static Reader in = new Reader(System.in);
-    
+
     public static void main(String[] args) throws IOException {
 
         //above this is fixed
@@ -17,26 +17,26 @@ class Main {
         int sum = 0;
         for (int i=0;i<a;i++){
 
-                sum += b * arr[i];
+            sum += b * arr[i];
 
         }
 
         out.println("Sum = "+ sum);
-        
-     //after this is fixed
-        in.close();    
+
+        //after this is fixed
+        in.close();
     }
 
     static class Reader implements Closeable {
 
         private final BufferedReader reader;
         private StringTokenizer tokenizer;
-    
+
         public Reader(InputStream input) {
             reader = new BufferedReader(new InputStreamReader(input));
             tokenizer = new StringTokenizer("");
         }
-    
+
         private StringTokenizer getTokenizer() throws IOException {
             if (tokenizer == null || !tokenizer.hasMoreTokens()) {
                 String line = nextLine();
@@ -47,36 +47,36 @@ class Main {
             }
             return tokenizer;
         }
-    
+
         public boolean hasNext() throws IOException {
             return getTokenizer() != null;
         }
-    
+
         public String next() throws IOException {
             return hasNext() ? tokenizer.nextToken() : null;
         }
-    
+
         public String nextLine() throws IOException {
             tokenizer = null;
             return reader.readLine();
         }
-    
+
         public int nextInt() throws IOException {
             return Integer.parseInt(next());
         }
-    
+
         public long nextLong() throws IOException {
             return Long.parseLong(next());
         }
-    
+
         public float nextFloat() throws IOException {
             return Float.parseFloat(next());
         }
-    
+
         public double nextDouble() throws IOException {
             return Double.parseDouble(next());
         }
-    
+
         public String[] nextStringArray(int size) throws IOException {
             String[] array = new String[size];
             for (int i = 0; i < size; i++) {
@@ -84,7 +84,7 @@ class Main {
             }
             return array;
         }
-    
+
         public int[] nextIntArray(int size) throws IOException {
             int[] array = new int[size];
             for (int i = 0; i < size; i++) {
@@ -92,7 +92,7 @@ class Main {
             }
             return array;
         }
-    
+
         public long[] nextLongArray(int size) throws IOException {
             long[] array = new long[size];
             for (int i = 0; i < size; i++) {
@@ -100,7 +100,7 @@ class Main {
             }
             return array;
         }
-    
+
         public double[] nextDoubleArray(int size) throws IOException {
             double[] array = new double[size];
             for (int i = 0; i < size; i++) {
@@ -108,7 +108,7 @@ class Main {
             }
             return array;
         }
-    
+
         @Override
         public void close() throws IOException {
             tokenizer = null;
@@ -118,14 +118,14 @@ class Main {
 
 
 
-   //print array
-   public static void print(int[] arr)
-   {
-       //for debugging only
-       for(int x: arr)
-           out.print(x+" ");
-       out.println();
-   }
+    //print array
+    public static void print(int[] arr)
+    {
+        //for debugging only
+        for(int x: arr)
+            out.print(x+" ");
+        out.println();
+    }
     //check prime
     public static boolean isPrime(long n)
     {
@@ -239,7 +239,7 @@ class Main {
             int thing = i%CONS;
             sets[dex] |= (1L << thing);
         }
-        public int and(BitSet oth)
+        public int and(BitOperation oth)
         {
             int boof = Math.min(sets.length, oth.sets.length);
             int res = 0;
@@ -247,7 +247,7 @@ class Main {
                 res += Long.bitCount(sets[i] & oth.sets[i]);
             return res;
         }
-        public int xor(BitSet oth)
+        public int xor(BitOperation oth)
         {
             int boof = Math.min(sets.length, oth.sets.length);
             int res = 0;
@@ -258,7 +258,7 @@ class Main {
     }
 
 
-   static class FastScanner
+    static class FastScanner
     {
         //I don't understand how this works lmao
         private int BS = 1 << 16;

@@ -61,10 +61,6 @@ S
 #HackerRank/src/Regex/RegexDemo.java,2\0\2036cf6a8ce00aec07ddad2c03975a75a61112a3
 f
 6HackerRank/src/Regex/RegexClassMethodsApplication.java,4\a\4a2d5100095f8f97183988fad34d273d681f2d5e
-T
-$Competitions/src/MacroTemplates.java,c\9\c986326fbe1240afd827546558fa09ac66d8b208
-K
-Competitions/src/Setup.java,0\b\0b867f39aeac1c0556fa9d7fe26891d5a28402d3
 M
 Competitions/Competitions.iml,8\1\8160d397282aa3abab57fdc3ea9be8f8efed9d0f
 j
@@ -92,3 +88,23 @@ V
 :
 
 output.txt,a\d\adbe6c7d3c0d8b19ecd492bec9532c13a6e1c9ad
+X
+(NOTHING_WILL_HAPPEN/src/CloningJava.java,1\c\1cd50211521b563256a069f819a6d597df8fdfc2
+s
+CDSA SERIES QUESTIONS/src/HASHING/LongestConsecutiveSubsequence.java,9\f\9f4c63c0c51a1f3a4e10c873e5ace88507629ef0
+f
+6DSA SERIES QUESTIONS/src/HASHING/ElectionWinner__.java,1\d\1de5b943ff38268943190b80456acdf8f96328ff
+f
+6DSA SERIES QUESTIONS/src/HASHING/CountNonRepeated.java,e\1\e1eb7b3afe672b0aa6a5ac42b75f05ec7bbb8f54
+o
+?DSA SERIES QUESTIONS/src/HASHING/PairWithGrtstProductArray.java,4\0\4011e7a9b8a0a707f8751321632ce89dbe07324a
+d
+4DSA SERIES QUESTIONS/src/HASHING/OpenAddressing.java,d\2\d2bb86b058a894fd4ee03fc7b00decf00c9b62c1
+e
+5DSA SERIES QUESTIONS/src/HASHING/PosetiveNegPair.java,c\7\c738b45c6abb44df304e8eabdca9aeae2b01895c
+p
+@DSA SERIES QUESTIONS/src/HASHING/SubArrasyCountWithGivenSum.java,0\0\00c0c68e9a31bc0d9fa816ada857622dada935b6
+l
+<DSA SERIES QUESTIONS/src/HASHING/RehashingAndLoafFactor.java,e\6\e6b8f4502dde2f8b1cc5dbf86a0a00eacd38aa0d
+i
+9DSA SERIES QUESTIONS/src/HASHING/Q1_CheckSubsetArray.java,7\a\7a2c484679c45a08783e32caee8d8f21da78962d
