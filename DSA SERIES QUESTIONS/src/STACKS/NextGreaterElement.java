@@ -1,6 +1,9 @@
 package STACKS;
 
+import java.util.Stack;
+
 public class NextGreaterElement {
+    //MINE WORKS AND IS EAZY
         static class stack
         {
             int top;
@@ -96,6 +99,35 @@ public class NextGreaterElement {
                 next = -1;
                 System.out.println(element + " -- " + next);
             }
+        }
+
+
+        //MY NGE
+        public static long[] nextLargerElement(long[] arr, int n)
+        {
+            // Your code here
+            Stack<Long> s = new Stack<>();
+
+            long[] res = new long[n];
+            res[n-1] = -1;
+            s.push(arr[n-1]);
+
+            for(int i = n-2;i>=0;i--){
+                res[i] = -1;//suppose value as -1 if NGE not found
+
+                while(!s.isEmpty() && s.peek()<arr[i]){ //ez
+                    s.pop();
+                }
+
+                if(!s.isEmpty()){  //NGE Found
+                    res[i] = s.peek();
+                }
+
+                s.push(arr[i]); //push current elem
+
+            }
+
+            return res;
         }
 
         public static void main(String[] args)

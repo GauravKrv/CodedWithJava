@@ -13,9 +13,8 @@ public class Setup {
         {
 
             // Setting up the input stream
-            // You can use buffered reader too
+            // You can use buffered reader too yes
             Scanner read = new Scanner(System.in);
-
             // If You Are Running Your Code
             // in Sublime Text then set The
             // System Out to output.txt and
