@@ -1,0 +1,7 @@
+
+`
+java:S2095""EUse try-with-resources or close this "Scanner" in a "finally" clause.(ÛºŽßùÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ðÆÎ‹úÿÿÿÿ
+C	java:S108&")Either remove or fill this block of code.(ñ“Š±üÿÿÿÿ
+N	java:S1060"9Replace this use of System.out or System.err by a logger.(ÐŒø¤

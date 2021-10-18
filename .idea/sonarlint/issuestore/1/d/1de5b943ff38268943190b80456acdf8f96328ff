@@ -1,0 +1,35 @@
+
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ØŞ¦—8˜Ú°­/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â±¦
+w
+java:S1488%"[Immediately return this expression instead of assigning it to the temporary variable "str".(¦Âµi8ØÃÎ­/
+v
+java:S1488Z"[Immediately return this expression instead of assigning it to the temporary variable "str".(ƒŸíÄøÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(èû®øÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(»³½‹
+L
+java:S6212"/Declare this local variable with "var" instead.(ĞÔ«™8ÜÃÎ­/
+Q
+java:S6212"/Declare this local variable with "var" instead.( ÂËæıÿÿÿÿ8ÜÃÎ­/
+D
+java:S6212%"/Declare this local variable with "var" instead.(¦Âµi
+M
+java:S1197%"8Move the array designator from the variable to the type.(¦Âµi
+]	java:S125("<This block of commented-out lines of code should be removed.(î³õåşÿÿÿÿ8ŞÃÎ­/
+]	java:S125+"<This block of commented-out lines of code should be removed.(©ãŞüÿÿÿÿ8ŞÃÎ­/
+X	java:S125."<This block of commented-out lines of code should be removed.(¨ÃÆ8ŞÃÎ­/
+]	java:S1257"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ŞÃÎ­/
+]	java:S125:"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ8ŞÃÎ­/
+Z
+java:S1197C"8Move the array designator from the variable to the type.(Ã´¢­üÿÿÿÿ8àÃÎ­/
+L
+java:S6212G"/Declare this local variable with "var" instead.(»³½‹8ßæÎ­/
+K
+java:S6212X"/Declare this local variable with "var" instead.(ã¿¶(8àæÎ­/
+Q
+java:S6212Z"/Declare this local variable with "var" instead.(ƒŸíÄøÿÿÿÿ8àæÎ­/
+Z
+java:S1197Z"8Move the array designator from the variable to the type.(ƒŸíÄøÿÿÿÿ8âÃÎ­/
+N	java:S106a"9Replace this use of System.out or System.err by a logger.(…Å²ÿ

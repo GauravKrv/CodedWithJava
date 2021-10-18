@@ -4,7 +4,7 @@ public class GCD {
     static int gcd(int a, int b){
         if (b==0)
             return a;
-        return gcd(b,a%b);
+        return gcd(b,a%b); //here divisors of both a and b will keep on swapping till the b part doesnt becomes zero
     }
 
     static int lcm(int a,int b){

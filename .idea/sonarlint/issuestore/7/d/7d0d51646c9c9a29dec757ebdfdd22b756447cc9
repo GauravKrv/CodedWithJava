@@ -1,0 +1,34 @@
+
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Üóğõ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õù
+m
+java:S1149m"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(µ®‘´8«’°ö²/
+S
+java:S1197
+"8Move the array designator from the variable to the type.(©Æ‘øÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(¤áçs
+S	java:S106"9Replace this use of System.out or System.err by a logger.(óÿ¿µüÿÿÿÿ
+>
+java:S1125*"(Remove the unnecessary boolean literals.(Äëş­
+N
+java:S11970"8Move the array designator from the variable to the type.(Ğêíê
+8
+java:S16595""Declare "next" on a separate line.(ÎÕéÚ
+J
+java:S62122"/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ
+D
+java:S62123"/Declare this local variable with "var" instead.(£´¸i
+B
+java:S1125?"'Remove the unnecessary boolean literal.(˜ÿô¹úÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(àóíûøÿÿÿÿ
+<
+java:S1125M"'Remove the unnecessary boolean literal.(˜Ÿ¡
+B
+java:S1125`"'Remove the unnecessary boolean literal.(Ø‚ÙÏüÿÿÿÿ
+N	java:S106d"9Replace this use of System.out or System.err by a logger.(ŞÚç°
+Q
+java:S6212o"/Declare this local variable with "var" instead.(öåÇÿÿÿÿÿ8‘Û¯ö²/
+K
+java:S6212‡"/Declare this local variable with "var" instead.(‡¼ÌÚùÿÿÿÿ
+T
+java:S1197‡"8Move the array designator from the variable to the type.(‡¼ÌÚùÿÿÿÿ

@@ -1,0 +1,12 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(β±¦
+V
+java:S1118":Add a private constructor to hide the implicit public one.(ςτ/8“αλ­/
+Z
+java:S1197"8Move the array designator from the variable to the type.(ο¬υήÿÿÿÿÿ8”αλ­/
+K
+java:S6212"/Declare this local variable with "var" instead.(όÒ½8•αλ­/
+L
+java:S6212"/Declare this local variable with "var" instead.(ζΥΏΌ8•αλ­/
+L
+java:S6212"/Declare this local variable with "var" instead.(»³½‹8•αλ­/

@@ -20,6 +20,7 @@ public class MooresVoting_MajorityElement {
 
         count = 0;
 
+        //verifying the answer obtained
         for(int i = 0; i < n; i++)
             if(arr[res] == arr[i])
                 count++;
@@ -35,7 +36,7 @@ public class MooresVoting_MajorityElement {
     {
         int arr[] = {8, 8, 6, 6, 6, 4, 6}, n = 7;
 
-        System.out.println(findMajority(arr, n));
+        System.out.println("index of majority element = " + findMajority(arr, n));
 
     }
 }

@@ -1,0 +1,251 @@
+
+Œ
+java:S1319„"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹ÏÏúÿÿÿÿ
+ˆ
+java:S1319¯"qThe type of the "map" object should be an interface such as "SortedMap" rather than the implementation "TreeMap".( ğ¨Å
+
+java:S1319·"qThe type of the "map" object should be an interface such as "SortedMap" rather than the implementation "TreeMap".(è“×Ûùÿÿÿÿ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(™¿Ì÷úÿÿÿÿ
+[	java:S112P"FDefine and throw a dedicated exception instead of using a generic one.(²†³
+_
+java:S3824Ê"HReplace this "Map.containsKey()" with a call to "Map.computeIfAbsent()".(üËø¯
+Z
+java:S1155…">Use isEmpty() to check whether the collection is empty or not.(’„™·úÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÂšŸüÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğ¹÷
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™¿Ì÷úÿÿÿÿ
+f	java:S117P"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²†³
+l	java:S117„"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÏÏúÿÿÿÿ
+g	java:S117Ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°¢³¢
+f	java:S117Ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¿¸y
+g	java:S117Õ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ùä
+l	java:S117ø"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ô•úÃøÿÿÿÿ
+g	java:S117ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÁ×ì
+l	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çê¹Âşÿÿÿÿ
+l	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Çê¹Âşÿÿÿÿ
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ™ËÔ
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İ™ËÔ
+g	java:S117Ü"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€êÑ¼
+l	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¤¯øûÿÿÿÿ
+l	java:S117ó"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş¤¯øûÿÿÿÿ
+g	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Í½Ï
+l	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯«‚öüÿÿÿÿ
+l	java:S117ë"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜–É–üÿÿÿÿ
+l	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÇ—³úÿÿÿÿ
+)
+java:S1700õ"Rename field "dsu"(ËË×
+f
+java:S1104õ"OMake dsu a static final constant or non-public and provide accessors if needed.(ËË×
+l
+java:S1104ö"PMake size a static final constant or non-public and provide accessors if needed.(«ÌÍÕúÿÿÿÿ
+g
+java:S1104™"PMake tree a static final constant or non-public and provide accessors if needed.(î·¨õ
+l
+java:S1104š"PMake size a static final constant or non-public and provide accessors if needed.(õ˜óøÿÿÿÿ
+k
+java:S1104Ø"OMake log a static final constant or non-public and provide accessors if needed.(ĞÍ£àÿÿÿÿÿ
+h
+java:S1104Ù"QMake table a static final constant or non-public and provide accessors if needed.(¬áà¤
+d
+java:S1104Ú"MMake N a static final constant or non-public and provide accessors if needed.(‹Ä‰­
+d
+java:S1104Ú"MMake K a static final constant or non-public and provide accessors if needed.(‹Ä‰­
+c
+java:S1104ı"MMake N a static final constant or non-public and provide accessors if needed.(İğ¹H
+f
+java:S1104ı"PMake root a static final constant or non-public and provide accessors if needed.(İğ¹H
+m
+java:S1104ş"QMake edges a static final constant or non-public and provide accessors if needed.(ĞÉêÂüÿÿÿÿ
+g
+java:S1104³"PMake sets a static final constant or non-public and provide accessors if needed.(ÖŒÀ”
+l
+java:S1104´"PMake size a static final constant or non-public and provide accessors if needed.(õ˜óøÿÿÿÿ
+c
+java:S1104Ø"MMake N a static final constant or non-public and provide accessors if needed.(ÚÖÜg
+h
+java:S1104Ø"RMake source a static final constant or non-public and provide accessors if needed.(ÚÖÜg
+f
+java:S1104Ø"PMake sink a static final constant or non-public and provide accessors if needed.(ÚÖÜg
+h
+java:S1104Ù"QMake edges a static final constant or non-public and provide accessors if needed.(İ€Öà
+l
+java:S1104¦"PMake from a static final constant or non-public and provide accessors if needed.(ÍÛÒ©ıÿÿÿÿ
+j
+java:S1104¦"NMake to a static final constant or non-public and provide accessors if needed.(ÍÛÒ©ıÿÿÿÿ
+g
+java:S1104§"PMake flow a static final constant or non-public and provide accessors if needed.(œ†‰í
+k
+java:S1104§"TMake capacity a static final constant or non-public and provide accessors if needed.(œ†‰í
+k
+java:S1104¨"TMake residual a static final constant or non-public and provide accessors if needed.(Å†Ÿ¦
+Z
+java:S1226"?Introduce a new variable instead of reusing the parameter "st".(¿Ò­ ÿÿÿÿÿ
+Z
+java:S1226S"?Introduce a new variable instead of reusing the parameter "st".(¿Ò­ ÿÿÿÿÿ
+C
+java:S1121f".Extract the assignment out of this expression.(Ğá¤J
+J
+java:S1121…".Extract the assignment out of this expression.(¼ñ—‰üÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“×·ôşÿÿÿÿ
+K
+java:S1854"5Remove this useless assignment to local variable "M".(ğ¹÷
+P
+java:S1854"5Remove this useless assignment to local variable "N".(ÂšŸüÿÿÿÿ
+M
+java:S1197"8Move the array designator from the variable to the type.(Şác
+J
+java:S6212
+"/Declare this local variable with "var" instead.(›¡ŞŠüÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ƒ×çº
+J
+java:S6212"/Declare this local variable with "var" instead.(ÂšŸüÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ğ¹÷
+V	java:S125"<This block of commented-out lines of code should be removed.(×Ç”„ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(ƒ´–Íúÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(¢Ñïúÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(¥Ââ²
+J
+java:S6212R"/Declare this local variable with "var" instead.(ŸÜúÿÿÿÿ
+E
+java:S6212T"/Declare this local variable with "var" instead.(¥Ââ²
+J
+java:S6212^"/Declare this local variable with "var" instead.(Ú¹ì½şÿÿÿÿ
+E
+java:S6212n"/Declare this local variable with "var" instead.(š”Áš
+Q	java:S125{"<This block of commented-out lines of code should be removed.(í¤ø‚
+p
+java:S2293‡"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÉ˜ì
+p
+java:S2293ˆ"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ù¼
+K
+java:S6212‰"/Declare this local variable with "var" instead.(ü‹“ûÿÿÿÿ
+p
+java:S2293™"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Êİû
+E
+java:S6212"/Declare this local variable with "var" instead.(Ÿã‚}
+F
+java:S6212£"/Declare this local variable with "var" instead.(¢ŒÜ®
+R	java:S125±"<This block of commented-out lines of code should be removed.(ì¨ –
+p
+java:S2293Ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Êİû
+u
+java:S2293Ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š›ÒÏşÿÿÿÿ
+E
+java:S6212È"/Declare this local variable with "var" instead.(´ûö
+F
+java:S6212Ì"/Declare this local variable with "var" instead.(šì¨ñ
+E
+java:S6212Í"/Declare this local variable with "var" instead.(Ÿã‚}
+F
+java:S6212Ó"/Declare this local variable with "var" instead.(°¢³¢
+F
+java:S6212Ö"/Declare this local variable with "var" instead.(¥ÆäÓ
+K
+java:S6212×"/Declare this local variable with "var" instead.(ÏĞæÔÿÿÿÿÿ
+K
+java:S6212Ø"/Declare this local variable with "var" instead.(Ô¿Àóşÿÿÿÿ
+F
+java:S6212Ù"/Declare this local variable with "var" instead.(ÅĞáÜ
+F
+java:S6212å"/Declare this local variable with "var" instead.(¢… È
+E
+java:S6212æ"/Declare this local variable with "var" instead.(È£Ù7
+K
+java:S6212ü"/Declare this local variable with "var" instead.(ÄûÆÎÿÿÿÿÿ
+C
+java:S1172",Remove this unused method parameter "sized".(ÿöšÚ
+F
+java:S6212«"/Declare this local variable with "var" instead.(ıœºë
+W
+java:S1117Ä";Rename "length" which hides the field declared at line 319.(õç§ƒúÿÿÿÿ
+F
+java:S6212Ú"/Declare this local variable with "var" instead.(ıœºë
+e	java:S116ê"ORename this field "NULL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï¬ú
+F
+java:S6212Æ"/Declare this local variable with "var" instead.(ıœºë
+F
+java:S6212Ç"/Declare this local variable with "var" instead.(×é­‡
+6
+java:S1659Ú"Declare "K" on a separate line.(‹Ä‰­
+b	java:S116Ú"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ä‰­
+b	java:S116Ú"LRename this field "K" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‹Ä‰­
+F
+java:S6212ç"/Declare this local variable with "var" instead.(ŞÆ€£
+F
+java:S6212í"/Declare this local variable with "var" instead.(ÿúá·
+K
+java:S6212ï"/Declare this local variable with "var" instead.(õûºûÿÿÿÿ
+F
+java:S6212ğ"/Declare this local variable with "var" instead.(¾ôßÕ
+8
+java:S1659ı""Declare "root" on a separate line.(İğ¹H
+a	java:S116ı"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İğ¹H
+d	java:S116"NRename this field "LOG" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(äÿ
+F
+java:S6212‹"/Declare this local variable with "var" instead.(Ç¢¶Â
+K
+java:S6212"/Declare this local variable with "var" instead.(ä®‘Öıÿÿÿÿ
+K
+java:S6212"/Declare this local variable with "var" instead.(”¾”Öûÿÿÿÿ
+j	java:S116²"ORename this field "CONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢“§Ãøÿÿÿÿ
+F
+java:S6212Ç"/Declare this local variable with "var" instead.(ıœºë
+F
+java:S6212È"/Declare this local variable with "var" instead.(ÆÎÒÌ
+F
+java:S6212Ï"/Declare this local variable with "var" instead.(ıœºë
+F
+java:S6212Ğ"/Declare this local variable with "var" instead.(ÆÎÒÌ
+:
+java:S1659Ø"$Declare "source" on a separate line.(ÚÖÜg
+8
+java:S1659Ø""Declare "sink" on a separate line.(ÚÖÜg
+a	java:S116Ø"LRename this field "N" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÚÖÜg
+K
+java:S6212â"/Declare this local variable with "var" instead.(ÄûÆÎÿÿÿÿÿ
+u
+java:S2293ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(Î’¸·ıÿÿÿÿ
+F
+java:S6212è"/Declare this local variable with "var" instead.(™àÃ–
+F
+java:S6212é"/Declare this local variable with "var" instead.(¸ÚŠµ
+K
+java:S6212ñ"/Declare this local variable with "var" instead.(­Ÿ¥ìıÿÿÿÿ
+F
+java:S6212ò"/Declare this local variable with "var" instead.(ÿ«´Ù
+u
+java:S2293‚"YReplace the type specification in this constructor call with the diamond operator ("<>").(õ—Ğıÿÿÿÿ
+<
+java:S1659¦" Declare "to" on a separate line.(ÍÛÒ©ıÿÿÿÿ
+=
+java:S1659§"&Declare "capacity" on a separate line.(œ†‰í
+>
+java:S1659Á""Declare "size" on a separate line.(´…€Éÿÿÿÿÿ
+h	java:S116¾"MRename this field "BS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¿ì¯ûÿÿÿÿ
+h	java:S116¿"MRename this field "NC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ˜Úûÿÿÿÿ
+F
+java:S6212ä"/Declare this local variable with "var" instead.(û±ÊÓ
+K
+java:S6212å"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+F
+java:S6212ì"/Declare this local variable with "var" instead.(êÃÓÃ
+K
+java:S6212í"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+F
+java:S6212õ"/Declare this local variable with "var" instead.(é›İÌ
+E
+java:S6212ˆ"/Declare this local variable with "var" instead.(ºÛ•`
+K
+java:S6212‰"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+K
+java:S6212"/Declare this local variable with "var" instead.(èŠ¿Éüÿÿÿÿ
+K
+java:S6212š"/Declare this local variable with "var" instead.(èŠ¿Éüÿÿÿÿ
+A
+java:S1481"&Remove this unused "N" local variable.(ÂšŸüÿÿÿÿ
+<
+java:S1481"&Remove this unused "M" local variable.(ğ¹÷

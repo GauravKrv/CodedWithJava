@@ -1,0 +1,101 @@
+
+Œ
+java:S1319›"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(¹ÏÏúÿÿÿÿ
+l	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹ÏÏúÿÿÿÿ
+g	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°¢³¢
+f	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¿¸y
+g	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ùä
+g	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸ÒÓ
+l	java:S117­"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯«‚öüÿÿÿÿ
+l	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜–É–üÿÿÿÿ
+l	java:S117Ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÇ—³úÿÿÿÿ
+0
+java:S1700 "Rename field "reader"(ùãùƒúÿÿÿÿ
+g
+java:S1104á"PMake sets a static final constant or non-public and provide accessors if needed.(ÖŒÀ”
+l
+java:S1104â"PMake size a static final constant or non-public and provide accessors if needed.(õ˜óøÿÿÿÿ
+D
+java:S1121“".Extract the assignment out of this expression.(Ğá¤J
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“×·ôşÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(©ëÅºùÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(¨²”‚øÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(æŞû‡úÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(©ŒºÉûÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ÒÏÀú
+E
+java:S6212Q"/Declare this local variable with "var" instead.(İóÅœ
+E
+java:S6212R"/Declare this local variable with "var" instead.(ÎÂ²¸
+J
+java:S6212Y"/Declare this local variable with "var" instead.(™Òªìıÿÿÿÿ
+E
+java:S6212Z"/Declare this local variable with "var" instead.(ÎÂ²¸
+J
+java:S6212a"/Declare this local variable with "var" instead.(§¿ıÅøÿÿÿÿ
+E
+java:S6212b"/Declare this local variable with "var" instead.(ÎÂ²¸
+E
+java:S6212i"/Declare this local variable with "var" instead.(··¨Ù
+E
+java:S6212j"/Declare this local variable with "var" instead.(ÎÂ²¸
+K
+java:S6212ˆ"/Declare this local variable with "var" instead.(Ú¹ì½şÿÿÿÿ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÉ˜ì
+p
+java:S2293Ÿ"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ù¼
+K
+java:S6212 "/Declare this local variable with "var" instead.(ü‹“ûÿÿÿÿ
+p
+java:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Êİû
+E
+java:S6212¶"/Declare this local variable with "var" instead.(Ÿã‚}
+F
+java:S6212¾"/Declare this local variable with "var" instead.(¢ŒÜ®
+F
+java:S6212Í"/Declare this local variable with "var" instead.(°¢³¢
+F
+java:S6212Ğ"/Declare this local variable with "var" instead.(¥ÆäÓ
+K
+java:S6212Ñ"/Declare this local variable with "var" instead.(ÏĞæÔÿÿÿÿÿ
+K
+java:S6212Ò"/Declare this local variable with "var" instead.(Ô¿Àóşÿÿÿÿ
+F
+java:S6212Ó"/Declare this local variable with "var" instead.(ÅĞáÜ
+j	java:S116à"ORename this field "CONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢“§Ãøÿÿÿÿ
+F
+java:S6212õ"/Declare this local variable with "var" instead.(ıœºë
+F
+java:S6212ö"/Declare this local variable with "var" instead.(ÆÎÒÌ
+F
+java:S6212ı"/Declare this local variable with "var" instead.(ıœºë
+F
+java:S6212ş"/Declare this local variable with "var" instead.(ÆÎÒÌ
+>
+java:S1659‹""Declare "size" on a separate line.(´…€Éÿÿÿÿÿ
+h	java:S116ˆ"MRename this field "BS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¿ì¯ûÿÿÿÿ
+h	java:S116‰"MRename this field "NC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ˜Úûÿÿÿÿ
+F
+java:S6212®"/Declare this local variable with "var" instead.(û±ÊÓ
+K
+java:S6212¯"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+F
+java:S6212¶"/Declare this local variable with "var" instead.(êÃÓÃ
+K
+java:S6212·"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+F
+java:S6212¿"/Declare this local variable with "var" instead.(é›İÌ
+E
+java:S6212Ò"/Declare this local variable with "var" instead.(ºÛ•`
+K
+java:S6212Ó"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+K
+java:S6212Ú"/Declare this local variable with "var" instead.(èŠ¿Éüÿÿÿÿ
+K
+java:S6212ä"/Declare this local variable with "var" instead.(èŠ¿Éüÿÿÿÿ

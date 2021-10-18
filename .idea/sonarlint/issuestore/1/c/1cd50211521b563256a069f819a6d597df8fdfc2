@@ -1,0 +1,24 @@
+
+B
+java:S2157"%Add a "clone()" method to this class.(­®‡¶8›ØÏº¯/
+5
+java:S1659"Declare "b" on a separate line.(£à­
+Q
+java:S6212"/Declare this local variable with "var" instead.(¡Ÿ‰ôşÿÿÿÿ8ààµº¯/
+L
+java:S6212"/Declare this local variable with "var" instead.(Éâ¢°8ê†Éº¯/
+X	java:S125"<This block of commented-out lines of code should be removed.(şú½•8¨Úº¯/
+N	java:S106"9Replace this use of System.out or System.err by a logger.(Ùñë“
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(È®ŞÈüÿÿÿÿ8âÂ¹º¯/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¶™Â‰şÿÿÿÿ8‡Ìºº¯/
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ÈÅ­Óûÿÿÿÿ8Üà»º¯/
+:
+java:S1659,"Declare "y" on a separate line.(¡Ê²‘şÿÿÿÿ
+n
+java:S29755"SRemove this "clone" implementation; use a copy constructor or copy factory instead.(ŒÉ¯æşÿÿÿÿ
+S
+java:S1197="8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+E
+java:S6212@"/Declare this local variable with "var" instead.(…øšç
+Z	java:S106R"9Replace this use of System.out or System.err by a logger.(İñ»Æıÿÿÿÿ8¡ãÉº¯/
+Z	java:S106T"9Replace this use of System.out or System.err by a logger.(½™Æ°üÿÿÿÿ8©ØÏº¯/

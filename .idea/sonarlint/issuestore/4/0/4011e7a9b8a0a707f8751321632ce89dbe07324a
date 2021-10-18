@@ -1,0 +1,19 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç‚±¶
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(±°“ù
+N
+java:S1197"8Move the array designator from the variable to the type.(±°“ù
+E
+java:S6212"/Declare this local variable with "var" instead.(ˇ˙·∑
+Q	java:S125 "<This block of commented-out lines of code should be removed.(Ê¡ë¿
+E
+java:S6212)"/Declare this local variable with "var" instead.(˝†Ü∞
+g
+java:S1871;"LThis branch's code block is the same as the block for the branch on line 52.(“Ã‚ñ¯ˇˇˇˇ
+E
+java:S6212G"/Declare this local variable with "var" instead.(á¯≤ä
+N
+java:S1197G"8Move the array designator from the variable to the type.(á¯≤ä
+M	java:S106I"9Replace this use of System.out or System.err by a logger.(¿ëõ'
+Q	java:S125O"<This block of commented-out lines of code should be removed.(ò˜ÎÊ

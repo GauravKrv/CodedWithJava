@@ -1,0 +1,71 @@
+
+‹
+java:S1319
+"pThe type of the "input" object should be an interface such as "List" rather than the implementation "ArrayList".(šå€øÿÿÿÿ
+a
+java:S2095•"EUse try-with-resources or close this "Scanner" in a "finally" clause.(‘½Îüÿÿÿÿ
+a
+java:S1192"FDefine a constant instead of duplicating this literal "space" 3 times.(Ëà‚©ÿÿÿÿÿ
+3
+java:S1643 "Use a StringBuilder instead.(ş†Êµ
+8
+java:S1643«"Use a StringBuilder instead.(ùÏ–“ıÿÿÿÿ
+8
+java:S1643¼"Use a StringBuilder instead.(ùÏ–“ıÿÿÿÿ
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(‰ÿÛÉüÿÿÿÿ
+T
+java:S4973"9Use the "equals" method if value comparison was intended.(Ëà‚©ÿÿÿÿÿ
+=
+java:S3010""Remove this assignment of "input".(Ìí¶›ÿÿÿÿÿ
+P
+java:S2209"5Change this instance-reference to a static reference.(Ìí¶›ÿÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(Áùå“
+@
+java:S16592"*Declare "currEndIndex" on a separate line.(óú©æ
+7
+java:S16592"!Declare "end" on a separate line.(óú©æ
+E
+java:S62125"/Declare this local variable with "var" instead.(Àæ™ã
+J
+java:S62126"/Declare this local variable with "var" instead.(ŸÿáÑÿÿÿÿÿ
+J
+java:S6212["/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ
+E
+java:S6212l"/Declare this local variable with "var" instead.(ûûöÊ
+J
+java:S6212m"/Declare this local variable with "var" instead.(áß¬«şÿÿÿÿ
+E
+java:S6212n"/Declare this local variable with "var" instead.(§ï‘
+J
+java:S6212x"/Declare this local variable with "var" instead.(œ±©éûÿÿÿÿ
+E
+java:S6212y"/Declare this local variable with "var" instead.(§ï‘
+K
+java:S6212€"/Declare this local variable with "var" instead.(ê“äœşÿÿÿÿ
+F
+java:S6212"/Declare this local variable with "var" instead.(§ï‘
+K
+java:S6212Š"/Declare this local variable with "var" instead.(êëÜ¿ÿÿÿÿÿ
+F
+java:S6212‹"/Declare this local variable with "var" instead.(§ï‘
+L
+java:S1854Á"5Remove this useless assignment to local variable "s".(®¬»
+i
+java:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 33 to the 15 allowed.(£Ì¿‚
+K
+java:S6212”"/Declare this local variable with "var" instead.(’¬Ãúÿÿÿÿ
+]
+java:S1075”"ARefactor your code to get this URI from a customizable parameter.(’¬Ãúÿÿÿÿ
+K
+java:S6212•"/Declare this local variable with "var" instead.(‘½Îüÿÿÿÿ
+K
+java:S6212§"/Declare this local variable with "var" instead.(â·Î¶ùÿÿÿÿ
+K
+java:S6212©"/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ
+K
+java:S6212¸"/Declare this local variable with "var" instead.(â·Î¶ùÿÿÿÿ
+K
+java:S6212º"/Declare this local variable with "var" instead.(ùó›Ìøÿÿÿÿ
+O	java:S106Ê"9Replace this use of System.out or System.err by a logger.(÷¹§µ

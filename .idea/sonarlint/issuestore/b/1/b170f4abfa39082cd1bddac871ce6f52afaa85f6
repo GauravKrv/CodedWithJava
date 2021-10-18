@@ -1,0 +1,24 @@
+
+E
+java:S6212"/Declare this local variable with "var" instead.(æÕ¿¼
+J
+java:S6212"/Declare this local variable with "var" instead.(¦¾¤Ùûÿÿÿÿ
+E
+java:S6212$"/Declare this local variable with "var" instead.(æÕ¿¼
+E
+java:S6212'"/Declare this local variable with "var" instead.(ŸğÑµ
+E
+java:S6212="/Declare this local variable with "var" instead.(æÕ¿¼
+J
+java:S6212?"/Declare this local variable with "var" instead.(¦¾¤Ùûÿÿÿÿ
+J
+java:S6212P"/Declare this local variable with "var" instead.(ÓÉÇÊúÿÿÿÿ
+S
+java:S1197P"8Move the array designator from the variable to the type.(ÓÉÇÊúÿÿÿÿ
+V	java:S125O"<This block of commented-out lines of code should be removed.(Ê†ÉÀùÿÿÿÿ
+E
+java:S6212Q"/Declare this local variable with "var" instead.(¨æƒ½
+2
+java:S1116Q"Remove this empty statement.(¨æƒ½
+S	java:S106R"9Replace this use of System.out or System.err by a logger.(§Ø€¶úÿÿÿÿ
+S	java:S106S"9Replace this use of System.out or System.err by a logger.(„¦‡ÿÿÿÿÿ

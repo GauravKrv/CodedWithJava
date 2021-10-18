@@ -1,0 +1,46 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Õù
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(»çµÎ
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(£Ğé¦şÿÿÿÿ
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(âÊ¦Ú
+k
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Û­Ñ®ùÿÿÿÿ
+P
+java:S1118":Add a private constructor to hide the implicit public one.(À“¬ğ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÊ¦Ú
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ğ˜ıÿÿÿÿ
+f
+java:S11492"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¾•Ìİ
+h
+java:S3776,"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Çµí‘
+J
+java:S6212-"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+E
+java:S6212."/Declare this local variable with "var" instead.(æƒ¼Ö
+o
+java:S22932"YReplace the type specification in this constructor call with the diamond operator ("<>").(¾•Ìİ
+J
+java:S62124"/Declare this local variable with "var" instead.(ÁšÁıÿÿÿÿ
+J
+java:S62129"/Declare this local variable with "var" instead.(¨„÷øÿÿÿÿ
+J
+java:S6212<"/Declare this local variable with "var" instead.(àÚ¯Âúÿÿÿÿ
+J
+java:S2440<"/Remove this instantiation of "OperationsStack".(àÚ¯Âúÿÿÿÿ
+E
+java:S6212>"/Declare this local variable with "var" instead.(­ä£Á
+K
+java:S2209A"5Change this instance-reference to a static reference.(—¢ë¥
+P
+java:S2209F"5Change this instance-reference to a static reference.(áúÔ«şÿÿÿÿ
+P
+java:S2209K"5Change this instance-reference to a static reference.(À¾ôÑÿÿÿÿÿ
+E
+java:S6212N"/Declare this local variable with "var" instead.(­ä£Á
+P
+java:S2209R"5Change this instance-reference to a static reference.(ø¿úéùÿÿÿÿ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(Àš¸
+S	java:S106U"9Replace this use of System.out or System.err by a logger.(—˜ê€üÿÿÿÿ

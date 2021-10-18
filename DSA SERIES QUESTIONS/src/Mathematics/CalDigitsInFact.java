@@ -21,8 +21,8 @@ public class CalDigitsInFact {
         }
         //
     }
-    public static double M_E = 2.71828182845904523536;
-    public static double M_PI = 3.141592654;
+    public static double M_E = 2.71828182845904523536; //OR Math.E
+    public static double M_PI = 3.141592654; //OR Math.PI
 
     public static int digitsInFactorialO1(int n){
         if(n==0||n==1) return 1;

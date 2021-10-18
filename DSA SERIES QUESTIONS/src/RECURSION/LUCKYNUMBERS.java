@@ -12,11 +12,15 @@ public class LUCKYNUMBERS {
         {return false;}
         int np=n;
         np=np-np/counter;
-        counter++;
-        return isLucky(np);
+        counter++;  //FOR NEXT EVEREY COUNT NUMBER
+        return isLucky(np); //CHECK FOR NEXT SIZE OR N
         // Your code here
     }
+    public static void main(String[] args) {
+        System.out.println(isLucky(7));
+    }
 }
+
 
 /*
 Lucky numbers are subset of integers. Rather than going into much theory, let us see the process of arriving at lucky numbers,

@@ -1,0 +1,17 @@
+
+=
+java:S2189
+""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(£ù²ğüÿÿÿÿ
+J
+java:S6212	"/Declare this local variable with "var" instead.(Æ‡ Œıÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÓÜı•
+E
+java:S6212"/Declare this local variable with "var" instead.(õúÌ
+J
+java:S6212"/Declare this local variable with "var" instead.(Ñ˜¯ëøÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(Íªäúÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(úÆç
+N	java:S106"9Replace this use of System.out or System.err by a logger.(àÿÑÀ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ß¬â8

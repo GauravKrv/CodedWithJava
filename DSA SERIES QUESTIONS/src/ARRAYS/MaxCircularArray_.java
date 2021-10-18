@@ -16,7 +16,7 @@ Output:
     //Function to find maximum circular subarray sum.
     static int circularSubarraySum(int a[], int n) {
         int maxNormal = kadane(a,n);
-        if(maxNormal<0){
+        if(maxNormal<0){ //==>No postive integers exist
             return maxNormal;
         }
 
@@ -30,7 +30,7 @@ Output:
         int res = a[0];
         int maxEnding = a[0];
         for(int i=1;i<n;i++){
-            maxEnding = Integer.max(maxEnding+a[i],a[i]);
+            maxEnding = Integer.max(maxEnding+a[i],a[i]); //VERY EASY THING
             res = Integer.max(res,maxEnding);
         }
         return res;

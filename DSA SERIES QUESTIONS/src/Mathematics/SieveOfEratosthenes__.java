@@ -2,7 +2,7 @@ package Mathematics;
 
 import java.util.Arrays;
 
-public class SieveOfEratosthenes {
+public class SieveOfEratosthenes__ {
 
     //PRINT ALL THE PRIME IN O(nLogLogn)
     static void sieve(int n)
@@ -18,7 +18,7 @@ public class SieveOfEratosthenes {
         {
             if(isPrime[i])
             {
-                for(int j = 2*i; j <= n; j = j+i)
+                for(int j = 2*i; j <= n; j = j+i)  //TOW THINS TO WATCH -- 1>Why start from multiple of 2 --2>
                 {
                     isPrime[j] = false;
                 }

@@ -1,0 +1,44 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(•Ñ½Ëùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â±¦
+1
+java:S3626;"Remove this redundant jump.(ÉŠ©ƒ
+V	java:S125"<This block of commented-out lines of code should be removed.(§¨¨ÿÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¶¸Ú›
+E
+java:S6212"/Declare this local variable with "var" instead.(Ïà¡ì
+J
+java:S6212"/Declare this local variable with "var" instead.(”ô®øÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(”ô®øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ƒ¾ïÎşÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ªô˜”
+N	java:S106""9Replace this use of System.out or System.err by a logger.(¶¸Ú›
+J
+java:S6212$"/Declare this local variable with "var" instead.(Ï±öşÿÿÿÿ
+J
+java:S6212%"/Declare this local variable with "var" instead.(÷èŠ„şÿÿÿÿ
+S
+java:S1197%"8Move the array designator from the variable to the type.(÷èŠ„şÿÿÿÿ
+M	java:S106&"9Replace this use of System.out or System.err by a logger.(ÎŒÆ%
+J
+java:S6212'"/Declare this local variable with "var" instead.(òë”şÿÿÿÿ
+J
+java:S6212+"/Declare this local variable with "var" instead.(¾Òùÿÿÿÿ
+E
+java:S6212,"/Declare this local variable with "var" instead.(ªô˜”
+E
+java:S62122"/Declare this local variable with "var" instead.(–•›
+N
+java:S11972"8Move the array designator from the variable to the type.(–•›
+E
+java:S62124"/Declare this local variable with "var" instead.(«éÁı
+E
+java:S62127"/Declare this local variable with "var" instead.(Ö°š·
+J
+java:S62129"/Declare this local variable with "var" instead.(òë”şÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(Í„Ï¾ûÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(®à·Â

@@ -13,26 +13,25 @@ public class SpiralTraeversal {
         while(top <= bottom && left <= right)
         {
             for(int i = left; i <= right; i++)
-                ar.add(mat[top][i]);
+                ar.add(mat[top][i]);   //left to right -- top++
 
             top++;
 
             for(int i = top; i <= bottom; i++)
-                ar.add(mat[i][right]);
+                ar.add(mat[i][right]); //top to bottom -- right--
 
             right--;
 
-            if(top <= bottom){
+            if(top <= bottom){  //then print the bottom row
                 for(int i = right; i >= left; i--)
                     ar.add(mat[bottom][i]);
 
                 bottom--;
             }
 
-            if(left <= right){
-                for(int i = bottom; i >= top; i--)
+            if(left <= right){  //then print the leftmost row
+                for(int i = bottom; i >= top; i-- )
                     ar.add(mat[i][left]);
-
                 left++;
             }
         }
@@ -89,6 +88,7 @@ public class SpiralTraeversal {
             {13, 14, 15,16}};
 
         ArrayList<Integer> ar = spirallyTraverse(matrix,matrix.length,matrix[0].length);
+        System.out.println(ar);
 
 
     }

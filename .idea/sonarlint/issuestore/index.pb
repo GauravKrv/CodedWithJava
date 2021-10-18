@@ -21,12 +21,8 @@ Y
 +NOTHING_WILL_HAPPEN/NOTHING_WILL_HAPPEN.iml,5\3\53b2e4941d54abea29e3b25bf15dfcac77130166
 f
 6DSA SERIES QUESTIONS/src/SORTING/CountSortStrings.java,b\c\bc49bdebdd9016a5f51cda51effbf8b6ce811be8
-e
-5DSA SERIES QUESTIONS/src/MATRIX/SpiralTraeversal.java,a\6\a6ef282d52c48710813819146a28092a829f7c78
 ^
 .NOTHING_WILL_HAPPEN/src/PasswordValidator.java,a\5\a54781836b84d4dea249225469622719870a1db7
-l
-<DSA SERIES QUESTIONS/src/MATRIX/MedianInRowWiseSorted__.java,5\4\5473155ebd735b137abaf08a8fec96e5b62ebe82
 q
 ADSA SERIES QUESTIONS/src/SEARCHING/MaxWaterBetweenBuildings_.java,c\9\c9a3051956f189e150fcd763da5c665ede3c3a66
 l
@@ -39,8 +35,6 @@ c
 3DSA SERIES QUESTIONS/src/HASHING/CompareArrays.java,b\c\bc0ae84bcf07a91711d40c86581e4988cb4446d1
 d
 4DSA SERIES QUESTIONS/src/MATRIX/BooleanMatrix__.java,9\1\91c1087ef2d906894878ad97adb071818441f5a0
-[
-+NOTHING_WILL_HAPPEN/src/ModifiedVector.java,1\0\10bf87c3da811db518b99dbb316f257217ec6e5c
 k
 ;DSA SERIES QUESTIONS/src/HASHING/CountNuponKoccurences.java,2\8\283b54899807386586bc5c6ff7855b27cd36810e
 b
@@ -49,8 +43,6 @@ d
 4DSA SERIES QUESTIONS/src/SEARCHING/PeakElement_.java,c\a\ca439c0f506fff3c3e6cf06d82e20669a1426b57
 e
 5DSA SERIES QUESTIONS/src/ARRAYS/EquibliriumPoint.java,f\f\ff5e755cee2039021039ef0e5770309d9b923e24
-x
-HDSA SERIES QUESTIONS/src/HASHING/CountDistinctElementsInEveryWindow.java,9\6\9665c0e8d7a9a8dbfb27da388ab1cede7a348f71
 _
 /DSA SERIES QUESTIONS/src/BITMAGIC/PowerSet.java,5\2\5277644f898f588951476ab635fb53fcff4b1823
 F
@@ -71,20 +63,10 @@ U
 %HackerRank/src/Regex/RegexBasics.java,b\4\b43e8df3b1c07c1c9d51a2271684b53f5cea497b
 Q
 !LeetCodeQues/src/ReachHeight.java,b\1\b170f4abfa39082cd1bddac871ce6f52afaa85f6
-Q
-!NOTHING_WILL_HAPPEN/src/inputcode,f\9\f96dc6b1359ad3146bb23e9c9728164822e4eafe
-R
-"NOTHING_WILL_HAPPEN/src/inputcode2,5\c\5ce775dade41b22b4e045ccb8e1e8f4c7c383f99
 R
 "NOTHING_WILL_HAPPEN/src/inputcode3,e\5\e5f87eaea006d4dbd73bd91d5b3812d2bc7f1d39
-R
-"NOTHING_WILL_HAPPEN/src/Lexer.java,3\4\345f0699280196df5c60e45179c53d858b27492e
 i
 9NOTHING_WILL_HAPPEN/src/ReadingEntireFileWithoutLoop.java,e\5\e50187db1f44df7877ba10873ab90a758016557b
-R
-"NOTHING_WILL_HAPPEN/src/Token.java,8\1\81e010272c5126d91006d4bb109913b8df6a309b
-V
-&NOTHING_WILL_HAPPEN/src/TokenType.java,b\6\b6b08dd84ae22ad1c26e7e822db809d2b6113f42
 :
 
 output.txt,a\d\adbe6c7d3c0d8b19ecd492bec9532c13a6e1c9ad
@@ -94,8 +76,6 @@ s
 CDSA SERIES QUESTIONS/src/HASHING/LongestConsecutiveSubsequence.java,9\f\9f4c63c0c51a1f3a4e10c873e5ace88507629ef0
 f
 6DSA SERIES QUESTIONS/src/HASHING/ElectionWinner__.java,1\d\1de5b943ff38268943190b80456acdf8f96328ff
-f
-6DSA SERIES QUESTIONS/src/HASHING/CountNonRepeated.java,e\1\e1eb7b3afe672b0aa6a5ac42b75f05ec7bbb8f54
 o
 ?DSA SERIES QUESTIONS/src/HASHING/PairWithGrtstProductArray.java,4\0\4011e7a9b8a0a707f8751321632ce89dbe07324a
 d
@@ -110,3 +90,55 @@ i
 9DSA SERIES QUESTIONS/src/HASHING/Q1_CheckSubsetArray.java,7\a\7a2c484679c45a08783e32caee8d8f21da78962d
 E
 CODECHEF/CODECHEF.iml,0\7\073f5e419f0876a4fb25676f893e1e5ff2a62dee
+T
+$Competitions/src/MacroTemplates.java,c\9\c986326fbe1240afd827546558fa09ac66d8b208
+L
+CodeForces/src/Template.java,2\0\20eb7ef91b621a237db6e998937ba3001dd39d94
+O
+CODECHEF/src/JulyLunchTime.java,1\4\1481fb8ba0ae05ec7cb136a5718f66b075e9be4a
+d
+4DSA SERIES QUESTIONS/src/STACKS/OperationsStack.java,1\0\10c647500a5fe97bfd5065234de64468fa981c3a
+e
+5DSA SERIES QUESTIONS/src/STACKS/DeleteMidElement.java,9\5\958be21f19b844f3fe8b6911937a0e905bc66ee4
+g
+7DSA SERIES QUESTIONS/src/STACKS/NextGreaterElement.java,7\d\7d0d51646c9c9a29dec757ebdfdd22b756447cc9
+K
+Competitions/src/Setup.java,0\b\0b867f39aeac1c0556fa9d7fe26891d5a28402d3
+N
+Competitions/src/template.java,a\3\a3aa62482c9ad0f4ba1777ad5b48ed23ea21cfd7
+g
+7DSA SERIES QUESTIONS/src/GREEDY/IntervalScheduling.java,6\8\688e3e0b6c000b2f428441e17521c76566023fa8
+j
+:DSA SERIES QUESTIONS/src/BINARY_TREES/BTBFSTraversals.java,9\b\9bb7b08c2ee8434244bd206dedf047920f41a49e
+s
+CDSA SERIES QUESTIONS/src/BINARY_TREES/BinaryTreeLevelTraversal.java,0\0\00da357b2646cebb6306c32538fff59d35c84e52
+R
+"NOTHING_WILL_HAPPEN/src/Lexer.java,3\4\345f0699280196df5c60e45179c53d858b27492e
+Q
+!NOTHING_WILL_HAPPEN/src/inputcode,f\9\f96dc6b1359ad3146bb23e9c9728164822e4eafe
+[
++NOTHING_WILL_HAPPEN/src/ModifiedVector.java,1\0\10bf87c3da811db518b99dbb316f257217ec6e5c
+R
+"NOTHING_WILL_HAPPEN/src/Token.java,8\1\81e010272c5126d91006d4bb109913b8df6a309b
+V
+&NOTHING_WILL_HAPPEN/src/TokenType.java,b\6\b6b08dd84ae22ad1c26e7e822db809d2b6113f42
+n
+>DSA SERIES QUESTIONS/src/ARRAYS/MaximumSubarraySum_Kadane.java,f\7\f73c2ec9b78ad3fdf549d361a53961d41bd7f33f
+e
+5DSA SERIES QUESTIONS/src/ARRAYS/RemoveDuplicates.java,6\3\63655e1595c594ff62013ac5f6a2f09f4f2baf9e
+l
+<DSA SERIES QUESTIONS/src/MATRIX/MedianInRowWiseSorted__.java,5\4\5473155ebd735b137abaf08a8fec96e5b62ebe82
+a
+1DSA SERIES QUESTIONS/src/RECURSION/SubsetSum.java,f\6\f68f47cb34370144c526cf959cf0d0244686bde0
+d
+4DSA SERIES QUESTIONS/src/RECURSION/JosephusRing.java,0\4\044615dc44efefe81ef57dd4baf731261dba2da6
+a
+1DSA SERIES QUESTIONS/src/MY_CUSTOMS/AsciName.java,0\2\020d45abc101469282a22ad4991d306d270d0d21
+R
+"LeetCodeQues/src/RotateMatrix.java,8\2\8208b7a90be107ed90f3a4fedb5a0b7b91646243
+n
+>DSA SERIES QUESTIONS/src/BINARY_TREES/PreInGivenPrintPost.java,b\c\bccdf8dc8fa3e9f6e1e9fa227a38872869fa42a5
+a
+1DSA SERIES QUESTIONS/src/ARRAYS/StockBuySell.java,a\2\a2df186dfb57daa2f03b6cd84f0aeed903bd936f
+a
+1DSA SERIES QUESTIONS/src/ARRAYS/BinarySearch.java,2\a\2a248c2396921797b6053635b70f6f070bf663b9

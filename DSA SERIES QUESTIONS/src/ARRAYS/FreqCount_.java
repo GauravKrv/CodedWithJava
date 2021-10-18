@@ -24,8 +24,8 @@ Output:
 
         for (int i=0; i<n; i++)
         {
-            if(arr[i]%p<n){
-                arr[arr[i]%p] = arr[arr[i]%p] + p;
+            if(arr[i]%p<n){  //if rem is less than arr size then
+                arr[arr[i]%p] = arr[arr[i]%p] + p; //add max size to that index(rem) again and again
 
             }
 
@@ -34,7 +34,7 @@ Output:
 
         for (int i =0; i<n; i++)
         {
-            if(arr[i] >= p) {
+            if(arr[i] >= p) { //then it has more counts
                 arr[i] = arr[i]/p;
             }
             else{

@@ -1,12 +1,7 @@
 package SORTING;
 
 public class MergeSort {
-
-
-
-
-
-    void sort(int arr[],int l,int r){
+ void sort(int arr[],int l,int r){
         if(l<r)
         {
         int m = (l+r)/2;
@@ -17,8 +12,6 @@ public class MergeSort {
         merge(arr,l,m,r);
         }
     }
-
-
     // Merges two subarrays of arr[].
     // First subarray is arr[l..m]
     // Second subarray is arr[m+1..r]
@@ -85,9 +78,6 @@ public class MergeSort {
 
         System.out.println("\nSorted array: ");
         ms.printArray(arr);
-
-
-
 
     }
 
