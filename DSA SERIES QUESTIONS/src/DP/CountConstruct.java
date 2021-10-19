@@ -19,7 +19,7 @@ public class CountConstruct {
         return totalcount;
     }
 
-    static int countConstructDP(String target, String[] wordBank,Hashtable<String,Integer> memo){
+    static int countConstructDP(String target, String[] wordBank,Hashtable memo){
         if (memo.containsKey(target))
         if (target.equals("")) return 1;
 
