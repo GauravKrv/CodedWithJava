@@ -23,7 +23,7 @@ public class AllConstruct___ {
                 String suffix = target.substring(word.length());
 
                 ArrayList<ArrayList<String>> suffixways =new ArrayList<>();
-                suffixways.addAll((ArrayList< ArrayList<String>>) allConstruct(suffix,wordbank));
+                suffixways.addAll((ArrayList< ArrayList<String>>) allConstructDP(suffix,wordbank,memo));
 
                 for (ArrayList<String> x : suffixways) {
                     x.add(0,word);
@@ -71,10 +71,14 @@ public class AllConstruct___ {
        // ArrayList<ArrayList<String>> arrayList = new ArrayList<ArrayList<String>>();
 
         Hashtable<String, ArrayList<ArrayList<String>>> memo = new Hashtable<>();
-        String target = "purple";
-        String[] wordbank = {"purp","pur","p","le","purpl"};
-        System.out.println(allConstruct(target,wordbank));
+//        String target = "purple";
+//        String[] wordbank = {"purp","pur","p","le","purpl"};
+
+        String target = "aaaaaaaaaaaaaaaaaaaaaaaaaz";
+        String[] wordbank = {"a","aa","aaa","aaaa","aaaaa"};
         System.out.println(allConstructDP(target,wordbank,memo));
+
+        System.out.println(allConstruct(target,wordbank)); //will give output after a while
     }
 }
 /*
