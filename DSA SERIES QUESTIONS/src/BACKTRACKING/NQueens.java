@@ -49,8 +49,10 @@ public class NQueens {
 
 
     }
+
+//    static ArrayList<int[][]> solutions()
 //wright
-    static int n = 6;
+    static int n = 16;
    static int[][] board = new int[n][n];
     public static void main(String[] args) {
 

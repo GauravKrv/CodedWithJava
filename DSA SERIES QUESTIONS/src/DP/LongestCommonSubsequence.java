@@ -1,5 +1,7 @@
 package DP;
 
+import java.util.Hashtable;
+
 public class LongestCommonSubsequence {
 
     static int LCS(String u, String v){
@@ -29,7 +31,28 @@ public class LongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
-        System.out.println(LCS("director","secretary"));
+ /*       System.out.println(LCS("director","secretary"));
+        System.out.println(LCS("cat","smart"));
+
+
+        System.out.println(lcs("abba","abaa"));
+        System.out.println(lcs("director","secretary"));
+*/
+        String s1 = "aaaaaaaaaaaaaaaaaaaaabbb";
+        String s2 = "bbbbbbbbbaaaaaaaaaaaaaaaaa";
+
+/*        String s1 = "aaaaaababbb";
+        String s2 = "baaaaabaa";*/
+        Hashtable<Pair,Integer> memo = new Hashtable<>();
+        memo.put(new Pair("",""),0);
+        System.out.println(LCS(s1,s2));
+        System.out.println(lcsmemo(s1,s2,memo));
+
+        System.out.println(lcs(s1,s2));
+
+
+
+
     }
 
     static void printTable(String u,String v, int[][] LCS){
@@ -42,5 +65,63 @@ public class LongestCommonSubsequence {
             }
             System.out.println();
         }
+    }
+
+    static int lcs(String s1, String s2){
+        if (s1.equals("") || s2.equals("")){
+            return 0;
+        }
+        int max = 0;
+        if (s1.charAt(0) == s2.charAt(0)){
+            return   1+lcs(s1.substring(1),s2.substring(1));
+        }
+
+            return Integer.max(lcs(s1, s2.substring(1)) , lcs(s1.substring(1), s2));
+
+            }
+
+
+    static int lcsmemo(String s1, String s2, Hashtable<Pair,Integer> memo){
+        Pair p = new Pair(s1,s2);
+        if (memo.containsKey(p)){
+            return memo.get(p);
+        }
+        if (s1.equals("") || s2.equals("")){
+            memo.put(new Pair(s1,s2),0);
+            return 0;
+        }
+        if (s1.charAt(0) == s2.charAt(0)){
+            memo.put(p,1+lcs(s1.substring(1),s2.substring(1)));
+        }
+
+        else
+        memo.put(p, Integer.max(lcs(s1, s2.substring(1)) , lcs(s1.substring(1), s2)));
+
+        return memo.get(p);
+
+    }
+
+    static class Pair{
+        String s1;
+        String s2;
+        Pair(String s1, String s2){
+            this.s1 = s1;
+            this.s2 = s2;
+        }
+        Pair(String s1){
+            this.s1 = s1;
+        }
+    }
+
+
+
+}
+
+class MatchObj{
+    public static void main(String[] args) {
+        // 2 objs compared will neve be same
+        int[] a1 = {1,2};
+        int[] a2 = {1,2};
+        System.out.println(a1==a1);
     }
 }
