@@ -1,7 +1,7 @@
 package DP;
 
 import java.util.Hashtable;
-
+//WORKS MEMO AND TABULAITON AND RECURSION -- ALL
 public class LongestCommonSubsequence {
 
     static int LCS(String u, String v){
@@ -31,30 +31,74 @@ public class LongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
- /*       System.out.println(LCS("director","secretary"));
-        System.out.println(LCS("cat","smart"));
-
-
-        System.out.println(lcs("abba","abaa"));
-        System.out.println(lcs("director","secretary"));
-*/
         String s1 = "aaaaaaaaaaaaaaaaaaaaabbb";
         String s2 = "bbbbbbbbbaaaaaaaaaaaaaaaaa";
 
 /*        String s1 = "aaaaaababbb";
         String s2 = "baaaaabaa";*/
-        Hashtable<Pair,Integer> memo = new Hashtable<>();
+   /*     Hashtable<Pair,Integer> memo = new Hashtable<>();
         memo.put(new Pair("",""),0);
         System.out.println(LCS(s1,s2));
         System.out.println(lcsmemo(s1,s2,memo));
-
         System.out.println(lcs(s1,s2));
+*/
+        int[][] memo = new int[s1.length()+1][s2.length()+1];
+
+        for (int i = 0; i <= s1.length(); i++) {
+            for (int j = 0; j <= s2.length(); j++) {
+                memo[i][j] = -1;
+            }
+        }
+        System.out.println(lcssir(s1,s2,0,0,memo));
+        System.out.println(lcssir(s1,s2,0,0));
+
 
 
 
 
     }
 
+
+
+    //works in memoization way
+
+    static int lcssir(String s1, String s2,int m,int n,int[][] memo){
+        if (memo[m][n]!=-1) return memo[m][n];
+
+        if (m==s1.length()||n==s2.length()){
+            memo[m][n] = 0;
+            return memo[m][n];
+        }
+
+        if (s1.charAt(m) == s2.charAt(n)){
+            memo[m][n] =   1+lcssir(s1,s2,m+1,n+1,memo);
+        }
+
+        else {
+            memo[m][n] =  Integer.max(lcssir(s1,s2,m,n+1,memo),
+                    lcssir(s1,s2,m+1,n,memo));
+        }
+
+        return memo[m][n];
+
+    }
+
+    //works for rec - index metho - front way
+    static int lcssir(String s1, String s2,int m,int n){
+        if (m==s1.length()||n==s2.length()){
+            return 0;
+        }
+        if (s1.charAt(m) == s2.charAt(n)){
+            return   1+lcssir(s1,s2,m+1,n+1);
+        }
+
+        return Integer.max(lcssir(s1,s2,m,n+1),
+                lcssir(s1,s2,m+1,n));
+
+    }
+
+
+    //prints LCS
     static void printTable(String u,String v, int[][] LCS){
         System.out.println();
         System.out.println("LCS TABLE : ");
@@ -67,6 +111,7 @@ public class LongestCommonSubsequence {
         }
     }
 
+    //works for recursion
     static int lcs(String s1, String s2){
         if (s1.equals("") || s2.equals("")){
             return 0;
@@ -76,15 +121,14 @@ public class LongestCommonSubsequence {
             return   1+lcs(s1.substring(1),s2.substring(1));
         }
 
-            return Integer.max(lcs(s1, s2.substring(1)) , lcs(s1.substring(1), s2));
+        return Integer.max(lcs(s1, s2.substring(1)) , lcs(s1.substring(1), s2));
 
-            }
-
-
-    static int lcsmemo(String s1, String s2, Hashtable<Pair,Integer> memo){
+    }
+    //wont work
+    static int lcsmemo(String s1, String s2, Hashtable memo){
         Pair p = new Pair(s1,s2);
         if (memo.containsKey(p)){
-            return memo.get(p);
+            return (int) memo.get(p);
         }
         if (s1.equals("") || s2.equals("")){
             memo.put(new Pair(s1,s2),0);
@@ -97,7 +141,7 @@ public class LongestCommonSubsequence {
         else
         memo.put(p, Integer.max(lcs(s1, s2.substring(1)) , lcs(s1.substring(1), s2)));
 
-        return memo.get(p);
+        return (int) memo.get(p);
 
     }
 
