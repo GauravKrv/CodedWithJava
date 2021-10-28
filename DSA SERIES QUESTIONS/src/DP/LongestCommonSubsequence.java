@@ -31,8 +31,8 @@ public class LongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
-        String s1 = "aaaaaaaaaaaaaaaaaaaaabbb";
-        String s2 = "bbbbbbbbbaaaaaaaaaaaaaaaaa";
+        String s1 = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbb";
+        String s2 = "bbbbbbbbbaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
 
 /*        String s1 = "aaaaaababbb";
         String s2 = "baaaaabaa";*/
@@ -60,7 +60,7 @@ public class LongestCommonSubsequence {
 
 
 
-    //works in memoization way
+    //works in memoization way BUT IS BOTTOM UP LIKE IN TABULATION
 
     static int lcssir(String s1, String s2,int m,int n,int[][] memo){
         if (memo[m][n]!=-1) return memo[m][n];
