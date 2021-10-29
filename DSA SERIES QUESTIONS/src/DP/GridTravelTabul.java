@@ -18,6 +18,25 @@ public class GridTravelTabul {
         return tabel[m][n];
     }
 
+//    sir rec
+    static int gridTravellerRec(int m,int n){
+        if (m==1 && n==1) return 1;
+        if (m==0 || n==0) return 0;
+//decreasing the row keepin gthe column same and decreasing the column keeping the row same
+        return gridTravellerRec(m-1,n) + gridTravellerRec(m,n-1);
+    }
+
+    //my memo
+    static int gridTravellerMemo(int m,int n, int[][] memo){
+        if (memo[m][n] != 0) return memo[m][n];
+        if (m==1 && n==1) return 1;
+        if (m==0 || n==0) return 0;
+
+        memo[m][n] =  gridTravellerMemo(m-1,n,memo) + gridTravellerMemo(m,n-1,memo);
+
+        return memo[m][n];
+    }
+
     public static void main(String[] args) {
         System.out.println(gridTravel(3,3));
     }
