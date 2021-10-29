@@ -8,34 +8,30 @@ import java.util.HashMap;
 // works for testcase 1 and 2 individually
 // count need to be optimised
 //took 1.5hrs till here
+//TOOK 2.5hrs till here
 //work on out of bounds areas , approach is good, check for optimised helper functions
 
-//give 3hrs more to this question -- test timint 1.5hr done
+//give 2hrs more to this question -- test timint 1.5hr done + reieww 1hr done
+//v3 works fine with both tests
 
 public class Q2 extends CodeForces {
 
-    static ArrayList<ArrayList<Integer>> transformsList(int[] arr, int n) {
-       // System.out.println("In transformList");
+    static ArrayList<ArrayList<Integer>> transformsList(int[] arr, int n) {  //O(N)
 
         ArrayList<ArrayList<Integer>> transforms = new ArrayList<>();
 
         transforms.add(new ArrayList<>());
-        for (int x : arr) {
+        for (int x : arr) {        //O(N)
             transforms.get(0).add(x);
         }
-        // System.out.println(transforms.get(0));// -- works fine
 
         int i = 0;
 
-        while (true) {
+        while (true) { //O(<<N)
             transforms.add(new ArrayList<>());
             System.out.println(transforms.get(0));
-            count(transforms, transforms.get(i), i + 1);
-             System.out.println(transforms.get(0));
-            //System.out.println(transforms.get(i-1));
-             System.out.println(transforms.get(i+1));
+            count(transforms, transforms.get(i), i + 1); //O(N)
 
-            //ERROR IN COUNT FUNCTOIN
             if (i > 1 && Arrays.equals(transforms.get(i).toArray(), transforms.get(i - 1).toArray())) {
                 break;
             }
@@ -45,61 +41,42 @@ public class Q2 extends CodeForces {
         return transforms;
     }
 
-    static int solution(int[] arr, int a, int k) {
+    static int solution(int[] arr, int a, int k) { //O(N)
         ArrayList<ArrayList<Integer>> transforms = transformsList(arr, arr.length);
         int n = transforms.size();
-        System.out.println("In SOLUTION");
-
 
         if (k > n - 1) {
             k = n - 1;
         }
-        System.out.println(transforms.get(k)+" k = "+k);
-/*
-        System.out.println("Trial  ");
-        System.out.println(transforms.size());
-        System.out.println(transforms.get(k).size());
-        System.out.println("\n");*/
         return transforms.get(k).get(a - 1);
     }
 
 
     //O(N*N)-->O(N) & S(N)
-    static void count(ArrayList<ArrayList<Integer>> transforms, ArrayList<Integer> arr, int index) {
+    static void count(ArrayList<ArrayList<Integer>> transforms, ArrayList<Integer> arr, int index) { //O(N)
 
-//        System.out.println("PREVIOUS ARRAY : ");
-//        System.out.println(arr);
         HashMap<Integer, Integer> hash = new HashMap<>();
 
         ArrayList<Integer> arr2 = new ArrayList<>();
         arr2.addAll(arr);
 
-        for (int x : arr2) {
+        // NOW HASH WILL BE HAVING ALL THE ELEMENTS AND THEIR FREQUENCIES
+        for (int x : arr2) { //O(N)
             if (!hash.containsKey(x)) {
                 hash.put(x, 1);
             } else {
                 hash.put(x, hash.get(x) + 1);
             }
         }
-        //TILL NOW HASH WILL BE HAVING ALL THE ELEMENTS AND THEIR FREQUENCIES
-
-      /*  for (int x : hash.keySet()) {
-            System.out.println(x + "->" + hash.get(x));
-        }*/
-        //PRINTED THE FREQS
-        //MAP ITERATION WORKED
-
 //SETTING THE VALUES NEEDED FOR EACH ELEMENT
-        for (int x = 0; x < arr2.size(); x++) {
+        for (int x = 0; x < arr2.size(); x++) { //O(N)
             arr2.set(x, hash.get(arr2.get(x)));
         }
 //ADDING THESE TO OUR TRANSFORMS
-        for (int j = 0; j < arr2.size(); j++) {
+        for (int j = 0; j < arr2.size(); j++) {  //O(N)
             transforms.get(index).add(arr2.get(j));
         }
-//        System.out.println("CURRENT ARRAY : ");
-//        System.out.println(arr);
-//        System.out.println("\n");
+
     }
 
     public static void main(String[] args) {
