@@ -255,7 +255,8 @@ class StringDemo {
         String s2 = new String ("NPTEL");
         System.out.println(s2 + "is of" + s2.length());
         String s4 = new String ("NPTEL");
-        String s3 = new String (s1 + s2);
+        String s3 = new String (s1 + s4);
+        System.out.println(s3);
     }
 }
 
@@ -279,7 +280,7 @@ class createStringDemo{
         String text1 = "DATA STRUCTURE WITH";
         String text2 = " JAVA";
         String text3 = text1.concat(text2);
-        System.out.print(text3);
+        System.out.print(text3.toUpperCase());
     }
 }
 
@@ -450,6 +451,7 @@ class IntegerToStringDemo{
     public static void main(String args[]){
         int i=20;
         String s=String.valueOf(i);
+        System.out.println(s);
         System.out.println(i+10); // + is binary plus operator
         System.out.println(s+20); // + is string concatenation operator
     }

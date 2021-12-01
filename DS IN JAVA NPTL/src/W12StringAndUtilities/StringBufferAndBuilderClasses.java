@@ -88,12 +88,10 @@ modifications complete.
 • On the other hand, you can modify StringBuffer object with the
 methods, for example, append(), insert(), delete(), concat(), reverse(),
 etc.
-
-
-
-
     * */
 }
+
+
 //1.CREATONG STRING BUFFER OBJECTS
 class StringBufferDemo {
     public static void main(String args[]) {
@@ -130,6 +128,9 @@ class ModifyStringDemo{
 class StringReverseDemo{
     public static void main(String args[]){
         StringBuffer text=new StringBuffer("Data Structure With With Java");
+        StringBuffer text2=new StringBuffer("Data Structure With With Javaaaaa");
+
+        text =  text2;
         text.reverse();
         System.out.print(text);
     }
@@ -170,7 +171,7 @@ capacity( ) method.
 //
 class StringBufferDemo2 {
     public static void main(String args[]) {
-        StringBuffer sb = new StringBuffer("Hello");
+        StringBuffer sb = new StringBuffer("Hellooooooooooooooooooooooooo");
         System.out.println("buffer = " + sb);
         System.out.println("length = " + sb.length());
         System.out.println("capacity = " + sb.capacity());
@@ -185,17 +186,33 @@ StringBuffer using setCharAt( ).
 char charAt(int where);
 void setCharAt(int where, char ch)
  */
+
+
+
+
 class setCharAtDemo {
     public static void main(String args[]) {
+
         StringBuffer sb = new StringBuffer("Hello");
+
         System.out.println("buffer before = " + sb);
+
         System.out.println("charAt(1) before = " + sb.charAt(1));
+
         sb.setCharAt(1, 'i');
+
         sb.setLength(2);
+
         System.out.println("buffer after = " + sb);
+
         System.out.println("charAt(1) after = " + sb.charAt(1));
+
     }
+
 }
+
+
+
 /*
  The hashCode() of string retunes a unique value for the object. For an
 object of type String, it returns different hash code values, from one
@@ -203,6 +220,8 @@ object to another.
 • On the other hand, it returns the same value irrespective of the contents
 it contains.
 * */
+
+
 class HashCodeTest{
     public static void main(String args[]){
         System.out.println("Hashcode test of String:");
@@ -218,6 +237,7 @@ class HashCodeTest{
     }
 }
 
+
 /*STRING BUILDER CLASS
 • Introduced by JDK 5, StringBuilder is a relatively recent addition to
 Java’s string handling capabilities.
@@ -228,4 +248,8 @@ which a mutable string will be accessed by multiple threads, and no external
 synchronization is employed, you must use StringBuffer rather than
 StringBuilder.
 * */
+
+
+
+
 

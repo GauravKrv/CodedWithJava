@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class MaxAndSecondMax {
+
     public static ArrayList<Integer> largestAndSecondLargest(int sizeOfArray, int arr[])
     {
         ArrayList<Integer> al = new ArrayList<Integer>();
@@ -17,7 +18,8 @@ public class MaxAndSecondMax {
                 if(arr[0]!=arr[1]){
                     secM = arr[1];
                 }
-            }else{
+            }
+            else{
                 secM = arr[0];
                 max = arr[1];
             }

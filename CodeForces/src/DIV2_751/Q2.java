@@ -14,6 +14,25 @@ import java.util.HashMap;
 //give 2hrs more to this question -- test timint 1.5hr done + reieww 1hr done
 //v3 works fine with both tests
 
+
+//MANY TESTS WORKD BUT GOT TLE AS MY CODE IS > O(LOG N) -- OPTIMISE
+
+//3hrs given -- 1.5hrs left
+
+//30mins given again -- found an issue in code - with testcase 3
+
+/*
+1
+36
+1024 1024 1024 16 1024 16 128 512 512 256 512 128 1024 1024 1024 1024 512 256 256 1024 512 256 128 1024 1024 512 32 1024 1024 256 1024 512 512 1024 1024 128
+2
+4 5
+2 --OP --??
+3 0
+1024 --OP X
+* */
+
+//1hr left
 public class Q2 extends CodeForces {
 
     static ArrayList<ArrayList<Integer>> transformsList(int[] arr, int n) {  //O(N)
@@ -27,15 +46,15 @@ public class Q2 extends CodeForces {
 
         int i = 0;
 
-        while (true) { //O(<<N)
+        while (n>0) { //O(<<N)
             transforms.add(new ArrayList<>());
-            System.out.println(transforms.get(0));
             count(transforms, transforms.get(i), i + 1); //O(N)
 
             if (i > 1 && Arrays.equals(transforms.get(i).toArray(), transforms.get(i - 1).toArray())) {
                 break;
             }
             i++;
+            n = n/2;
         }
 
         return transforms;
@@ -97,7 +116,10 @@ public class Q2 extends CodeForces {
 
 
 }
+/*
 
+
+* */
 class Test2 {
     static int[] frequencyCount(int arr[], int n) {
         int p = 2000;
