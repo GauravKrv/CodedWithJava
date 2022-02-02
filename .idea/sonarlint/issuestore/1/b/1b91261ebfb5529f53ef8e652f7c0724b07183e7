@@ -1,0 +1,16 @@
+
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï“»Ò
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï“»Ò
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï“»Ò
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(üØ» şÿÿÿÿ
+c	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ï“»Ò
+S	java:S106"9Replace this use of System.out or System.err by a logger.(äø‘ ûÿÿÿÿ
+p
+java:S2234"UParameters to ToH have the same names but not the same order as the method arguments.(ë‘×ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‚ğø™ÿÿÿÿÿ
+k
+java:S2234"UParameters to ToH have the same names but not the same order as the method arguments.(•·ùÈ
+S
+java:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(“âÃ

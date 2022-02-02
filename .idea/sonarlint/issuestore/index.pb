@@ -25,14 +25,8 @@ f
 .NOTHING_WILL_HAPPEN/src/PasswordValidator.java,a\5\a54781836b84d4dea249225469622719870a1db7
 q
 ADSA SERIES QUESTIONS/src/SEARCHING/MaxWaterBetweenBuildings_.java,c\9\c9a3051956f189e150fcd763da5c665ede3c3a66
-l
-<DSA SERIES QUESTIONS/src/SEARCHING/Count1sInBinaryArray.java,7\3\73fc3d8c4a5d213b088f36bcf85eb86bc0f19af1
-l
-<DSA SERIES QUESTIONS/src/HASHING/ChainingUsingArrayList.java,d\4\d4675ec17a33fe22cb639b179fa6d92830f6f36d
 m
 =DSA SERIES QUESTIONS/src/HASHING/ChainingUsingLinkedList.java,4\b\4bbacc07d3ca0a6424008fa25fc1075340afde08
-c
-3DSA SERIES QUESTIONS/src/HASHING/CompareArrays.java,b\c\bc0ae84bcf07a91711d40c86581e4988cb4446d1
 d
 4DSA SERIES QUESTIONS/src/MATRIX/BooleanMatrix__.java,9\1\91c1087ef2d906894878ad97adb071818441f5a0
 k
@@ -118,10 +112,6 @@ R
 "NOTHING_WILL_HAPPEN/src/Token.java,8\1\81e010272c5126d91006d4bb109913b8df6a309b
 V
 &NOTHING_WILL_HAPPEN/src/TokenType.java,b\6\b6b08dd84ae22ad1c26e7e822db809d2b6113f42
-n
->DSA SERIES QUESTIONS/src/ARRAYS/MaximumSubarraySum_Kadane.java,f\7\f73c2ec9b78ad3fdf549d361a53961d41bd7f33f
-e
-5DSA SERIES QUESTIONS/src/ARRAYS/RemoveDuplicates.java,6\3\63655e1595c594ff62013ac5f6a2f09f4f2baf9e
 l
 <DSA SERIES QUESTIONS/src/MATRIX/MedianInRowWiseSorted__.java,5\4\5473155ebd735b137abaf08a8fec96e5b62ebe82
 a
@@ -134,20 +124,12 @@ R
 "LeetCodeQues/src/RotateMatrix.java,8\2\8208b7a90be107ed90f3a4fedb5a0b7b91646243
 n
 >DSA SERIES QUESTIONS/src/BINARY_TREES/PreInGivenPrintPost.java,b\c\bccdf8dc8fa3e9f6e1e9fa227a38872869fa42a5
-a
-1DSA SERIES QUESTIONS/src/ARRAYS/BinarySearch.java,2\a\2a248c2396921797b6053635b70f6f070bf663b9
 Q
 !CODECHEF/src/AUGUST2021/Q3LC.java,8\a\8a3d793e4cd445da13ab868a344cf568416354de
 Q
 !CODECHEF/src/AUGUST2021/Q5LC.java,a\d\adaca2069ff39c66f3ec63e1962f289d5b52494d
 _
 /CodeForces/src/DIV2_112_EDUROUND/Question2.java,7\3\739772f12a399026e79a9f1e605a890926e48c17
-f
-6DSA SERIES QUESTIONS/src/ARRAYS/MaxCircularArray_.java,d\4\d406aeebb069b891e0dd48dbbce7fb323dd5b5e2
-q
-ADSA SERIES QUESTIONS/src/ARRAYS/MooresVoting_MajorityElement.java,a\0\a04fe0f4f82c857cdea2cdf57ad321ed3f0787df
-j
-:DSA SERIES QUESTIONS/src/ARRAYS/SmallestMissingNumber.java,2\2\2293485d668b119d5b88fad36bcdba80fa9c3b30
 c
 3DSA SERIES QUESTIONS/src/BINARY_TREES/BTTToDLL.java,e\2\e270d9a2c3d36cf4c5145564f390e99151d3a496
 c
@@ -220,8 +202,6 @@ _
 -DSA SERIES QUESTIONS/src/DP/BestSumTabul.java,8\0\801c0698c80ffaf33cd3f9b2cd98ac30ed21a7ba
 b
 2DSA SERIES QUESTIONS/src/BACKTRACKING/NQueens.java,4\1\41b5415b6b729f8ff967e67184154ccd782422c6
-c
-3DSA SERIES QUESTIONS/src/BACKTRACKING/SudokuBt.java,9\8\9832667d273ea106df812bb04861400ec5a84f70
 [
 +DSA SERIES QUESTIONS/src/DP/CoinChange.java,a\b\ab6c89a12db9df9ec3b3befb0fee3406483910d1
 ]
@@ -236,8 +216,6 @@ m
 ,DSA SERIES QUESTIONS/src/DP/HowSumTabul.java,5\9\59c8e86c357fef5f659d3344405e52aac93c2ace
 `
 0DSA SERIES QUESTIONS/src/DP/AllConstruct___.java,2\f\2f2620c3811bf9a377aeabf0bca2d0d1e5d82b9b
-_
-/DSA SERIES QUESTIONS/src/ARRAYS/FreqCount_.java,2\1\21082e3e0ea59600a40681737234847d668add0e
 Z
 *DSA SERIES QUESTIONS/src/DP/BestSum__.java,2\5\25056e1dd8f8deb7ba936a99dea7a0705eb4bc44
 `
@@ -248,16 +226,6 @@ X
 (DSA SERIES QUESTIONS/src/DP/MaxCuts.java,f\7\f7477123c1e609750dafef46ee51e2a73b4e970e
 `
 0CodeForces/src/DIV2_112_EDUROUND/CodeForces.java,4\b\4bd1d4996293f019dfb6851de46291793bbcc454
-c
-3DSA SERIES QUESTIONS/src/ARRAYS/LeadersInArray.java,f\e\fe113cb7969ca9941574c9affeed08be462164c1
-_
-/DSA SERIES QUESTIONS/src/ARRAYS/Dupliactes.java,1\f\1fde754def5be64434e3668fffa112c7c2eaa9b0
-e
-5DSA SERIES QUESTIONS/src/ARRAYS/EquibliriumPoint.java,f\f\ff5e755cee2039021039ef0e5770309d9b923e24
-d
-4DSA SERIES QUESTIONS/src/ARRAYS/FixedPointArray.java,a\e\aebbc06369a04b9d20b5d6d209d5f81d25e5e071
-a
-1DSA SERIES QUESTIONS/src/ARRAYS/StockBuySell.java,a\2\a2df186dfb57daa2f03b6cd84f0aeed903bd936f
 l
 <DSA SERIES QUESTIONS/src/HASHING/BinaryTinVerticalOrder.java,c\e\ce734902c827215c9677e6d1031ab0ae363e8285
 L
@@ -272,3 +240,65 @@ j
 :DS IN JAVA NPTL/src/W12StringAndUtilities/TryCalender.java,b\2\b2743717e0dd70d7cf4ca28aa2354cac311bc0c9
 V
 &DS IN JAVA NPTL/src/ArrayListW3L3.java,d\3\d3fa668f9d407fa72fe38c175b8611b92c94cfb8
+X
+(CodeForces/src/DIV2_751/Q2Solution2.java,9\d\9d2b647ec39a1d1e3c1adaa081a12524f09b36e3
+\
+,DSA SERIES QUESTIONS/src/DP/GetMinCoins.java,f\2\f20891bffc4e524ddf1563017e4b338e517ada39
+Q
+!CodeForces/src/DIV3_753/Q2__.java,a\1\a1e6b2aa122b185654c7848c9309452d5da92aa1
+R
+"CodeForces/src/DIV3_753/Q3___.java,0\1\017637fafc58928de745db385fa0fbc4daa924c9
+|
+LDS IN JAVA NPTL/src/W12StringAndUtilities/StringBufferAndBuilderClasses.java,a\3\a3b7fe901d47066bc4dc56cc8a61d9b85d8e7ad2
+l
+<DS IN JAVA NPTL/src/W12StringAndUtilities/StringConcept.java,9\7\97e9a01dc517435632e8060c1dbe7ca6733a1ee6
+W
+'CodeForces/src/DIV3_753/QuesC751D3.java,4\a\4a5c19ba9fce238f2667806de1577e0fc53675e1
+\
+,DSA SERIES QUESTIONS/src/DP/CountWays__.java,6\6\663eab61880a55790e30f958c31c3a4a2d820c01
+d
+4DSA SERIES QUESTIONS/src/DP/CountWaysOrderMat__.java,5\3\531b684249d4425b48d1a979807ebbd6b8692daa
+Y
+)DSA SERIES QUESTIONS/src/DP/Knapsack.java,7\c\7c7e956bb89c8738455760cad610f7a3ba095308
+k
+;DSA SERIES QUESTIONS/src/Z_MISCELLANEOUS/ElixierOfLife.java,0\d\0d067a3478fc1bb59065f4063c0ddc1fe7bbccc3
+O
+CodeForces/src/DIV2_750/QA.java,7\a\7a99a6ba2cf7c1337eca5e1e679a3153bdbd1bb7
+O
+CodeForces/src/DIV2_751/Q2.java,5\e\5e9242ed2476d2f9a615fd7291e37bc2f56474a5
+m
+=DSA SERIES QUESTIONS/src/BINARY_TREES/CheckTreeTraversal.java,f\8\f8a90b926d5a0c0f0742fe3d0cd0294415fdcc89
+O
+CodeForces/src/DIV2_746/QB.java,3\8\3886da7c083f6748539ea7c29b62109734df6900
+O
+CodeForces/src/DIV2_747/QB.java,5\e\5e098ae0b7057c6281dedb9eeb4a62397d11a3e6
+O
+CodeForces/src/DIV2_747/QC.java,7\1\71d2f12226d7536292100ceb3f2c94a1bfcf9ff5
+\
+,DSA SERIES QUESTIONS/src/GRAPHS/GraphOp.java,b\a\ba22d1c5d372faca05ed180a30ac3f15ee36ee1a
+X
+(CodeForces/src/DIV2_751/Q2Solution1.java,c\5\c5f7e0e8c47ce629112ffe1ad7e9a0ce55fd43be
+O
+CodeForces/src/DIV2_750/QB.java,3\4\34dad6ade638b396f451a19c3f1b577c0e9f468b
+Q
+!TryProgToCheck/src/Solution1.java,9\d\9dfc72ee33b07619ef8ed3ea742f8e2cf0010e23
+a
+1DSA SERIES QUESTIONS/src/GRAPHS/ShortestPath.java,b\d\bd47fbd7790dc1e72c96989fa844ddcb1230bb55
+T
+$DSA SERIES QUESTIONS/src/AdsaCracker,a\a\aa09be6ab2bd632a37e0e2719f7952478aba3cae
+Z
+*DSA SERIES QUESTIONS/src/GRAPHS/Graph.java,b\9\b925827f0e0b90d6a9cb057623d5e3fc80a69fb8
+l
+<DSA SERIES QUESTIONS/src/HASHING/ChainingUsingArrayList.java,d\4\d4675ec17a33fe22cb639b179fa6d92830f6f36d
+Y
+)CodeForces/src/CodeForces/CodeForces.java,f\c\fc4ecb9a074c8b138ff6e7d79d91d36e7651814b
+_
+/DSA SERIES QUESTIONS/src/ARRAYS/ArrayInput.java,1\d\1d4a1932366e9bcd218a1aff42574942c237b9e2
+e
+5DSA SERIES QUESTIONS/src/ARRAYS/EquibliriumPoint.java,f\f\ff5e755cee2039021039ef0e5770309d9b923e24
+h
+8DSA SERIES QUESTIONS/src/ARRAYS/FrequenciesInSorted.java,d\8\d8125f5f67bc6fb205220117912ca7acbba00dc2
+^
+.DSA SERIES QUESTIONS/src/ARRAYS/Histogram.java,3\5\35dbb4ec6cd7440c4717bb07cf564976a91aa670
+f
+6DSA SERIES QUESTIONS/src/ARRAYS/MaximumDifference.java,3\c\3c9202400d5b8678e8b6544381a3bc0210c04e1f

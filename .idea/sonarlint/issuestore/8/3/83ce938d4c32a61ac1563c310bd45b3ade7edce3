@@ -1,0 +1,15 @@
+
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÎÐœ‹ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œ‘Ûœ
+U
+java:S1118":Add a private constructor to hide the implicit public one.(ÎÐœ‹ÿÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(‹œ“ü
+N
+java:S1197"8Move the array designator from the variable to the type.(‹œ“ü
+N
+java:S1197"8Move the array designator from the variable to the type.(‹œ“ü
+=
+java:S1659""Declare "rear" on a separate line.(”•˜äþÿÿÿÿ
+>
+java:S1659"#Declare "currp" on a separate line.(”•˜äþÿÿÿÿ

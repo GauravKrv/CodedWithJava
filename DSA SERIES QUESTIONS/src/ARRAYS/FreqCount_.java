@@ -1,10 +1,12 @@
 package ARRAYS;
 
+import java.util.Arrays;
+
 public class FreqCount_ {
     //o(N) - WORKS
     /*
     Given an array A[] of N positive integers which can contain integers from 1 to P where elements can be repeated or can be absent from the array.
-    Your task is to count the frequency of all elements from 1 to N.
+    Your task is to count the frequency of all elements from 1 to N. AND p<=N
 Example 1:
 
 Input:
@@ -14,6 +16,15 @@ P = 5
 Output:
 0 2 2 0 1
     * */
+
+    public static void main(String[] args) {
+
+        int[] arr = {11,2,4,5,9,5,2,3,9,3,3};
+        int p = 11;
+        frequencyCount(arr,arr.length,p);
+        System.out.println(Arrays.toString(arr));
+
+    }
     public static void frequencyCount(int arr[], int n, int p)
     {
 

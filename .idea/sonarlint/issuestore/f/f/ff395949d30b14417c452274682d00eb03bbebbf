@@ -1,0 +1,17 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñãèüÿÿÿÿ
+¢
+java:S26819"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(êŠ­…ÿÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ
+D
+java:S6212"/Declare this local variable with "var" instead.(Öÿ¼\
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ôö¶šúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(€’¬‹ûÿÿÿÿ8œÑ¸¥Æ/
+J
+java:S6212&"/Declare this local variable with "var" instead.(©ŒºÉûÿÿÿÿ
+=
+java:S11258"'Remove the unnecessary boolean literal.(ÿüÉ£
+B
+java:S11259"'Remove the unnecessary boolean literal.(êŠ­…ÿÿÿÿÿ

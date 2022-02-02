@@ -17,7 +17,7 @@ public class Dupliactes {
 
             if (arr[i] / n > 1) {
                 //dup.add(arr[i]);
-                System.out.print(arr[i]+" ");
+                System.out.print(arr[i]/n+" ");
 
             }
         }

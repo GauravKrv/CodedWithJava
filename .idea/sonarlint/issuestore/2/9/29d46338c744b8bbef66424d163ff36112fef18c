@@ -1,0 +1,19 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+¢
+java:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÚÊžŒøÿÿÿÿ
+q
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ð˜§¹ýÿÿÿÿ
+q
+java:S1149)"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(çÍ¢Œÿÿÿÿÿ
+E
+java:S6212
+"/Declare this local variable with "var" instead.(»µ¿¶
+E
+java:S6212"/Declare this local variable with "var" instead.(»µ¿¶
+E
+java:S6212&"/Declare this local variable with "var" instead.(»èèü
+E
+java:S6212'"/Declare this local variable with "var" instead.(—×ó³
+N	java:S106+"9Replace this use of System.out or System.err by a logger.(¥Ð¬þ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(ê¸’¸

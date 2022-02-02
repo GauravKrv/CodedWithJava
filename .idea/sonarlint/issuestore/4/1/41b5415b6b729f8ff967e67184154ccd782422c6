@@ -1,0 +1,46 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘ĞÅ
+<
+java:S1659"!Declare "col" on a separate line.(Êš¾‘úÿÿÿÿ
+J
+java:S6212	"/Declare this local variable with "var" instead.(©Ì‹’ıÿÿÿÿ
+N
+java:S1197 "8Move the array designator from the variable to the type.(Œéıö
+J
+java:S6212$"/Declare this local variable with "var" instead.(ãôİÄüÿÿÿÿ
+E
+java:S6212="/Declare this local variable with "var" instead.(»³½‹
+E
+java:S6212>"/Declare this local variable with "var" instead.(¯Äâ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(©Šùÿÿÿÿ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+J
+java:S6212K"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+S	java:S106L"9Replace this use of System.out or System.err by a logger.(‚ãÔæıÿÿÿÿ
+J
+java:S6212M"/Declare this local variable with "var" instead.(ìÊüÿÿÿÿ
+J
+java:S6212N"/Declare this local variable with "var" instead.(­‚Àœøÿÿÿÿ
+S
+java:S1197N"8Move the array designator from the variable to the type.(­‚Àœøÿÿÿÿ
+E
+java:S6212O"/Declare this local variable with "var" instead.(ÿúá·
+J
+java:S6212P"/Declare this local variable with "var" instead.(½ÊÌÂùÿÿÿÿ
+N	java:S106S"9Replace this use of System.out or System.err by a logger.(Ô‰Ğ
+S
+java:S1197U"8Move the array designator from the variable to the type.(»ÓÆ¼øÿÿÿÿ
+E
+java:S6212W"/Declare this local variable with "var" instead.(ÿúá·
+J
+java:S6212Y"/Declare this local variable with "var" instead.(½ÊÌÂùÿÿÿÿ
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(ûôøøÿÿÿÿ
+S	java:S106["9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S
+java:S1197^"8Move the array designator from the variable to the type.(¹—¾Èøÿÿÿÿ
+:
+java:S1659`"Declare "j" on a separate line.(¦¢Éëùÿÿÿÿ
+S
+java:S1197o"8Move the array designator from the variable to the type.(Íè½ııÿÿÿÿ
+E
+java:S6212r"/Declare this local variable with "var" instead.(ÿúá·

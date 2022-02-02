@@ -13,6 +13,7 @@ public class SmallestMissingNumber {
                 if(arr[i]>=0){
                     hash[arr[i]] = true;
                 }
+
             }
             //alternate -- if we just find the mAX ELEMENT THEN CAN WE JSUT MOD AND STORE?? -- NO
             for(int i =1;i<=max; i++){

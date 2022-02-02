@@ -1,0 +1,171 @@
+
+
+java:S1319{"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñ¾¦8èû‹ÁÆ/
+“
+java:S1319›"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(Äè‡®úÿÿÿÿ8éû‹ÁÆ/
+‘
+java:S1319›"nThe type of the "arr" object should be an interface such as "List" rather than the implementation "ArrayList".(Äè‡®úÿÿÿÿ8êû‹ÁÆ/
+‘
+java:S1319›"nThe type of the "arr" object should be an interface such as "List" rather than the implementation "ArrayList".(•¹İ…üÿÿÿÿ8ëû‹ÁÆ/
+‡
+java:S1319¢"jThe type of the "hm" object should be an interface such as "Map" rather than the implementation "HashMap".(ÉÇİ8ëû‹ÁÆ/
+ˆ
+java:S1319§"jThe type of the "hm" object should be an interface such as "Map" rather than the implementation "HashMap".(£¿Ìè8ìû‹ÁÆ/
+i	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(²İ”å8òû‹ÁÆ/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(´¾ğ«øÿÿÿÿ8óû‹ÁÆ/
+i	java:S101ú"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(¾Š¤~8Ó’ÊÃÆ/
+j	java:S101‘"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(İìÒ…8Ô’ÊÃÆ/
+m	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌŠàõ8öû‹ÁÆ/
+m	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌŠàõ8öû‹ÁÆ/
+m	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘·À8öû‹ÁÆ/
+m	java:S117g"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘·À8öû‹ÁÆ/
+s	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ğ©‘ûÿÿÿÿ8öû‹ÁÆ/
+s	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ğ©‘ûÿÿÿÿ8÷û‹ÁÆ/
+n	java:S117½"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈæÖ†8÷û‹ÁÆ/
+s	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à÷ôùşÿÿÿÿ8÷û‹ÁÆ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”“²
+Q
+java:S1121Ä".Extract the assignment out of this expression.(äÈ–Ïÿÿÿÿÿ8ü‹ÁÆ/
+k
+java:S3008"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨±ÉÀ8„ü‹ÁÆ/
+p
+java:S3008"NRename this field "MIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õê‘ıÿÿÿÿ8„ü‹ÁÆ/
+l
+java:S3008"ORename this field "MAXL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö˜ÍÁ8„ü‹ÁÆ/
+q
+java:S3008"ORename this field "MINL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÂë©ûÿÿÿÿ8„ü‹ÁÆ/
+\
+java:S1118":Add a private constructor to hide the implicit public one.(é„€úÿÿÿÿ8øÅ¬ÁÆ/
+X	java:S125"<This block of commented-out lines of code should be removed.(ğôîâ8Šü‹ÁÆ/
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(ÎØç‡ûÿÿÿÿ8”ü‹ÁÆ/
+X	java:S125*"<This block of commented-out lines of code should be removed.(Ú°à¬8¤ü‹ÁÆ/
+L
+java:S6212>"/Declare this local variable with "var" instead.(À”ÈÄ8¥ü‹ÁÆ/
+Z
+java:S1197C"8Move the array designator from the variable to the type.(¼Şï úÿÿÿÿ8¦ü‹ÁÆ/
+B
+java:S1659E"%Declare "max_end" on a separate line.(ÌŠàõ8§ü‹ÁÆ/
+L
+java:S6212F"/Declare this local variable with "var" instead.(»³½‹8§ü‹ÁÆ/
+j	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”±õÇ8¨ü‹ÁÆ/
+U
+java:S1197M"8Move the array designator from the variable to the type.(”±õÇ8¨ü‹ÁÆ/
+U
+java:S1197M"8Move the array designator from the variable to the type.(”±õÇ8©ü‹ÁÆ/
+i	java:S100V"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıŠ„8«ü‹ÁÆ/
+T
+java:S1197V"8Move the array designator from the variable to the type.(ıŠ„8¬ü‹ÁÆ/
+A
+java:S1659Z"Declare "j" on a separate line.(ë¢’Òüÿÿÿÿ8¬ü‹ÁÆ/
+B
+java:S1659Z" Declare "in" on a separate line.(ë¢’Òüÿÿÿÿ8­ü‹ÁÆ/
+Q
+java:S6212Y"/Declare this local variable with "var" instead.(¯ğĞ¾ûÿÿÿÿ8­ü‹ÁÆ/
+]	java:S125X"<This block of commented-out lines of code should be removed.(ºÿßòşÿÿÿÿ8­ü‹ÁÆ/
+j	java:S100g"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘·À8®ü‹ÁÆ/
+U
+java:S1197g"8Move the array designator from the variable to the type.(ò‘·À8®ü‹ÁÆ/
+Q
+java:S6212j"/Declare this local variable with "var" instead.(£°çüıÿÿÿÿ8¯ü‹ÁÆ/
+Q
+java:S6212~"/Declare this local variable with "var" instead.(Ğˆ’Õüÿÿÿÿ8²ü‹ÁÆ/
+Z
+java:S1197~"8Move the array designator from the variable to the type.(Ğˆ’Õüÿÿÿÿ8²ü‹ÁÆ/
+L
+java:S6212"/Declare this local variable with "var" instead.(ÿğê¨8²ü‹ÁÆ/
+R
+java:S6212"/Declare this local variable with "var" instead.(†ÉŞªøÿÿÿÿ8³ü‹ÁÆ/
+J
+java:S1125ƒ"'Remove the unnecessary boolean literal.(˜õ¼Øúÿÿÿÿ8³ü‹ÁÆ/
+R
+java:S6212‰"/Declare this local variable with "var" instead.(úŒè½üÿÿÿÿ8´ü‹ÁÆ/
+J
+java:S1125‹"'Remove the unnecessary boolean literal.(ä¾ë•şÿÿÿÿ8´ü‹ÁÆ/
+Y	java:S125‘"<This block of commented-out lines of code should be removed.(ĞŞì8µü‹ÁÆ/
+[
+java:S1197”"8Move the array designator from the variable to the type.(¾Ç‚ˆûÿÿÿÿ8µü‹ÁÆ/
+Y	java:S125œ"<This block of commented-out lines of code should be removed.(Ú°à¬8·ü‹ÁÆ/
+E
+java:S1659µ""Declare "rank" on a separate line.(§»•Œøÿÿÿÿ8¸ü‹ÁÆ/
+@
+java:S1118¶"Hide this public constructor.(¿Ç ßıÿÿÿÿ8¹ü‹ÁÆ/
+[
+java:S1197µ"8Move the array designator from the variable to the type.(§»•Œøÿÿÿÿ8¹ü‹ÁÆ/
+[
+java:S1197µ"8Move the array designator from the variable to the type.(§»•Œøÿÿÿÿ8ºü‹ÁÆ/
+>
+java:S3010¸" Remove this assignment of "par".(¦ÆÙÎ8ºü‹ÁÆ/
+?
+java:S3010¹"!Remove this assignment of "rank".(—şî8ºü‹ÁÆ/
+>
+java:S3010¼" Remove this assignment of "par".(Şğû8»ü‹ÁÆ/
+D
+java:S3010½"!Remove this assignment of "rank".(—œû¡ÿÿÿÿÿ8»ü‹ÁÆ/
+M
+java:S6212º"/Declare this local variable with "var" instead.(¦Ş·’8»ü‹ÁÆ/
+F
+java:S1659È"#Declare "b_rep" on a separate line.(•ğ©‘ûÿÿÿÿ8½ü‹ÁÆ/
+Y	java:S125Ù"<This block of commented-out lines of code should be removed.(–³±¬8¿ü‹ÁÆ/
+Y	java:S125ˆ"<This block of commented-out lines of code should be removed.(Ú°à¬8õ’ÊÃÆ/
+B
+java:S1659¢"Declare "j" on a separate line.(€Â¬éøÿÿÿÿ8Ãü‹ÁÆ/
+X	java:S125"<This block of commented-out lines of code should be removed.(ÙÉ-8Ãü‹ÁÆ/
+L
+java:S6212¼"/Declare this local variable with "var" instead.(åşŒX8Êü‹ÁÆ/
+M
+java:S6212Ô"/Declare this local variable with "var" instead.(ğğãÆ8Ïü‹ÁÆ/
+M
+java:S6212ã"/Declare this local variable with "var" instead.(ğğãÆ8Òü‹ÁÆ/
+V
+java:S1197ï"8Move the array designator from the variable to the type.(ø¸Â°8Öü‹ÁÆ/
+M
+java:S6212ñ"/Declare this local variable with "var" instead.(é°í8Öü‹ÁÆ/
+[
+java:S1197ö"8Move the array designator from the variable to the type.(øÍš»úÿÿÿÿ8Ùü‹ÁÆ/
+M
+java:S6212ø"/Declare this local variable with "var" instead.(é°í8Úü‹ÁÆ/
+V
+java:S1197ı"8Move the array designator from the variable to the type.(é¼‘8Ûü‹ÁÆ/
+M
+java:S6212ÿ"/Declare this local variable with "var" instead.(é°í8Ûü‹ÁÆ/
+[
+java:S1197„"8Move the array designator from the variable to the type.(”Ò©åşÿÿÿÿ8İü‹ÁÆ/
+M
+java:S6212†"/Declare this local variable with "var" instead.(é°í8İü‹ÁÆ/
+[
+java:S1197‹"8Move the array designator from the variable to the type.(İ”ÈŸøÿÿÿÿ8Şü‹ÁÆ/
+M
+java:S6212"/Declare this local variable with "var" instead.(é°í8Şü‹ÁÆ/
+R
+java:S6212"/Declare this local variable with "var" instead.(˜æ‰¸ÿÿÿÿÿ8ßü‹ÁÆ/
+V
+java:S1197“"8Move the array designator from the variable to the type.(Á‡À8àü‹ÁÆ/
+M
+java:S6212•"/Declare this local variable with "var" instead.(é°í8àü‹ÁÆ/
+R
+java:S6212–"/Declare this local variable with "var" instead.(˜æ‰¸ÿÿÿÿÿ8áü‹ÁÆ/
+M
+java:S6212"/Declare this local variable with "var" instead.(·£ÿÓ8âü‹ÁÆ/
+M
+java:S6212À"/Declare this local variable with "var" instead.(–áÍÈ8çü‹ÁÆ/
+<
+java:S2119À"Save and re-use this "Random".(–áÍÈ8èü‹ÁÆ/
+R
+java:S6212Á"/Declare this local variable with "var" instead.(Î“À™ÿÿÿÿÿ8îü‹ÁÆ/
+M
+java:S6212Í"/Declare this local variable with "var" instead.(–áÍÈ8ğü‹ÁÆ/
+<
+java:S2119Í"Save and re-use this "Random".(–áÍÈ8ğü‹ÁÆ/
+R
+java:S6212Î"/Declare this local variable with "var" instead.(Î“À™ÿÿÿÿÿ8ñü‹ÁÆ/
+p	java:S100×"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑåËøÿÿÿÿ8òü‹ÁÆ/
+k	java:S100Ø"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¢ö­8òü‹ÁÆ/
+p	java:S100Ù"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ĞÍóÿÿÿÿÿ8óü‹ÁÆ/
+k	java:S100Ú"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç³—É8óü‹ÁÆ/
+k	java:S100í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ Ú¥8€ı‹ÁÆ/
+p	java:S100ğ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éó‹Æûÿÿÿÿ8ı‹ÁÆ/
+k	java:S100ó"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á»Îâ8‚ı‹ÁÆ/
+k	java:S100ö"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øäÈ°8ƒı‹ÁÆ/
+R
+java:S6212÷"/Declare this local variable with "var" instead.(ûÍÇÉøÿÿÿÿ8ƒı‹ÁÆ/

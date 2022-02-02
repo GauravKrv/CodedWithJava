@@ -1,0 +1,80 @@
+
+P
+java:S1854":Remove this useless assignment to local variable "arrSc4".(’—öÃ
+U
+java:S1854":Remove this useless assignment to local variable "arrSc2".(’íþëûÿÿÿÿ
+M
+java:S1854"7Remove this useless assignment to local variable "arr".(ÕŠ—Ÿ
+@
+java:S1197"*Move the array designators [] to the type.(»Æ‹»
+>
+java:S1481"(Remove this unused "arr" local variable.(»Æ‹»
+D
+java:S1481	")Remove this unused "arr2" local variable.(ÈàÊ¢øÿÿÿÿ
+?
+java:S1197"*Move the array designators [] to the type.(ËóÍ^
+@
+java:S1197"*Move the array designators [] to the type.(É§üü
+=
+java:S1481"'Remove this unused "ar" local variable.(É§üü
+V	java:S125"<This block of commented-out lines of code should be removed.(¬Œðìøÿÿÿÿ
+F
+java:S1481"+Remove this unused "arrSc2" local variable.(’íþëûÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(’—öÃ
+A
+java:S1481"+Remove this unused "arrSc4" local variable.(’—öÃ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Áóãƒûÿÿÿÿ
+W
+java:S1854$"<Remove this useless assignment to local variable "TwoDArr2".(°’‰ûþÿÿÿÿ
+B
+java:S1197",Move the array designators [][] to the type.(µõ¦°
+H
+java:S1481$"-Remove this unused "TwoDArr2" local variable.(°’‰ûþÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ƒæÒÞøÿÿÿÿ
+G
+java:S11970",Move the array designators [][] to the type.(Á§ôÈøÿÿÿÿ
+h	java:S1169"SRename this field "TwoDArr2" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðùã‘
+E
+java:S1197:"*Move the array designators [] to the type.(ìª†úÿÿÿÿ
+M	java:S106D"9Replace this use of System.out or System.err by a logger.(Á«óx
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(Þèüöýÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(æ£´Èúÿÿÿÿ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(àÕêåþÿÿÿÿ
+d
+java:S3008X"NRename this field "MIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¼Ê
+d
+java:S3008X"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€¼Ê
+7
+java:S1659X"!Declare "MAX" on a separate line.(€¼Ê
+D
+java:S2140[")Use "java.util.Random.nextInt()" instead.(ú¹£ðÿÿÿÿÿ
+M	java:S106a"9Replace this use of System.out or System.err by a logger.(Á«óx
+S	java:S106d"9Replace this use of System.out or System.err by a logger.(Þèüöýÿÿÿÿ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(æ£´Èúÿÿÿÿ
+S	java:S106j"9Replace this use of System.out or System.err by a logger.(àÕêåþÿÿÿÿ
+C
+java:S1905o"(Remove this unnecessary cast to "int[]".(Èü¼Ìÿÿÿÿÿ
+L
+java:S1854q"6Remove this useless assignment to local variable "in".(äÆ¾Ó
+=
+java:S1481q"'Remove this unused "in" local variable.(äÆ¾Ó
+S	java:S106s"9Replace this use of System.out or System.err by a logger.(æ£´Èúÿÿÿÿ
+N	java:S106t"9Replace this use of System.out or System.err by a logger.(­²´
+S	java:S106v"9Replace this use of System.out or System.err by a logger.(àÕêåþÿÿÿÿ
+S	java:S106x"9Replace this use of System.out or System.err by a logger.(øŠ…¡ÿÿÿÿÿ
+S	java:S106{"9Replace this use of System.out or System.err by a logger.(å¸•òÿÿÿÿÿ
+T	java:S106‹"9Replace this use of System.out or System.err by a logger.(ŒÄÓ÷ùÿÿÿÿ
+A
+java:S1068…"%Remove this unused "x" private field.(••ºÿÿÿÿÿ
+u
+java:S2293’"YReplace the type specification in this constructor call with the diamond operator ("<>").(ûãýâûÿÿÿÿ
+e
+java:S1192K"JDefine a constant instead of duplicating this literal "Length = " 3 times.(æ£´Èúÿÿÿÿ
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µõ¦°
+k	java:S117$"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°’‰ûþÿÿÿÿ
+w
+java:S1488["\Immediately return this expression instead of assigning it to the temporary variable "rand".(ú¹£ðÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(›Úæ’
+c
+java:S3973L"HUse indentation to denote the code conditionally executed by this "for".(ƒµöŒþÿÿÿÿ

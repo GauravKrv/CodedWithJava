@@ -85,13 +85,33 @@ public class AnagramCheck {
 //       String s1 = "madama";
 //       String s2 = "adamam";
         String s1 = "madamaaa";
-        String s2 = "adamamam";
+        String s2 = "adamaaam";
 /*
  String s1 = "madamaaa";
        String s2 = "adamamam"; THIS EXAMPLE WILL GIVE WRONG RESULT AS YOU CAN KNOW WHY  -- MY code only checks nfor a and ++a  and if any letter occurs more than two tymes then no chk
        {97=98, 100=100, 109=110}
 {97=98, 100=100, 109=110}
 * */
-        System.out.println(isAnagram2(s1,s2));
+        System.out.println(isAnagram3(s1,s2));
+    }
+
+    private static boolean isAnagram3(String s1,String s2){
+        int[] arr1 = new int[26];
+        int[] arr2 = new int[26];
+        int DIF = 97;
+
+        if (s1.length()!=s2.length()) return false;
+
+        int n = s1.length();
+
+        for (int i=0;i<n;i++){
+            arr1[(int)s1.charAt(i)-DIF]++;
+            arr2[(int)s2.charAt(i)-DIF]++;
+        }
+
+        for (int i=0;i<26;i++){
+            if (arr1[i]!=arr2[i]) return false;
+        }
+        return true;
     }
 }

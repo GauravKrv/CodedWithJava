@@ -1,0 +1,19 @@
+
+k	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ°¥şÿÿÿÿ
+k	java:S117
+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ°¥şÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(”“²
+
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(§‰Ìıÿÿÿÿ8ÈòªÁÆ/
+:
+java:S1659
+"Declare "H" on a separate line.(æ°¥şÿÿÿÿ
+5
+java:S1659" Declare "y1" on a separate line.(Û”ã^
+5
+java:S1659" Declare "x2" on a separate line.(Û”ã^
+5
+java:S1659" Declare "y2" on a separate line.(Û”ã^
+4
+java:S1659"Declare "h" on a separate line.(º÷

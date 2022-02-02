@@ -1,0 +1,38 @@
+
+z	java:S135:"YReduce the total number of break and continue statements in this loop to use at most one.(èØíƒùÿÿÿÿ8Ø¨ÊÁÇ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â¨Â×şÿÿÿÿ
+;
+java:S1659"Declare "k" on a separate line.(ğÌ[8Ş¨ÊÁÇ/
+C
+java:S1659"!Declare "max" on a separate line.(…¶ğûÿÿÿÿ8Ş¨ÊÁÇ/
+K
+java:S6212"/Declare this local variable with "var" instead.(è™8Ş¨ÊÁÇ/
+U	java:S106""9Replace this use of System.out or System.err by a logger.(Å¶áç8á¨ÊÁÇ/
+t
+java:S3776$"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(‡ŒÛ»ıÿÿÿÿ8ã¨ÊÁÇ/
+Q
+java:S6212&"/Declare this local variable with "var" instead.(ØÒËÇüÿÿÿÿ8ã¨ÊÁÇ/
+Q
+java:S6212'"/Declare this local variable with "var" instead.(¸şõöúÿÿÿÿ8ã¨ÊÁÇ/
+Q
+java:S6212("/Declare this local variable with "var" instead.(Ì«”çúÿÿÿÿ8ä¨ÊÁÇ/
+Q
+java:S6212-"/Declare this local variable with "var" instead.(¼µ¡ùøÿÿÿÿ8ä¨ÊÁÇ/
+Q
+java:S6212."/Declare this local variable with "var" instead.(õÙ—÷üÿÿÿÿ8ä¨ÊÁÇ/
+Q
+java:S62120"/Declare this local variable with "var" instead.(Ì«”çúÿÿÿÿ8å¨ÊÁÇ/
+Q
+java:S62127"/Declare this local variable with "var" instead.(·î—×şÿÿÿÿ8å¨ÊÁÇ/
+Q
+java:S62128"/Declare this local variable with "var" instead.(ŒÑÍêúÿÿÿÿ8å¨ÊÁÇ/
+Q
+java:S6212:"/Declare this local variable with "var" instead.(èØíƒùÿÿÿÿ8å¨ÊÁÇ/
+L
+java:S6212J"/Declare this local variable with "var" instead.(»³½‹8ë¨ÊÁÇ/
+D
+java:S1659K""Declare "temp" on a separate line.(½Öğ§ÿÿÿÿÿ8ë¨ÊÁÇ/
+L
+java:S6212b"/Declare this local variable with "var" instead.(îÁ²‰8ï¨ÊÁÇ/
+L
+java:S6212c"/Declare this local variable with "var" instead.(¡á™8ï¨ÊÁÇ/

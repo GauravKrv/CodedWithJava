@@ -1,0 +1,46 @@
+
+}
+java:S41650"`Remove this useless assignment; "ar" already holds the assigned value along all execution paths.(’õ©Ê8®¤¨ıª/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îå»Ÿüÿÿÿÿ8°¤¨ıª/
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Îå»Ÿüÿÿÿÿ8°¤¨ıª/
+m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éˆÄ¾8°¤¨ıª/
+m	java:S117*"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(éˆÄ¾8±¤¨ıª/
+r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒñûŸüÿÿÿÿ8˜Ø²ıª/
+r	java:S1178"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒñûŸüÿÿÿÿ8™Ø²ıª/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÖÀ°í
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Îå»Ÿüÿÿÿÿ8Ø²ıª/
+S
+java:S1197"8Move the array designator from the variable to the type.(Îå»Ÿüÿÿÿÿ
+D
+java:S1659""Declare "left" on a separate line.(ƒê“°úÿÿÿÿ8Ø²ıª/
+F
+java:S1659"$Declare "bottom" on a separate line.(ƒê“°úÿÿÿÿ8Ø²ıª/
+E
+java:S1659"#Declare "right" on a separate line.(ƒê“°úÿÿÿÿ8Ø²ıª/
+{
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ¹ÒŒÿÿÿÿÿ8´¤¨ıª/
+U
+java:S1197*"8Move the array designator from the variable to the type.(éˆÄ¾8·¤¨ıª/
+{
+java:S2293-"YReplace the type specification in this constructor call with the diamond operator ("<>").(Æ¹ÒŒÿÿÿÿÿ8¤Ø²ıª/
+K
+java:S6212/"/Declare this local variable with "var" instead.(åşŒX8ğù²ıª/
+Z
+java:S11978"8Move the array designator from the variable to the type.(ÒñûŸüÿÿÿÿ8¹¤¨ıª/
+P
+java:S1854T"5Remove this useless assignment to local variable "c".(¿öıúøÿÿÿÿ
+P
+java:S1854T"5Remove this useless assignment to local variable "r".(¿öıúøÿÿÿÿ
+:
+java:S1659T"Declare "c" on a separate line.(¿öıúøÿÿÿÿ
+E
+java:S6212U"/Declare this local variable with "var" instead.(úÿõ
+U
+java:S1197U"8Move the array designator from the variable to the type.(úÿõ8©Ø²ıª/
+T	java:S106["9Replace this use of System.out or System.err by a logger.(šÆR8›û›ğÅ/
+A
+java:S1481T"&Remove this unused "r" local variable.(¿öıúøÿÿÿÿ
+A
+java:S1481T"&Remove this unused "c" local variable.(¿öıúøÿÿÿÿ

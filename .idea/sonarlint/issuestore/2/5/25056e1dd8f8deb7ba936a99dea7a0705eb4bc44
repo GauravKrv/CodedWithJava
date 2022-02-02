@@ -1,0 +1,30 @@
+
+ˆ
+java:S1319"mThe type of the "ar" object should be an interface such as "List" rather than the implementation "ArrayList".(Ú£øÿÿÿÿ
+‰
+java:S1319"nThe type of the "memo" object should be an interface such as "Map" rather than the implementation "Hashtable".(‘§Â„øÿÿÿÿ
+J
+java:S3740V"/Provide the parametrized type for this generic.(Ö´»¡ûÿÿÿÿ
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Ú„Â¼ıÿÿÿÿ8°éŒµÌ/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+q
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(‘§Â„øÿÿÿÿ
+q
+java:S1149V"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ö´»¡ûÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(õá×Üùÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(¸‡ï¾
+Q	java:S125-"<This block of commented-out lines of code should be removed.(ÛÖõ
+E
+java:S6212;"/Declare this local variable with "var" instead.(¸‡ï¾
+E
+java:S6212R"/Declare this local variable with "var" instead.(³¦œô
+E
+java:S6212S"/Declare this local variable with "var" instead.(îÊÒõ
+E
+java:S6212T"/Declare this local variable with "var" instead.(ªÇ†¢
+E
+java:S6212U"/Declare this local variable with "var" instead.(ÔıÒå
+N	java:S106X"9Replace this use of System.out or System.err by a logger.(É®Àÿ
+S	java:S106Y"9Replace this use of System.out or System.err by a logger.(Ùªâ˜ıÿÿÿÿ
+V	java:S125Z"<This block of commented-out lines of code should be removed.(­’çüÿÿÿÿ

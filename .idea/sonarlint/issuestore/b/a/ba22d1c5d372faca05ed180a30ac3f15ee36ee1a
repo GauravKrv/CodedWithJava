@@ -1,0 +1,50 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(¤µ÷’
+3
+java:S2386
+"Make this member "protected".(Ø‚‚
+V	java:S125"<This block of commented-out lines of code should be removed.(ı­ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(œ³ãœøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(µ±‘ÿÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+h	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ùÔ·¬úÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(¬ñÌÃüÿÿÿÿ
+@
+java:S1197&"*Move the array designators [] to the type.(ÈÃßó
+@
+java:S1197'"*Move the array designators [] to the type.(¿èå–
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(üªöÚùÿÿÿÿ
+S	java:S106>"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(šÒîÿÿÿÿÿ
+@
+java:S1197F"*Move the array designators [] to the type.(ÈÃßó
+@
+java:S1197G"*Move the array designators [] to the type.(¿èå–
+N	java:S106R"9Replace this use of System.out or System.err by a logger.(ŞïÚá
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106X"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(ıû¡Ì
+@
+java:S1197i"*Move the array designators [] to the type.(ÈÃßó
+@
+java:S1197j"*Move the array designators [] to the type.(¿èå–
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ì”Ôœúÿÿÿÿ
+u
+java:S2293”"YReplace the type specification in this constructor call with the diamond operator ("<>").(î…¼Œøÿÿÿÿ
+y
+java:S1319
+"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(Ø‚‚
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+k	java:S117%"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+k	java:S117D"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+k	java:S117h"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+e
+java:S1104
+"OMake adj a static final constant or non-public and provide accessors if needed.(Ø‚‚
+?
+java:S1444
+")Make this "public static adj" field final(Ø‚‚
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶şÿÿÿÿ
+b
+java:S3973~"GUse indentation to denote the code conditionally executed by this "if".(«ö¤êşÿÿÿÿ

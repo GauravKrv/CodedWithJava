@@ -1,0 +1,36 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+t
+java:S1845&"^Rename method "LIS" to prevent any misunderstanding/clash with method "lis" defined on line 4.(™Ø”
+N
+java:S1197"8Move the array designator from the variable to the type.(ó¡½
+S
+java:S1197"8Move the array designator from the variable to the type.(£¶¡şÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(Ó´•’üÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(¯Äâ
+S
+java:S1197"8Move the array designator from the variable to the type.(Ò¬Ùüÿÿÿÿ
+c	java:S100&"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ø”
+N
+java:S1197&"8Move the array designator from the variable to the type.(™Ø”
+E
+java:S6212("/Declare this local variable with "var" instead.(ÙÛœ‰
+D
+java:S6212)"/Declare this local variable with "var" instead.(üòı
+J
+java:S6212-"/Declare this local variable with "var" instead.(Ñ¡•øÿÿÿÿ
+D
+java:S6212@"/Declare this local variable with "var" instead.(¸—ôW
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(ÈÀÄˆûÿÿÿÿ
+Q	java:S125B"<This block of commented-out lines of code should be removed.(²Í®—
+S	java:S106H"9Replace this use of System.out or System.err by a logger.(´«úÿûÿÿÿÿ
+E
+java:S6212M"/Declare this local variable with "var" instead.(Œ”Æ™
+J
+java:S6212O"/Declare this local variable with "var" instead.(“»ïüøÿÿÿÿ
+E
+java:S6212P"/Declare this local variable with "var" instead.(ŸğÑµ
+E
+java:S6212Q"/Declare this local variable with "var" instead.(Û†²Ğ

@@ -1,6 +1,10 @@
-1. CREATE A SOLUTIPN - TAKES IP AND GIVES OP ACCORDINGLY
-2.Copy paste template file in the solution file
-3. EXTEND solution TO Codeforces class
-4.create a text file named solution and paste the solution to it --
-5.give its extension as .java
+1. CREATE A solution - TAKES IP AND GIVES OP ACCORDINGLY
+3. EXTEND Solution class TO Codeforces class
+4.create a text file named Solution.java and paste the Solution class to it --
+5.Copy paste template file in the Solution file
+
 6. upload the file
+
+OR
+ simply replace your Solution class from the Solution.java file at the location
+D:\AARoughTrialPrograms

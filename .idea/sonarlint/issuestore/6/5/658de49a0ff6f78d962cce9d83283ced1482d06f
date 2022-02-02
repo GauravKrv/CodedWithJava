@@ -1,0 +1,23 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(â¨Â×þÿÿÿÿ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(à¤’Ÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(¼èºƒ
+E
+java:S6212"/Declare this local variable with "var" instead.(ôèŒ¯
+g
+java:S3776Y"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(é–Ú]
+Q	java:S125"<This block of commented-out lines of code should be removed.(ÈÑ‰Ü
+V	java:S125."<This block of commented-out lines of code should be removed.(ÕÉª½þÿÿÿÿ
+=
+java:S1659\""Declare "slot" on a separate line.(ø¡úÙýÿÿÿÿ
+J
+java:S6212Z"/Declare this local variable with "var" instead.( ÆÛÅÿÿÿÿÿ
+J
+java:S6212]"/Declare this local variable with "var" instead.(ŽÚšïüÿÿÿÿ
+E
+java:S6212m"/Declare this local variable with "var" instead.(»³½‹
+D
+java:S6212n"/Declare this local variable with "var" instead.(âäR
+E
+java:S6212y"/Declare this local variable with "var" instead.(›ïœ

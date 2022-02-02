@@ -1,6 +1,8 @@
 package ARRAYS;
 
-public class BinarySearch {
+import java.util.Scanner;
+//works
+public class BinarySearch{
     static int binarySearch(int arr[], int l, int h,int item){
         if(h >= l){
             int mid = (h+l)/2;
@@ -17,5 +19,8 @@ public class BinarySearch {
 
     public static void main(String[] args) {
 
+        Scanner s = new Scanner(System.in);
+        int[] arr = {1,2,3,4,5};
+        System.out.println(binarySearch(arr,0,4,6));
     }
 }

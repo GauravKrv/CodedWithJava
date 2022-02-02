@@ -1,20 +1,14 @@
 
+E
+java:S1197"*Move the array designators [] to the type.(Ì®ü…ùÿÿÿÿ
+<
+java:S1659"&Declare "left_sum" on a separate line.(¨Œ‡Â
+E
+java:S1197"*Move the array designators [] to the type.(àý€«þÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(®Ãüöþÿÿÿÿ
 f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Œ‡Â
 f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨Œ‡Â
 k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(àý€«þÿÿÿÿ
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ËÒ‚
 
 java:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(¨Œ‡Â
-S
-java:S1197"8Move the array designator from the variable to the type.(Ì®ü…ùÿÿÿÿ
-<
-java:S1659"&Declare "left_sum" on a separate line.(¨Œ‡Â
-E
-java:S6212"/Declare this local variable with "var" instead.(ññí™
-J
-java:S6212"/Declare this local variable with "var" instead.(àý€«þÿÿÿÿ
-S
-java:S1197"8Move the array designator from the variable to the type.(àý€«þÿÿÿÿ
-E
-java:S6212 "/Declare this local variable with "var" instead.(—ÌÝ¨
-S	java:S106!"9Replace this use of System.out or System.err by a logger.(®Ãüöþÿÿÿÿ

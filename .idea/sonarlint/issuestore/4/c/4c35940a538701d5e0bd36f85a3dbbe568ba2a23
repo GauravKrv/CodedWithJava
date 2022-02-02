@@ -1,0 +1,26 @@
+
+b
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(È³æüÿÿÿÿ
+E
+java:S3740"/Provide the parametrized type for this generic.(Ëîíî
+E
+java:S1066"/Merge this if statement with the enclosing one.(È«å
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+l
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Ëîíî
+q
+java:S1149+"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(à™üÿÿÿÿ
+J
+java:S6212	"/Declare this local variable with "var" instead.(Ìò®ìşÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(Á­È
+J
+java:S6212"/Declare this local variable with "var" instead.(Ìò®ìşÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(Á­È
+E
+java:S6212)"/Declare this local variable with "var" instead.(»èèü
+J
+java:S6212*"/Declare this local variable with "var" instead.(›·ìûÿÿÿÿ
+S	java:S106-"9Replace this use of System.out or System.err by a logger.(–ú’ãùÿÿÿÿ
+S	java:S106."9Replace this use of System.out or System.err by a logger.(š¹Ù‚ùÿÿÿÿ

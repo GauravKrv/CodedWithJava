@@ -1,0 +1,14 @@
+
+]
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(èˆ•ž
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+J
+java:S6212"/Declare this local variable with "var" instead.(˜Ñ”šýÿÿÿÿ
+J
+java:S6212
+"/Declare this local variable with "var" instead.(ÉÉ‚€úÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(èÒ±°ùÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(±É¦Ïûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ö®õ²

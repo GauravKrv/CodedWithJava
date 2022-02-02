@@ -1,0 +1,70 @@
+
+N	java:S106"9Replace this use of System.out or System.err by a logger.(«ò ÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ğÄñ‰
+M	java:S106"9Replace this use of System.out or System.err by a logger.(Ç»¹$
+N	java:S106"9Replace this use of System.out or System.err by a logger.(—ƒæ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(®ØÊ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¡º©øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Á•Ê¹ûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÖÉ¿ñüÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(îø’ûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(™©öÑ
+M
+java:S3252"7Use static access with "java.util.Calendar" for "DATE".(™©öÑ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼ãÒ•
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(Ï­µøÿÿÿÿ
+S	java:S106!"9Replace this use of System.out or System.err by a logger.(ì© ºıÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(—†Ï
+S	java:S106#"9Replace this use of System.out or System.err by a logger.(ø¨©¹üÿÿÿÿ
+M	java:S106$"9Replace this use of System.out or System.err by a logger.(çâïC
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(ÖÉ¿ñüÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(îø’ûÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(‹œµ¨şÿÿÿÿ
+N	java:S1061"9Replace this use of System.out or System.err by a logger.(È¦Õµ
+F
+java:S18741"0Remove this use of "getHours"; it is deprecated.(È¦Õµ
+M	java:S1062"9Replace this use of System.out or System.err by a logger.(Ş¥–R
+G
+java:S18742"2Remove this use of "getMinutes"; it is deprecated.(Ş¥–R
+N	java:S1063"9Replace this use of System.out or System.err by a logger.(øî¬
+H
+java:S18743"2Remove this use of "getSeconds"; it is deprecated.(øî¬
+N	java:S1064"9Replace this use of System.out or System.err by a logger.(¨Š—‡
+D
+java:S18744".Remove this use of "getDay"; it is deprecated.(¨Š—‡
+N	java:S1065"9Replace this use of System.out or System.err by a logger.(¡•ù 
+F
+java:S18745"0Remove this use of "getMonth"; it is deprecated.(¡•ù 
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(¶º­‚øÿÿÿÿ
+J
+java:S18746"/Remove this use of "getYear"; it is deprecated.(¶º­‚øÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ğğÈŞıÿÿÿÿ
+T
+java:S18747"9Remove this use of "getTimezoneOffset"; it is deprecated.(ğğÈŞıÿÿÿÿ
+O
+java:S1118?":Add a private constructor to hide the implicit public one.(ŒÅüg
+<
+java:S1110T"!Remove these useless parentheses.(Ò÷àåûÿÿÿÿ
+E
+java:S1197U"*Move the array designators [] to the type.(¥¡§›ûÿÿÿÿ
+H
+java:S1128"-Remove this unused import 'java.util.Vector'.(ÿŒ¸Áÿÿÿÿÿ
+^
+java:S1192"HDefine a constant instead of duplicating this literal "Hour : " 3 times.(ğÄñ‰
+]
+java:S1192"GDefine a constant instead of duplicating this literal "Day : " 3 times.(®ØÊ
+b
+java:S1192"GDefine a constant instead of duplicating this literal "Year: " 3 times.(Á•Ê¹ûÿÿÿÿ
+g
+java:S1192"QDefine a constant instead of duplicating this literal "Todays date is :" 3 times.(«ò ÿ
+c
+java:S1192"HDefine a constant instead of duplicating this literal "MORE : " 4 times.(ÖÉ¿ñüÿÿÿÿ
+a
+java:S1192"KDefine a constant instead of duplicating this literal "Seconds : " 3 times.(—ƒæ
+_
+java:S1192"JDefine a constant instead of duplicating this literal "Minutes: " 3 times.(Ç»¹$
+d
+java:S1192"IDefine a constant instead of duplicating this literal "Month : " 3 times.(¡º©øÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(µ„ÍÂşÿÿÿÿ
+g
+java:S2095^"LUse try-with-resources or close this "BufferedWriter" in a "finally" clause.(ğ¢Å–şÿÿÿÿ

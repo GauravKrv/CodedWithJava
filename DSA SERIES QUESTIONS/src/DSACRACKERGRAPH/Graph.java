@@ -17,8 +17,7 @@ public class Graph {
         }
     }
 //Non-static field 'adj' cannot be referenced from a static context - so make funcitons non static
-    public void addEdge(int u, int v)
-    {
+    public void addEdge(int u, int v) {
 
             adj.get(u).add(v);
 
@@ -26,7 +25,7 @@ public class Graph {
 
     public void printGraph(){
 
-    }
+    } //TODO
 //checks if curr graph has a cycle or not -- WORKS
     public boolean isCyclic(){
         //
@@ -64,7 +63,9 @@ public class Graph {
         }
         ArrayDeque<Integer> st = new ArrayDeque<>();
         for (int i =0;i<indegreee.length;i++) {
+
             if (indegreee[i]==0)st.push(i);
+
         }
 
         while (!st.isEmpty()){
@@ -79,6 +80,46 @@ public class Graph {
 
     }
 
+    //WORKS PERFECTLY WITH THE --KAHN ALGO
+    public void printLongestPathsDAG(){
+        int[] indegreee = new int[V];
+        int[] LPT = new int[V];
+        for (int i = 0; i < V; i++) {
+            for (int j = 0; j < adj.get(i).size(); j++) {
+                indegreee[adj.get(i).get(j)] = indegreee[adj.get(i).get(j)]+1;
+            }
+        }
+        ArrayDeque<Integer> st = new ArrayDeque<>();
+        for (int i =0;i<indegreee.length;i++) {
+
+            if (indegreee[i]==0)st.push(i);
+
+        }
+
+        while (!st.isEmpty()){
+            int temp = st.poll();
+            //System.out.print(temp+" -> ");
+            for (int i=0;i<adj.get(temp).size();i++){
+                int in = indegreee[adj.get(temp).get(i)]-1;
+                indegreee[adj.get(temp).get(i)] = in;
+
+                LPT[adj.get(temp).get(i)] = Math.max(LPT[adj.get(temp).get(i)],LPT[temp]+1); //TO KEEP TRACK OF THE LONGEST ATH TO AVOID A VERY DIRECT EDGE TO FIRST AND LAST OF A PATH
+
+                if (in==0) st.push(adj.get(temp).get(i));
+            }
+        }
+
+        System.out.println();
+        System.out.println(Arrays.toString(LPT));
+
+    }
+
+
+    public void dijikstra(){
+
+
+    }
+
 
 
 
@@ -87,22 +128,25 @@ public class Graph {
 
 class main{
     public static void main(String[] args) {
-        int v = 5;
+        int v = 6;
         Graph g = new Graph(v);
 
         g.addEdge(0,1);
 
-        g.addEdge(1,3);
-        g.addEdge(2,4);
+        g.addEdge(0,2);
+        g.addEdge(1,4);
         g.addEdge(2,3);
 
 
-        g.addEdge(3,4);
+        g.addEdge(4,5);
+        g.addEdge(3,5);
+
 //        g.addEdge(2,1,d);
 //        g.addEdge(2,3,d);
 
         System.out.println(g.isCyclic());
         g.printTopologicalSort();
+        g.printLongestPathsDAG();
     }
 }
 

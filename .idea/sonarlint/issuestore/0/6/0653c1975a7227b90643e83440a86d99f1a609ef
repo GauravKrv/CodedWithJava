@@ -1,0 +1,15 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+
+java:S1488"fImmediately return this expression instead of assigning it to the temporary variable "minConversions".(éï§Çüÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(úîáùÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(™×Çùÿÿÿÿ
+E
+java:S6212	"/Declare this local variable with "var" instead.(âóáœ
+Q
+java:S6212="/Declare this local variable with "var" instead.(şü¾úÿÿÿÿ8‡¹Ş•Ë/
+L
+java:S6212>"/Declare this local variable with "var" instead.(‰ãÌ¸8‡¹Ş•Ë/
+Z	java:S106@"9Replace this use of System.out or System.err by a logger.(©ôóªúÿÿÿÿ8ôŒİ•Ë/

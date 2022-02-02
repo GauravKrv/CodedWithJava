@@ -1,0 +1,51 @@
+
+[
+java:S2259"@A "NullPointerException" could be thrown; "t1" is nullable here.(×°Ùıÿÿÿÿ
+[
+java:S2259"@A "NullPointerException" could be thrown; "t2" is nullable here.(×°Ùıÿÿÿÿ
+;
+java:S1659" Declare "t2" on a separate line.(úíĞÌüÿÿÿÿ
+;
+java:S1659" Declare "t3" on a separate line.(úíĞÌüÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(î¹Ê
+Q	java:S125"<This block of commented-out lines of code should be removed.(î¹Ê
+Q	java:S125"<This block of commented-out lines of code should be removed.(î¹Ê
+J
+java:S6212"/Declare this local variable with "var" instead.(×°Ùıÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(©ŒºÉûÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(™Ø£Û
+Q	java:S125%"<This block of commented-out lines of code should be removed.(í†Ÿ¯
+J
+java:S6212*"/Declare this local variable with "var" instead.(¨şø¦ùÿÿÿÿ
+J
+java:S62122"/Declare this local variable with "var" instead.(·¦˜úÿÿÿÿ
+J
+java:S6212;"/Declare this local variable with "var" instead.(£´¢´úÿÿÿÿ
+S	java:S106@"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106V"9Replace this use of System.out or System.err by a logger.(­©Éòúÿÿÿÿ
+E
+java:S6212\"/Declare this local variable with "var" instead.(’¾¶ö
+N
+java:S1197\"8Move the array designator from the variable to the type.(’¾¶ö
+D
+java:S6212]"/Declare this local variable with "var" instead.(‰Éıf
+M
+java:S1197]"8Move the array designator from the variable to the type.(‰Éıf
+E
+java:S6212`"/Declare this local variable with "var" instead.(Š“Üğ
+V	java:S125^"<This block of commented-out lines of code should be removed.(éí¼Óùÿÿÿÿ
+J
+java:S6212b"/Declare this local variable with "var" instead.(ë³–şûÿÿÿÿ
+E
+java:S6212c"/Declare this local variable with "var" instead.(ò¹·¬
+E
+java:S6212i"/Declare this local variable with "var" instead.(ù­å
+D
+java:S6212k"/Declare this local variable with "var" instead.(²ªóV
+J
+java:S6212l"/Declare this local variable with "var" instead.(õè×œøÿÿÿÿ
+V	java:S125r"<This block of commented-out lines of code should be removed.(ÕØ–ûÿÿÿÿ
+C
+java:S1481"(Remove this unused "sum" local variable.(©ŒºÉûÿÿÿÿ

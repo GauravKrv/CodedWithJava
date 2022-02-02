@@ -14,7 +14,6 @@ public class RemoveDuplicates {
                 res++;
             }
         }
-
         return res;
     }
 

@@ -1,0 +1,90 @@
+
+J
+java:S6212"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(âõüúÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(Öãá°şÿÿÿÿ
+E
+java:S6212	"/Declare this local variable with "var" instead.(ÃÏ
+J
+java:S6212
+"/Declare this local variable with "var" instead.(İíÿúÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(¢‡ò
+J
+java:S6212"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+J
+java:S6212$"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212&"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(µÉ½
+J
+java:S6212/"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S62121"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(§½¾çüÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S
+java:S1854["8Remove this useless assignment to local variable "arr2".(ËÎÛ¨ıÿÿÿÿ
+h
+java:S3776;"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(Çµí‘
+J
+java:S6212<"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(âõüúÿÿÿÿ
+J
+java:S6212>"/Declare this local variable with "var" instead.(Öãá°şÿÿÿÿ
+E
+java:S6212?"/Declare this local variable with "var" instead.(ÃÏ
+J
+java:S6212@"/Declare this local variable with "var" instead.(İíÿúÿÿÿÿ
+E
+java:S6212A"/Declare this local variable with "var" instead.(¢‡ò
+J
+java:S6212D"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212E"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S106I"9Replace this use of System.out or System.err by a logger.(‡ïĞøùÿÿÿÿ
+J
+java:S6212J"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212L"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(ô¹ûöúÿÿÿÿ
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+J
+java:S6212Q"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212R"/Declare this local variable with "var" instead.(ø’ÁØ
+J
+java:S6212V"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+n
+java:S3012X"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(´¡¬+
+E
+java:S6212W"/Declare this local variable with "var" instead.(ø’ÁØ
+V	java:S125\"<This block of commented-out lines of code should be removed.(¢ø–òşÿÿÿÿ
+J
+java:S6212`"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212a"/Declare this local variable with "var" instead.(ÛÄ¡Ï
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(µÉ½
+J
+java:S6212o"/Declare this local variable with "var" instead.(ªÄ‰Áûÿÿÿÿ
+E
+java:S6212q"/Declare this local variable with "var" instead.(ø’ÁØ
+S	java:S106r"9Replace this use of System.out or System.err by a logger.(ô¹ûöúÿÿÿÿ
+S	java:S106t"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+A
+java:S1481%"&Remove this unused "k" local variable.(½è¶¤øÿÿÿÿ

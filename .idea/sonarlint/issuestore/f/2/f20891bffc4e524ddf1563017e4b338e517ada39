@@ -1,0 +1,18 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(òñ˜ìÿÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(Ü°­ý
+@
+java:S11974"*Move the array designators [] to the type.(“ª€€
+@
+java:S1197D"*Move the array designators [] to the type.(ã™á„
+@
+java:S1197G"*Move the array designators [] to the type.(¬÷ÿ®
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(úÒ§Úýÿÿÿÿ
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(ã€”µ
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(Ñðçª
+M	java:S106o"9Replace this use of System.out or System.err by a logger.(‰ÔÔ
+P	java:S125r"<This block of commented-out lines of code should be removed.(ƒÏÒT
+k	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢üÕÚþÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú

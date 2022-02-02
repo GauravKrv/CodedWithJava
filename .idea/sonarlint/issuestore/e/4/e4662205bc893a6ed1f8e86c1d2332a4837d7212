@@ -1,0 +1,33 @@
+
+R
+java:S3740€"/Provide the parametrized type for this generic.(Õ–äêüÿÿÿÿ8ğÉ´Ë/
+n
+java:S1845s"LRename method "lcs" to prevent any misunderstanding/clash with method "LCS".(¼˜™°şÿÿÿÿ8÷É´Ë/
+y
+java:S1149€"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(Õ–äêüÿÿÿÿ8÷É´Ë/
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÄ˜¸şÿÿÿÿ
+G
+java:S1197",Move the array designators [][] to the type.(µ£¢øÿÿÿÿ
+X	java:S125%"<This block of commented-out lines of code should be removed.(Ó†Š»8è®±Ë/
+Q	java:S125'"<This block of commented-out lines of code should be removed.(á—‚ç
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(äêŸĞùÿÿÿÿ
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(šıüáüÿÿÿÿ
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Z	java:S106h"9Replace this use of System.out or System.err by a logger.(ÓÁ ³üÿÿÿÿ8ƒÊ´Ë/
+Z	java:S106i"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8±µË/
+Z	java:S106l"9Replace this use of System.out or System.err by a logger.(÷Áÿÿÿÿÿ8±µË/
+Z	java:S106n"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8¶µË/
+J
+java:S1481w"(Remove this unused "max" local variable.(“»ïüøÿÿÿÿ8¶µË/
+R
+java:S1854¨"6Remove this useless assignment to local variable "a2".(õ¨ëÿÿÿÿÿ
+J
+java:S1481¨"'Remove this unused "a2" local variable.(õ¨ëÿÿÿÿÿ8·µË/
+V	java:S106©"9Replace this use of System.out or System.err by a logger.( ¶Ó©8²½ÈË/
+i
+java:S1764©"KCorrect one of the identical sub-expressions on both sides of operator "=="( ¶Ó©8¶µË/
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ£¢øÿÿÿÿ
+m	java:S117f"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÁÔŠ8óÉ´Ë/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+l
+java:S3973"IUse indentation to denote the code conditionally executed by this "else".(„¶áìøÿÿÿÿ8ïÉ´Ë/

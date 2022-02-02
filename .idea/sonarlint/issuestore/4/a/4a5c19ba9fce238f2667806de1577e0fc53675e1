@@ -1,0 +1,118 @@
+
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°·øÚÿÿÿÿÿ8ƒ‡Ô«Ï/
+L
+java:S1197:"*Move the array designators [] to the type.(İò»¤ıÿÿÿÿ8–ÇÓ«Ï/
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(ı°úåıÿÿÿÿ8’ÇÓ«Ï/
+k
+java:S3008N"NRename this field "MAX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨±ÉÀ8ÇÓ«Ï/
+p
+java:S3008O"NRename this field "MIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(õê‘ıÿÿÿÿ8ÇÓ«Ï/
+l
+java:S3008P"ORename this field "MAXL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö˜ÍÁ8ÇÓ«Ï/
+q
+java:S3008Q"ORename this field "MINL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÂë©ûÿÿÿÿ8ÇÓ«Ï/
+\
+java:S1118I":Add a private constructor to hide the implicit public one.(ÁÄ²îüÿÿÿÿ8ÇÓ«Ï/
+Z	java:S106K"9Replace this use of System.out or System.err by a logger.(ÎØç‡ûÿÿÿÿ8–‡Ô«Ï/
+X	java:S125k"<This block of commented-out lines of code should be removed.(Ú°à¬8”ÇÓ«Ï/
+M
+java:S1197„"*Move the array designators [] to the type.(¼Şï úÿÿÿÿ8–ÇÓ«Ï/
+C
+java:S1659†"%Declare "max_end" on a separate line.(ÌŠàõ8–ÇÓ«Ï/
+k	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”±õÇ8–ÇÓ«Ï/
+H
+java:S1197"*Move the array designators [] to the type.(”±õÇ8–ÇÓ«Ï/
+H
+java:S1197"*Move the array designators [] to the type.(”±õÇ8—ÇÓ«Ï/
+j	java:S100—"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıŠ„8—ÇÓ«Ï/
+G
+java:S1197—"*Move the array designators [] to the type.(ıŠ„8™ÇÓ«Ï/
+a
+java:S1659›">Declare "j" and all following declarations on a separate line.(ë¢’Òüÿÿÿÿ8˜ÇÓ«Ï/
+^	java:S125™"<This block of commented-out lines of code should be removed.(ºÿßòşÿÿÿÿ8˜ÇÓ«Ï/
+k	java:S100¨"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘·À8˜ÇÓ«Ï/
+H
+java:S1197¨"*Move the array designators [] to the type.(ò‘·À8šÇÓ«Ï/
+M
+java:S1197¿"*Move the array designators [] to the type.(Ğˆ’Õüÿÿÿÿ8œÇÓ«Ï/
+J
+java:S1125Ä"'Remove the unnecessary boolean literal.(˜õ¼Øúÿÿÿÿ8›ÇÓ«Ï/
+J
+java:S1125Ì"'Remove the unnecessary boolean literal.(ä¾ë•şÿÿÿÿ8›ÇÓ«Ï/
+Y	java:S125Ò"<This block of commented-out lines of code should be removed.(ĞŞì8œÇÓ«Ï/
+M
+java:S1197Õ"*Move the array designators [] to the type.(¾Ç‚ˆûÿÿÿÿ8ÇÓ«Ï/
+Y	java:S125İ"<This block of commented-out lines of code should be removed.(Ú°à¬8ÇÓ«Ï/
+E
+java:S1659ö""Declare "rank" on a separate line.(§»•Œøÿÿÿÿ8ÇÓ«Ï/
+@
+java:S1118÷"Hide this public constructor.(¿Ç ßıÿÿÿÿ8ÇÓ«Ï/
+M
+java:S1197ö"*Move the array designators [] to the type.(§»•Œøÿÿÿÿ8ÇÓ«Ï/
+M
+java:S1197ö"*Move the array designators [] to the type.(§»•Œøÿÿÿÿ8«ÇÓ«Ï/
+>
+java:S3010ù" Remove this assignment of "par".(¦ÆÙÎ8ÇÓ«Ï/
+?
+java:S3010ú"!Remove this assignment of "rank".(—şî8ÇÓ«Ï/
+>
+java:S3010ı" Remove this assignment of "par".(Şğû8ÇÓ«Ï/
+D
+java:S3010ş"!Remove this assignment of "rank".(—œû¡ÿÿÿÿÿ8ÇÓ«Ï/
+F
+java:S1659‰"#Declare "b_rep" on a separate line.(•ğ©‘ûÿÿÿÿ8 ÇÓ«Ï/
+Y	java:S125š"<This block of commented-out lines of code should be removed.(–³±¬8¡ÇÓ«Ï/
+Y	java:S125É"<This block of commented-out lines of code should be removed.(Ú°à¬8£ÇÓ«Ï/
+B
+java:S1659ã"Declare "j" on a separate line.(€Â¬éøÿÿÿÿ8£ÇÓ«Ï/
+X	java:S125Ş"<This block of commented-out lines of code should be removed.(ÙÉ-8£ÇÓ«Ï/
+H
+java:S1197°"*Move the array designators [] to the type.(ø¸Â°8¬ÇÓ«Ï/
+M
+java:S1197·"*Move the array designators [] to the type.(øÍš»úÿÿÿÿ8¬ÇÓ«Ï/
+H
+java:S1197¾"*Move the array designators [] to the type.(é¼‘8­ÇÓ«Ï/
+M
+java:S1197Å"*Move the array designators [] to the type.(”Ò©åşÿÿÿÿ8¯ÇÓ«Ï/
+O
+java:S1197Ì",Move the array designators [][] to the type.(İ”ÈŸøÿÿÿÿ8°ÇÓ«Ï/
+J
+java:S1197Ô",Move the array designators [][] to the type.(Á‡À8µ‡Ô«Ï/
+<
+java:S2119"Save and re-use this "Random".(–áÍÈ8µÇÓ«Ï/
+<
+java:S2119"Save and re-use this "Random".(–áÍÈ8·ÇÓ«Ï/
+p	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑåËøÿÿÿÿ8¸ÇÓ«Ï/
+k	java:S100™"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¢ö­8¸ÇÓ«Ï/
+p	java:S100š"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©ĞÍóÿÿÿÿÿ8¸ÇÓ«Ï/
+k	java:S100›"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ç³—É8¹ÇÓ«Ï/
+k	java:S100®"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´ Ú¥8»ÇÓ«Ï/
+p	java:S100±"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Éó‹Æûÿÿÿÿ8¼ÇÓ«Ï/
+k	java:S100´"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á»Îâ8¼ÇÓ«Ï/
+k	java:S100·"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(øäÈ°8½ÇÓ«Ï/
+Q
+java:S1121…".Extract the assignment out of this expression.(äÈ–Ïÿÿÿÿÿ8‰ÇÓ«Ï/
+
+java:S1319¼"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ñ¾¦8ôÆÓ«Ï/
+
+java:S1319Ü"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(ÖŠç¤8ôÆÓ«Ï/
+
+java:S1319Ü"cThe type of "arr" should be an interface such as "List" rather than the implementation "ArrayList".(ÖŠç¤8õÆÓ«Ï/
+†
+java:S1319Ü"cThe type of "arr" should be an interface such as "List" rather than the implementation "ArrayList".(•¹İ…üÿÿÿÿ8ÿÆÓ«Ï/
+|
+java:S1319ã"_The type of "hm" should be an interface such as "Map" rather than the implementation "HashMap".(ÉÇİ8ÿÆÓ«Ï/
+}
+java:S1319è"_The type of "hm" should be an interface such as "Map" rather than the implementation "HashMap".(£¿Ìè8ÿÆÓ«Ï/
+n	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌŠàõ8„ÇÓ«Ï/
+n	java:S117†"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÌŠàõ8„ÇÓ«Ï/
+n	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘·À8„ÇÓ«Ï/
+n	java:S117¨"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ò‘·À8„ÇÓ«Ï/
+s	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ğ©‘ûÿÿÿÿ8„ÇÓ«Ï/
+s	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(•ğ©‘ûÿÿÿÿ8„ÇÓ«Ï/
+n	java:S117ş"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÈæÖ†8…ÇÓ«Ï/
+s	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(à÷ôùşÿÿÿÿ8…ÇÓ«Ï/
+i	java:S101S"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(²İ”å8‚ÇÓ«Ï/
+n	java:S101]"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(´¾ğ«øÿÿÿÿ8‚ÇÓ«Ï/
+j	java:S101»"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(±Ú²á8ƒÇÓ«Ï/
+j	java:S101Ò"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(İìÒ…8ƒÇÓ«Ï/

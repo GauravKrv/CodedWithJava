@@ -17,7 +17,7 @@ as it is greater than all the elements
 to its right.  Similarly, the next
 leader is 5. The right most element
 is always a leader so it is also
-included.
+included
     * */
     static void leaders(int arr[], int n)
     {

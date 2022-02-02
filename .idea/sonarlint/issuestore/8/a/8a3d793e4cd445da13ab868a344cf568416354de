@@ -1,0 +1,100 @@
+
+‡
+java:S1319»"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(±ê‘Å
+g	java:S117»"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ê‘Å
+g	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°¢³¢
+f	java:S117è"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦¿¸y
+g	java:S117é"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(™Ùä
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯«‚öüÿÿÿÿ
+l	java:S117¥"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜–É–üÿÿÿÿ
+l	java:S117Á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÇ—³úÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÎüÏùÿÿÿÿÿ
+0
+java:S1700C"Rename field "reader"(ùãùƒúÿÿÿÿ
+D
+java:S1121³".Extract the assignment out of this expression.(Ğá¤J
+S	java:S106"9Replace this use of System.out or System.err by a logger.(“×·ôşÿÿÿÿ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(‰Ç³î
+J
+java:S6212"/Declare this local variable with "var" instead.(¸şõöúÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ïø´
+J
+java:S6212"/Declare this local variable with "var" instead.(¦Ëûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(í±éâ
+‚
+java:S1130!"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(Ğ·½‰
+J
+java:S6212$"/Declare this local variable with "var" instead.(¸şõöúÿÿÿÿ
+E
+java:S6212%"/Declare this local variable with "var" instead.(ïø´
+V	java:S125&"<This block of commented-out lines of code should be removed.(˜®Şúÿÿÿÿ
+V	java:S125("<This block of commented-out lines of code should be removed.(ûÃˆáıÿÿÿÿ
+E
+java:S62127"/Declare this local variable with "var" instead.(§™“æ
+J
+java:S62129"/Declare this local variable with "var" instead.(£ø‘ñúÿÿÿÿ
+Q	java:S125;"<This block of commented-out lines of code should be removed.(ğ®½¯
+E
+java:S6212t"/Declare this local variable with "var" instead.(İóÅœ
+E
+java:S6212u"/Declare this local variable with "var" instead.(ÎÂ²¸
+J
+java:S6212|"/Declare this local variable with "var" instead.(™Òªìıÿÿÿÿ
+E
+java:S6212}"/Declare this local variable with "var" instead.(ÎÂ²¸
+K
+java:S6212„"/Declare this local variable with "var" instead.(§¿ıÅøÿÿÿÿ
+F
+java:S6212…"/Declare this local variable with "var" instead.(ÎÂ²¸
+F
+java:S6212Œ"/Declare this local variable with "var" instead.(··¨Ù
+F
+java:S6212"/Declare this local variable with "var" instead.(ÎÂ²¸
+K
+java:S6212©"/Declare this local variable with "var" instead.(Ú¹ì½şÿÿÿÿ
+p
+java:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(ˆÉ˜ì
+p
+java:S2293¾"YReplace the type specification in this constructor call with the diamond operator ("<>").(“ù¼
+K
+java:S6212¿"/Declare this local variable with "var" instead.(ü‹“ûÿÿÿÿ
+p
+java:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(¥Êİû
+E
+java:S6212Ó"/Declare this local variable with "var" instead.(Ÿã‚}
+F
+java:S6212Ú"/Declare this local variable with "var" instead.(¢ŒÜ®
+F
+java:S6212ç"/Declare this local variable with "var" instead.(°¢³¢
+F
+java:S6212ê"/Declare this local variable with "var" instead.(¥ÆäÓ
+K
+java:S6212ë"/Declare this local variable with "var" instead.(ÏĞæÔÿÿÿÿÿ
+K
+java:S6212ì"/Declare this local variable with "var" instead.(Ô¿Àóşÿÿÿÿ
+E
+java:S6212í"/Declare this local variable with "var" instead.(–…†l
+>
+java:S1659û""Declare "size" on a separate line.(´…€Éÿÿÿÿÿ
+h	java:S116ø"MRename this field "BS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Õ¿ì¯ûÿÿÿÿ
+h	java:S116ù"MRename this field "NC" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œ˜Úûÿÿÿÿ
+F
+java:S6212"/Declare this local variable with "var" instead.(û±ÊÓ
+K
+java:S6212Ÿ"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+F
+java:S6212¦"/Declare this local variable with "var" instead.(êÃÓÃ
+K
+java:S6212§"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+F
+java:S6212¯"/Declare this local variable with "var" instead.(é›İÌ
+E
+java:S6212Â"/Declare this local variable with "var" instead.(ºÛ•`
+K
+java:S6212Ã"/Declare this local variable with "var" instead.(£º¾âüÿÿÿÿ
+K
+java:S6212Ê"/Declare this local variable with "var" instead.(èŠ¿Éüÿÿÿÿ
+K
+java:S6212Ô"/Declare this local variable with "var" instead.(èŠ¿Éüÿÿÿÿ

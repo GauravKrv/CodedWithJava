@@ -46,7 +46,7 @@ Output:
     }
 
     public static void main(String[] args) {
-        int A[] = {1,3,5,2,2};
+        int A[] = {1,-3,5,-2,2}; //op = 6 = 1+5+(-2)+2
         int num = circularSubarraySum(A,5);
         System.out.println(num);
     }

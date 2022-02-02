@@ -1,0 +1,39 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñãèüÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+E
+java:S6212	"/Declare this local variable with "var" instead.(æƒ¼Ö
+J
+java:S6212"/Declare this local variable with "var" instead.(ìÊüÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(Úåâ·
+N
+java:S1197"8Move the array designator from the variable to the type.(Úåâ·
+J
+java:S6212"/Declare this local variable with "var" instead.(Â¯·÷ÿÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(Â¯·÷ÿÿÿÿÿ
+E
+java:S6212"/Declare this local variable with "var" instead.(ÿúá·
+E
+java:S6212"/Declare this local variable with "var" instead.(ÿúá·
+E
+java:S6212"/Declare this local variable with "var" instead.(ŒøÏÁ
+V	java:S125"<This block of commented-out lines of code should be removed.(ùËÌ¥şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(‹¯šùÿÿÿÿ
+N
+java:S1197."8Move the array designator from the variable to the type.(úÄ¹ğ
+N
+java:S1197."8Move the array designator from the variable to the type.(úÄ¹ğ
+Q
+java:S26961"6Make the enclosing method "static" or remove this set.(ßˆáøÿÿÿÿ
+J
+java:S62122"/Declare this local variable with "var" instead.(‹Ë‹Øüÿÿÿÿ
+S
+java:S1197@"8Move the array designator from the variable to the type.(®í°¡ûÿÿÿÿ
+S
+java:S1197@"8Move the array designator from the variable to the type.(®í°¡ûÿÿÿÿ
+E
+java:S6212B"/Declare this local variable with "var" instead.(»³½‹

@@ -16,7 +16,6 @@ public class CompareArrays {
                 h1.put(A[i], 1L);
             }
         }
-
         for(int i = 0; i<N; i++){
             if(h2.containsValue(B[i]))
             { h2.put(A[i],h2.get(B[i])+1);}
@@ -24,8 +23,8 @@ public class CompareArrays {
                 h2.put(B[i], 1L);
             }
         }
-
         return h1==h2;
         //Your code here
     }
 }
+

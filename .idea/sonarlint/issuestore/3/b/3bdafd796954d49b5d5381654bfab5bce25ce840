@@ -1,0 +1,41 @@
+
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÔÀÊ€þÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(©•ùØùÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã‰ÐŠ
+M
+java:S1197"8Move the array designator from the variable to the type.(ä¢™L
+S
+java:S1197"8Move the array designator from the variable to the type.(Š°Ïèýÿÿÿÿ
+:
+java:S1659""Declare "j" on a separate line.(á”æåþÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ÔÀÊ€þÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(ÔÀÊ€þÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(©•ùØùÿÿÿÿ
+S
+java:S1197"8Move the array designator from the variable to the type.(©•ùØùÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.( ­ÿ’úÿÿÿÿ
+J
+java:S6212"/Declare this local variable with "var" instead.(ö˜§œÿÿÿÿÿ
+S
+java:S1197A"8Move the array designator from the variable to the type.(ÒÈì¤ÿÿÿÿÿ
+E
+java:S6212B"/Declare this local variable with "var" instead.(€Žôá
+E
+java:S6212C"/Declare this local variable with "var" instead.(ŸðÑµ
+S	java:S106D"9Replace this use of System.out or System.err by a logger.(©‡¤…þÿÿÿÿ
+7
+java:S1116D"Remove this empty statement.(©‡¤…þÿÿÿÿ
+E
+java:S6212H"/Declare this local variable with "var" instead.(‹¼œŠ
+N
+java:S1197H"8Move the array designator from the variable to the type.(‹¼œŠ
+E
+java:S6212I"/Declare this local variable with "var" instead.(½É—Ð
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(£þ—›
+M	java:S106O"9Replace this use of System.out or System.err by a logger.(Æ˜ÁV
+<
+java:S1481B"&Remove this unused "a" local variable.(€Žôá

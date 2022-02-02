@@ -1,0 +1,51 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+C
+java:S1604"(Make this anonymous inner class a lambda(…®™¨ùÿÿÿÿ
+C
+java:S1604^"(Make this anonymous inner class a lambda(…®™¨ùÿÿÿÿ
+:
+java:S1659	"Declare "y" on a separate line.(¡Ê²‘şÿÿÿÿ
+>
+java:S1172"(Remove this unused method parameter "n".(Í‰Ì±
+E
+java:S6212$"/Declare this local variable with "var" instead.(Œ”Æ™
+J
+java:S6212&"/Declare this local variable with "var" instead.(“»ïüøÿÿÿÿ
+E
+java:S6212'"/Declare this local variable with "var" instead.(ŸğÑµ
+E
+java:S6212("/Declare this local variable with "var" instead.(Û†²Ğ
+J
+java:S62126"/Declare this local variable with "var" instead.(èÛØîşÿÿÿÿ
+E
+java:S62129"/Declare this local variable with "var" instead.( Áï…
+N
+java:S11979"8Move the array designator from the variable to the type.( Áï…
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ
+U
+java:S1118Y":Add a private constructor to hide the implicit public one.(ŞÒÙòøÿÿÿÿ
+S
+java:S1197["8Move the array designator from the variable to the type.(òá®öøÿÿÿÿ
+E
+java:S6212e"/Declare this local variable with "var" instead.(»³½‹
+N	java:S106f"9Replace this use of System.out or System.err by a logger.(“üÏÅ
+S	java:S106h"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+Q
+java:S1854r"6Remove this useless assignment to local variable "sc".(ğÛ²¸øÿÿÿÿ
+J
+java:S6212r"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
+J
+java:S6212u"/Declare this local variable with "var" instead.(ì¬âÑüÿÿÿÿ
+E
+java:S6212x"/Declare this local variable with "var" instead.( Áï…
+N
+java:S1197x"8Move the array designator from the variable to the type.( Áï…
+K
+java:S6212€"/Declare this local variable with "var" instead.(äÑÂÒşÿÿÿÿ
+C
+java:S2440€"'Remove this instantiation of "Compare".(äÑÂÒşÿÿÿÿ
+Q
+java:S2209‚"5Change this instance-reference to a static reference.(Ô¶¾°ùÿÿÿÿ
+B
+java:S1481r"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿ

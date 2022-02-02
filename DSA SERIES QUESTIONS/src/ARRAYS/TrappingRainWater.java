@@ -22,6 +22,7 @@ public class TrappingRainWater {
             res = res + (Math.min(lMax[i], rMax[i]) - arr[i]); // this is the important partt in --- just visualise any example and you will get it
             //(min common height of left and right side - curr step)
         return res;
+
     }
 
 

@@ -1,0 +1,30 @@
+
+E
+java:S3740	"/Provide the parametrized type for this generic.(ÖŞ¾±
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ø‰ó¦ıÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡Èªú
+l
+java:S1149	"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(ÖŞ¾±
+l
+java:S1149I"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(İÍÊ 
+J
+java:S6212"/Declare this local variable with "var" instead.(ßòáãøÿÿÿÿ
+D
+java:S62125"/Declare this local variable with "var" instead.(İ¼„}
+Q	java:S125G"<This block of commented-out lines of code should be removed.(ì—¢‰
+E
+java:S6212M"/Declare this local variable with "var" instead.(¿Äª‰
+V	java:S125J"<This block of commented-out lines of code should be removed.(ØåÌ³ùÿÿÿÿ
+E
+java:S6212N"/Declare this local variable with "var" instead.(¾Õû®
+S	java:S106O"9Replace this use of System.out or System.err by a logger.(â§•ÿÿÿÿÿ
+N	java:S106Q"9Replace this use of System.out or System.err by a logger.(Å¬ñÃ
+V	java:S125U"<This block of commented-out lines of code should be removed.(¦áªùùÿÿÿÿ
+o
+java:S2293z"YReplace the type specification in this constructor call with the diamond operator ("<>").(×›€Î
+E
+java:S6212|"/Declare this local variable with "var" instead.(Ñ·½À
+N	java:S106~"9Replace this use of System.out or System.err by a logger.(°‚Ì
+T	java:S106€"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ëÊĞüÿÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(®ıáëûÿÿÿÿ

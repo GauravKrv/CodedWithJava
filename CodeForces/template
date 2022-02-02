@@ -1,3 +1,10 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.util.*;
+import java.util.Scanner;
+
  //paste this directly and extend Codeforces class from your solution
  class CodeForces {
     static FastReader sc=new FastReader();
@@ -465,7 +472,7 @@
     public static int I(){return sc.I();}
     public static long L(){return sc.L();}
     public static String S(){return sc.S();}
-    public static double D(){return sc.D();}
+    public static double EduRound120.D(){return sc.EduRound120.D();}
 }
 class FastReader {
     BufferedReader br;
@@ -490,7 +497,7 @@ class FastReader {
     long L(){
         return Long.parseLong(next());
     }
-    double D(){
+    double EduRound120.D(){
         return Double.parseDouble(next());
     }
     String S(){

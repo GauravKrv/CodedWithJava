@@ -52,13 +52,25 @@ public class MaxAndSecondMax {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int[] arr = new int[n];
-        for (int i=0;i<n;i++){
-            arr[i] = sc.nextInt();
-        }
+        int[] arr = {1,2,4,5,9,5,2,3,9,3,3};
 
-        ArrayList<Integer> al = largestAndSecondLargest(n,arr);
-        System.out.println(al.get(0)+" "+ al.get(1));
+
+//        ArrayList<Integer> al = largestAndSecondLargest(n,arr);
+//        System.out.println(al.get(0)+" "+ al.get(1));
+        largestSecondLargest(arr.length,arr);
+    }
+
+    static void largestSecondLargest(int sizeOfArray, int arr[]){
+        int first = Math.max(arr[0],arr[1]);
+        int second = Math.min(arr[0],arr[1]);
+
+        for (int i = 2; i < sizeOfArray; i++) {
+            if (arr[i]>first){
+                second = first;
+                first = arr[i];
+            }
+        }
+        System.out.println("largest = "+first+" second largest = "+second);
     }
 }
 
