@@ -4,7 +4,9 @@ import ARRAYS.ArrayInput;
 //**********WORKS O(LOGN)
 /*
 HINT
-The minimum element is the only element whose previous element is greater than itself. If there is no previous element greater than current element then there is no rotation (first element is minimum). We check this condition for middle element by comparing it with (mid-1)’th and (mid+1)’th elements.
+The minimum element is the only element whose previous element is greater than itself. If there is no previous element greater than
+ current element then there is no rotation (first element is minimum). We check this condition for middle element by comparing it
+ with (mid-1)’th and (mid+1)’th elements.
 
 Traverse over the array using two pointers and use binary search.
 If array is not rotated or both pointers are same, return the result.

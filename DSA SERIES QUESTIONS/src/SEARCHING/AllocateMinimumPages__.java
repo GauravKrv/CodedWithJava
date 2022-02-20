@@ -41,13 +41,13 @@ public class AllocateMinimumPages__ {
         if (n < m) return -1;
         int s = 0, mx = 0;
         for (int i = 0; i < n; i++) {
-            s += a[i];
-            mx = Integer.max(mx, a[i]);
+            s += a[i]; //getting count of total pages
+            mx = Integer.max(mx, a[i]);//getting max page books from array
         }
-        int l = mx, h = s, res = -1;
+        int l = mx, h = s, res = -1; //highest max allocated can be h[the sum] and lowest max allocated pages can be mx [the max element]
         while (h >= l) {
             int mid = (l + h) / 2;
-            if (checkFeasible(a, n, m, mid)) {
+            if (checkFeasible(a, n, m, mid)) { //if mid size can be feasible
                 res = mid;
                 h = mid - 1;
             } else {
@@ -57,10 +57,10 @@ public class AllocateMinimumPages__ {
         return res;
     }
 
-    public static boolean checkFeasible(int[] a, int n, int m, int count) {
+    public static boolean checkFeasible(int[] a, int n, int m, int mid) {
         int res = 1, sum = 0;
         for (int i = 0; i < n; i++) {
-            if (sum + a[i] > count) {
+            if (sum + a[i] > mid) {
                 res++;
                 sum = a[i];
 

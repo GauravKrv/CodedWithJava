@@ -310,9 +310,9 @@ class TrimStringDemo {
 class StringReplaceDemo {
     public static void main(String args[]) {
         String text = "Data Structure with C++";
-        String output = text.replace("C++", "Java");
-        text = "dfefe";
-        System.out.println(output);
+        text = text.replace("C++", "Java");
+       // text = "dfefe";
+        System.out.println(text);
     }
 }
 
@@ -434,7 +434,7 @@ class StringCompareDemo {
  class StringToIntegerDemo{
     public static void main(String args[]){
         String number = "95";
-        int num = Integer.parseInt(number);
+        int num = Integer.parseInt("777");
         int output = num + 5;
         System.out.println(output);
     }
@@ -443,7 +443,7 @@ class StringToFloatDemo {
     public static void main(String args[]) {
         String number = "95.59";
         float num = Float.parseFloat(number);
-        float output = num + (float) 4.41;
+        float output = num + 4.41f;
         System.out.println(output);
     }
 }
@@ -470,6 +470,8 @@ class StringConversions {
         int num = 19648;
         System.out.println(num + " in binary: " +
                 Integer.toBinaryString(num));
+        int  n = 5;
+        String s  = Integer.toBinaryString(n);
         System.out.println(num + " in octal: " +
                 Integer.toOctalString(num));
         System.out.println(num + " in hexadecimal: " +

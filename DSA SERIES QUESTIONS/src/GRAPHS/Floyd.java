@@ -1,9 +1,9 @@
 package GRAPHS;
 
-// A Java program for Floyd Warshall All Pairs Shortest
-// Path algorithm.
+// A Java program for Floyd Warshall All Pairs Shortest Path algorithm.
 class Floyd
 {
+    //EAZYYYYYYYYY -5MINS UNDSTD
     final static int INF = 99999, V = 4;
 
     void floydWarshall(int graph[][])
@@ -11,39 +11,24 @@ class Floyd
         int dist[][] = new int[V][V];
         int i, j, k;
 
-		/* Initialize the solution matrix
-		same as input graph matrix.
-		Or we can say the initial values
-		of shortest distances
-		are based on shortest paths
-		considering no intermediate
-		vertex. */
+		/* Initialize the solution/DISTANCE matrix same as input graph matrix.Or we can say the initial values of shortest distances
+		are based on shortest paths considering no intermediate vertex. */
         for (i = 0; i < V; i++)
             for (j = 0; j < V; j++)
                 dist[i][j] = graph[i][j];
 
-		/* Add all vertices one by one
-		to the set of intermediate
-		vertices.
-		---> Before start of an iteration,
-			we have shortest
-			distances between all pairs
-			of vertices such that
-			the shortest distances consider
-			only the vertices in
-			set {0, 1, 2, .. k-1} as
-			intermediate vertices.
-		----> After the end of an iteration,
-				vertex no. k is added
-				to the set of intermediate
-				vertices and the set
-				becomes {0, 1, 2, .. k} */
-        for (k = 0; k < V; k++)
+		/* Add all vertices one by one to the set of intermediate vertices.
+		---> Before start of an iteration,we have shortest distances between all pairs
+			of vertices such that the shortest distances consider only the vertices in
+			set {0, 1, 2, .. k-1} as intermediate vertices.
+		----> After the end of an iteration,vertex no. k is added to the set of intermediate
+				vertices and the set becomes {0, 1, 2, .. k} */
+        for (k = 0; k < V; k++)//HERE K WILL BE THE INTERMEDIATE VERTEXT FOR EACH SOURCE AND DESTNATINO
         {
             // Pick all vertices as source one by one
             for (i = 0; i < V; i++)
             {
-                // Pick all vertices as destination for the
+                // Pick all vertices as destination for the9hhhhhhhhhhhh
                 // above picked source
                 for (j = 0; j < V; j++)
                 {

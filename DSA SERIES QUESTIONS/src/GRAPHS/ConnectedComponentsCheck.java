@@ -4,10 +4,6 @@ package GRAPHS;
 import java.util.ArrayList;
 public class ConnectedComponentsCheck
     {
-        // A user define class to represent a graph.
-        // A graph is an array of adjacency lists.
-        // Size of array will be V (number of vertices
-        // in graph)
         int V;
         ArrayList<ArrayList<Integer> > adjListArray;
 
@@ -15,8 +11,6 @@ public class ConnectedComponentsCheck
         ConnectedComponentsCheck(int V)
         {
             this.V = V;
-            // define the size of array as
-            // number of vertices
             adjListArray = new ArrayList<>();
 
             // Create a new list for each vertex
@@ -30,11 +24,7 @@ public class ConnectedComponentsCheck
         // Adds an edge to an undirected graph
         void addEdge(int src, int dest)
         {
-            // Add an edge from src to dest.
             adjListArray.get(src).add(dest);
-
-            // Since graph is undirected, add an edge from dest
-            // to src also
             adjListArray.get(dest).add(src);
         }
 
@@ -56,8 +46,7 @@ public class ConnectedComponentsCheck
             boolean[] visited = new boolean[V];
             for (int v = 0; v < V; ++v) {
                 if (!visited[v]) {
-                    // print all reachable vertices
-                    // from v
+                    // print all reachable vertices from v
                     DFSUtil(v, visited);
                     System.out.println();
                 }

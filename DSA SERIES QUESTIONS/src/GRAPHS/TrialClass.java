@@ -10,7 +10,7 @@ public class TrialClass {
         int[][] arr = new int[vertices][vertices];
 
         System.out.println("enter the start and end vertex pairs of each edge : ");
-        for (int i=1;i<=edges;i++){
+        for (int i=0;i<edges;i++){
             startVertex = sc.nextInt();
             endVertex = sc.nextInt();
             arr[startVertex][endVertex] = 1;
@@ -20,14 +20,26 @@ public class TrialClass {
 
         System.out.println("Adjacency matrix of the entered graph : ");
 
-        for (int i=1;i<vertices;i++){
-            for (int j = 1;j<vertices;j++){
+        System.out.println("\t    0-1-2-3-4");
+//        System.out.println("----------------");
+        for (int i=0;i<vertices;i++){
+            System.out.print("Node "+i+"| ");
+            for (int j = 0;j<vertices;j++){
                 System.out.print(arr[i][j]+" ");
             }
             System.out.println();
         }
     }
-
+/*
+INPUT
+0 1
+0 4
+1 2
+1 3
+1 4
+2 3
+3 4
+* */
 
 
     static void insertEdges(ArrayList<ArrayList<Integer>> adj,int u,int v,int directed){
@@ -130,11 +142,11 @@ public class TrialClass {
     public static void main(String[] args) {
 
 
-        System.out.println("Enter the number of vertices in the graph");
-        int vertices = sc.nextInt();
+        System.out.println("the number of vertices in the graph");
+        int vertices = 5;
 
-        System.out.println("Enter the number of edges in the graph");
-        int edges = sc.nextInt();
+       // System.out.println("Enter the number of edges in the graph");
+       // int edges = sc.nextInt();
 
 
         ArrayList<ArrayList<Integer>> adj = new ArrayList<>(vertices);
@@ -151,11 +163,13 @@ public class TrialClass {
         insertEdges(adj,2,3,0);
         insertEdges(adj,3,4,0);
 
+
        /* System.out.println("ENter the edges in the graph");
         for (int i=0;i<edges;i++){
             insertEdges(adj,sc.nextInt(),sc.nextInt(),0);
         }*/
         printGraph(adj);
+        printAdjacencyMatrix(5,7);
 
         System.out.println();
 

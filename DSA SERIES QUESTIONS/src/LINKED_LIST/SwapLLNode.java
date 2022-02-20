@@ -1,5 +1,10 @@
 package LINKED_LIST;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.Stack;
+
 public class SwapLLNode {
 
     // A linked list node class
@@ -142,13 +147,125 @@ public class SwapLLNode {
         System.out.println("Linked List before swapping");
         llist.printList();
 
-        llist.swapNodes(4,6);
+        llist.LLSwap(4,6);
 
         System.out.println("Linked List after swapping");
-        llist.printList();
+        //llist.printList();
+    }
+
+    static void LLSwap(int x,int y){
+        // 1->2->3->4->5->6->7->8
+        //swap 3 and 5-- needed 2,4,3,5
+        //2.n = 5 -- 12[53]45678
+        //4.n = 3 -- 12[35]43]678
+        //5.n = 4 --12543]678
+        //3.n = 6  --12543678
+
+        Node x1=head ,y1 = head;
+        Node x2 = head.next;
+        Node y2 = head.next;
+        Node x3 = head;
+        Node y3 = head;
+
+        while (x1.next.data != x){
+            x1 = x1.next;
+            x2 = x2.next;
+            x3 = x3.next;
+        }
+
+        while (y1.next.data != y){
+            y1 = y1.next;
+            y2 = y2.next;
+            y3 = y3.next;
+        }
+        System.out.println("printing  all 6 values");
+
+        System.out.println(x1.data);
+        System.out.println(x2.data);
+        System.out.println(x3.data);
+        System.out.println(y1.data);
+        System.out.println(y2.data);
+        System.out.println(y3.data);
+        System.out.println();
+        x1.next = y2;
+
+        y1.next = x2;
+        System.out.println(x2.next.data);
+        y2.next = x2.next;
+        System.out.println(y2.next.data);
+        x2.next = y2.next;
+
+
+
+
     }
 
 
 
 
+}
+ class hello {
+    public static void main(String [] args) throws IOException {
+
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+        int n = Integer.parseInt(br.readLine());
+        String line = br.readLine();
+        String inline[] = line.split(",");
+        int m = inline.length;
+
+        char[][] matrix = new char[n][m];
+        for(int i = 0; i < m; ++i) {
+            matrix[0][i] = inline[i].charAt(0);
+        }
+        for(int i = 1; i < n; ++i) {
+            line = br.readLine();
+            String inn[] = line.split(",");
+            for(int j = 0; j < m; ++j) {
+                matrix[i][j] = inn[j].charAt(0);
+            }
+        }
+
+
+        if(matrix == null || matrix.length == 0 || matrix[0].length == 0) {
+            System.out.println(0);
+        } else {
+            int[] height = new int[matrix[0].length];
+            for(int i = 0; i < matrix[0].length; i ++){
+                if(matrix[0][i] == '1') height[i] = 1;
+            }
+            int result = largestInLine(height);
+            for(int i = 1; i < matrix.length; i ++){
+                resetHeight(matrix, height, i);
+                result = Math.max(result, largestInLine(height));
+            }
+
+            System.out.println(result);
+        }
+    }
+
+    private static void resetHeight(char[][] matrix, int[] height, int idx){
+        for(int i = 0; i < matrix[0].length; i ++){
+            if(matrix[idx][i] == '1') height[i] += 1;
+            else height[i] = 0;
+        }
+    }
+
+    public static int largestInLine(int[] height) {
+        if(height == null || height.length == 0) return 0;
+        int len = height.length;
+        Stack<Integer> s = new Stack<Integer>();
+        int maxArea = 0;
+        for(int i = 0; i <= len; i++){
+            int h = (i == len ? 0 : height[i]);
+            if(s.isEmpty() || h >= height[s.peek()]){
+                s.push(i);
+            }else{
+                int tp = s.pop();
+                maxArea = Math.max(maxArea, height[tp] * (s.isEmpty() ? i : i - 1 - s.peek()));
+                i--;
+            }
+        }
+        return maxArea;
+    }
 }

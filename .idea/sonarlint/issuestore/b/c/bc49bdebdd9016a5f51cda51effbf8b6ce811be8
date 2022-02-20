@@ -1,47 +1,22 @@
 
+C
+java:S1905"&Remove this unnecessary cast to "int".(Õ’„8©ïûí/
+E
+java:S1197"*Move the array designators [] to the type.(ş³— øÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¶¾’úÿÿÿÿ
+C
+java:S1905#"&Remove this unnecessary cast to "int".(Õ’„8Èïûí/
+E
+java:S1197)"*Move the array designators [] to the type.(µÓÔÁüÿÿÿÿ
+H
+java:S1905,"&Remove this unnecessary cast to "int".(ûÏ˜çşÿÿÿÿ8Óïûí/
+H
+java:S1905,"&Remove this unnecessary cast to "int".(ûÏ˜çşÿÿÿÿ8Ôïûí/
+C
+java:S1905-"&Remove this unnecessary cast to "int".(ÕÖŒş8Öïûí/
+V	java:S1259"<This block of commented-out lines of code should be removed.(¶¾’úÿÿÿÿ
+V	java:S125C"<This block of commented-out lines of code should be removed.(Ş¢Ø²ÿÿÿÿÿ
+N	java:S106F"9Replace this use of System.out or System.err by a logger.(‘ÖÈÑ
 9
 java:S16432"Use a StringBuilder instead.(µµÕ¹8³Ñğ©ª/
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã‰ĞŠ
-J
-java:S6212	"/Declare this local variable with "var" instead.(šó¤‘ûÿÿÿÿ
-E
-java:S6212
-"/Declare this local variable with "var" instead.(ÆÿÓ™
-J
-java:S6212"/Declare this local variable with "var" instead.(™¸¥úÿÿÿÿ
-E
-java:S6212"/Declare this local variable with "var" instead.(ìüà·
-J
-java:S6212"/Declare this local variable with "var" instead.(ş³— øÿÿÿÿ
-S
-java:S1197"8Move the array designator from the variable to the type.(ş³— øÿÿÿÿ
-E
-java:S6212"/Declare this local variable with "var" instead.(­ã¸
-E
-java:S6212"/Declare this local variable with "var" instead.(Éê£
-V	java:S125"<This block of commented-out lines of code should be removed.(¶¾’úÿÿÿÿ
-J
-java:S6212 "/Declare this local variable with "var" instead.(šó¤‘ûÿÿÿÿ
-E
-java:S6212!"/Declare this local variable with "var" instead.(ÆÿÓ™
-J
-java:S6212""/Declare this local variable with "var" instead.(™¸¥úÿÿÿÿ
-E
-java:S6212%"/Declare this local variable with "var" instead.(›ïœ
-J
-java:S6212)"/Declare this local variable with "var" instead.(µÓÔÁüÿÿÿÿ
-S
-java:S1197)"8Move the array designator from the variable to the type.(µÓÔÁüÿÿÿÿ
-L
-java:S6212*"/Declare this local variable with "var" instead.(˜€·8¾Ñğ©ª/
-J
-java:S62121"/Declare this local variable with "var" instead.(™¸¥úÿÿÿÿ
-V	java:S1259"<This block of commented-out lines of code should be removed.(¶¾’úÿÿÿÿ
-J
-java:S6212>"/Declare this local variable with "var" instead.(ğÛ²¸øÿÿÿÿ
-E
-java:S6212?"/Declare this local variable with "var" instead.(æƒ¼Ö
-J
-java:S6212D"/Declare this local variable with "var" instead.(Ş¸ä¦şÿÿÿÿ
-V	java:S125C"<This block of commented-out lines of code should be removed.(Ş¢Ø²ÿÿÿÿÿ
-N	java:S106F"9Replace this use of System.out or System.err by a logger.(‘ÖÈÑ
