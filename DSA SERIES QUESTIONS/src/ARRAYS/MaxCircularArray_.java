@@ -3,7 +3,7 @@ package ARRAYS;
 public class MaxCircularArray_ {
     //O(N)
     /*
-    Given an array arr[] of N integers arranged in a circular fashion. Your task is to find the maximum contiguous subarray sum.
+    Given an array arr[] of N integers arranged in num circular fashion. Your task is to find the maximum contiguous subarray sum.
 Example 1:
 Input:
 N = 7
@@ -11,18 +11,18 @@ arr[] = {8,-8,9,-9,10,-11,12}
 Output:
 22
 * */
-    // a: input array
+    // num: input array
     // n: size of array
     //Function to find maximum circular subarray sum.
-    static int circularSubarraySum(int a[], int n) {
-        int maxNormal = kadane(a,n);
+    static int circularSubarraySum(int nums[], int n) {
+        int maxNormal = kadane(nums,n);
         if(maxNormal<0){ //==>No postive integers exist
             return maxNormal;
         }
 
-        return Integer.max(maxNormal,reverseKadane(a,n));
+        return Integer.max(maxNormal,reverseKadane(nums,n));
 
-        // return Integer.max(kadane(a,n), reverseKadane(a,n));
+        // return Integer.max(kadane(num,n), reverseKadane(num,n));
     }
 
     static int kadane(int a[], int n) {

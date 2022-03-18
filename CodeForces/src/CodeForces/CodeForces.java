@@ -376,51 +376,51 @@ public class CodeForces {
     public static void printArray(int a[])
     {
         for(int i=0;i<a.length;i++){
-            out.print(a[i]+" ");
+            System.out.print(a[i]+" ");
         }
-        out.println();
+            System.out.println();
     }
     public static void printArray(char a[])
     {
         for(int i=0;i<a.length;i++){
-            out.print(a[i]+" ");
+            System.out.print(a[i]+" ");
         }
-        out.println();
+        System.out.println();
     }
     public static void printArray(boolean a[])
     {
         for(int i=0;i<a.length;i++){
-            out.print(a[i]+" ");
+            System.out.print(a[i]+" ");
         }
-        out.println();
+        System.out.println();
     }
     public static void printArray(int a[][])
     {
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a[i].length;j++){
-                out.print(a[i][j]+" ");
-            }out.println();
+                System.out.print(a[i][j]+" ");
+            }System.out.println();
         }
     }
     public static void printArray(char a[][])
     {
         for(int i=0;i<a.length;i++){
             for(int j=0;j<a[i].length;j++){
-                out.print(a[i][j]+" ");
-            }out.println();
+                System.out.print(a[i][j]+" ");
+            }System.out.println();
         }
     }
     public static void printArray(ArrayList<Long> arr)
     {
         for(int i=0;i<arr.size();i++){
-            out.print(arr.get(i)+" ");
+            System.out.print(arr.get(i)+" ");
         }
-        out.println();
+        System.out.println();
     }
     public static void printMapInt(HashMap<Integer,Integer> hm){
         for(Map.Entry<Integer,Integer> e:hm.entrySet()){
-            out.println(e.getKey()+"->"+e.getValue());
-        }out.println();
+            System.out.println(e.getKey()+"->"+e.getValue());
+        }System.out.println();
     }
     public static void printMapLong(HashMap<Long,Long> hm){
         for(Map.Entry<Long,Long> e:hm.entrySet()){

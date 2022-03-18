@@ -2,15 +2,15 @@ package ARRAYS;
 
 public class MaximumSubarraySum_Kadane {
     //O(N) - WORKS
-    static int maxSum(int arr[], int n)
+    static int maxSum(int nums[], int n)
     {
-        int res = arr[0];
+        int res = nums[0];
 
-        int maxEnding = arr[0];
+        int maxEnding = nums[0];
 
         for(int i = 1; i < n; i++)
         {
-            maxEnding = Math.max(maxEnding + arr[i], arr[i]);
+            maxEnding = Math.max(maxEnding + nums[i], nums[i]);
 
             res = Math.max(maxEnding, res);
         }
@@ -21,7 +21,9 @@ public class MaximumSubarraySum_Kadane {
 
     public static void main(String args[])
     {
-        int arr[] = {1, -2, 3, -1, 2}, n = 5;
+        int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
+                //{1, -2, 3, -1, 2};
+                int n = arr.length;
 
         System.out.println(maxSum(arr, n));
 

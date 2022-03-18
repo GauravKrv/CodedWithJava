@@ -393,4 +393,389 @@ public class Graph {
         }
     }
 
+
+
+
+}
+class GraphCharacterNodes{
+    static void addEdge(HashMap<Character,ArrayList<Character>> adj, char u, char v, int directed) {
+        if(adj.get(u)==null){
+            adj.put(u,new ArrayList<Character>());
+        }
+        if(adj.get(v)==null){
+            adj.put(v,new ArrayList<Character>());
+        }
+        if (directed == 1) {
+
+            adj.get(u).add(v);
+            adj.get(v).add(u);
+            return;
+        }
+        if (directed == -1) {
+            adj.get(v).add(u);
+            return;
+        }
+        if (directed == 0) {
+            adj.get(u).add(v);
+//            adj.get(v).add(u);
+        }
+
+    }
+
+    static void bfsGeneric(HashMap<Character,ArrayList<Character>> adj, char start) {
+        System.out.println("BFS TRAVERSAL OF THE GRAPH : ");
+        Hashtable<Character, Boolean> visited = new Hashtable<>();
+
+
+        for (char c : adj.keySet()) {
+            visited.put(c, false);
+        }
+        visited.put(start, true);
+        Queue<Character> q = new LinkedList<>();
+        q.add(start);
+        //System.out.print(start+" ");
+
+        for (char curr : adj.keySet()) {
+            if (visited.get(curr) == false) {
+                while (!q.isEmpty()) {
+                    char temp = q.poll();
+                    System.out.print(temp + " ");
+                    for (char c : adj.get(temp)) {
+
+                        if (visited.get(c) != null && visited.get(c) == false) {
+                            // System.out.print(adj.get(temp).get(k)+"->");
+                            visited.put(c, true);
+                            q.add(c);
+                            // System.out.print(l+" ");
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
+        static void dFS(HashMap<Character,ArrayList<Character>> adj, char start) {
+            System.out.println();
+            System.out.println("DFS TRAVERSAL OF THE GRAPH : ");
+            HashMap<Character,Boolean> visited = new HashMap<Character, Boolean>();
+            HashMap<Character,Character> parent = new HashMap<>();
+            HashMap<Character,Integer> pre = new HashMap<>();
+            HashMap<Character,Integer> post = new HashMap<>();
+            int count = 0;
+
+            for (char j:adj.keySet()) {
+                visited.put(j,false);
+                parent.put(j,'x');
+                post.put(j,-1);
+                pre.put(j,-1);
+            }
+
+            dFSUtil(adj, start, visited, parent, pre,post,count);
+            System.out.println();
+            System.out.println("PRE\tPOST");
+            for (char j:adj.keySet()) {
+                System.out.println(pre.get(j)+" \t "+post.get(j));
+            }
+        }
+
+        static void dFSUtil(HashMap<Character,ArrayList<Character>> adj, char start, HashMap<Character,Boolean> visited,
+                            HashMap<Character,Character> parent, HashMap<Character,Integer> pre,
+                            HashMap<Character,Integer> post,int count) {
+            visited.put(start,true);
+            pre.put(start,count);
+            count++;
+            System.out.print(start+" ");
+            for (char l :
+                    adj.get(start)) {
+
+
+                if (visited.get(l)==false) {
+                    parent.put(l,start);
+                    dFSUtil(adj, l, visited, parent, pre, post, count);
+                    post.put(start,count);
+                    count++;
+                }
+            }
+        }
+
+
+
+
+
+
+
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+
+//        System.out.println("Enter the number of vertices in the graph");
+//        int vertices = sc.nextInt();
+
+        HashMap<Character,ArrayList<Character>> adj = new HashMap<>();
+//        for (int i = 0; i < vertices; i++) {
+//            adj.add(new ArrayList<Character>());
+//        }
+
+
+
+
+
+        System.out.println();
+        addEdge(adj,'1','0',1);
+        addEdge(adj,'3','2',1);
+        addEdge(adj,'0','3',1);
+        addEdge(adj,'2','4',1);
+        //  addEdge(adj,3,4,1);
+        addEdge(adj,'4','5',1);
+        addEdge(adj,'4','7',1);
+        addEdge(adj,'5','6',1);
+        addEdge(adj,'7','8',1);
+        addEdge(adj,'6','9',1);
+        addEdge(adj,'8','9',1);
+
+        bfsGeneric(adj,'9');
+
+        dFS(adj,'1');
+
+
+
+    }
+}
+
+
+class BFSStringNodes{
+    static class WeightedNodes {
+        String node;
+        int weight;
+        WeightedNodes(String node,int weight){
+            this.node = node;
+            this.weight = weight;
+        }
+    }
+    static void addEdge(HashMap<String,ArrayList<String>> adj, String u, String v, int directed) {
+        if(adj.get(u)==null){
+            adj.put(u,new ArrayList<String>());
+        }
+        if(adj.get(v)==null){
+            adj.put(v,new ArrayList<String>());
+        }
+        if (directed == 1) {
+
+            adj.get(u).add(v);
+            adj.get(v).add(u);
+            return;
+        }
+        if (directed == -1) {
+            adj.get(v).add(u);
+            return;
+        }
+        if (directed == 0) {
+            adj.get(u).add(v);
+//            adj.get(v).add(u);
+        }
+
+    }
+
+    static void bfsGeneric(HashMap<String,ArrayList<String>> adj, String start) {
+        System.out.println("BFS TRAVERSAL OF THE GRAPH : ");
+        Hashtable<String, Boolean> visited = new Hashtable<>();
+
+
+        for (String c : adj.keySet()) {
+            visited.put(c, false);
+        }
+        visited.put(start, true);
+        Queue<String> q = new LinkedList<>();
+        q.add(start);
+        for (String curr:adj.keySet()) {
+            if (visited.get(curr)==false){
+                while (!q.isEmpty()) {
+                    String temp = q.poll();
+                    System.out.print(temp + " ");
+                    for (String c: adj.get(temp)) {
+
+                        if (visited.get(c)!=null && visited.get(c)== false) {
+
+                            visited.put(c, true);
+                            q.add(c);
+
+                        }
+
+
+                    }
+
+                }
+            }
+        }
+
+    }
+
+    int V = 9;
+
+    static String minDistance(HashMap<String, Integer> dist, HashMap<String, Boolean> fin, HashMap<String, HashMap<String, Integer>> graph)
+    {
+        // Initialize min value
+        int min = Integer.MAX_VALUE;
+        String min_node = "-1";
+
+        for (String v:graph.keySet()) {
+            int vdistfromsrc = dist.get(v);
+            //if the current vertex is not finalised and curent ertex has distane less than min
+            if (!fin.get(v) && vdistfromsrc <= min) {
+                min = vdistfromsrc;
+                min_node = v;
+            }
+        }
+
+        return min_node;
+        //have to return 0th index 1st -- check if working or not will work
+    }
+
+    // A utility function to print the constructed distance array
+    static void printSolution(HashMap<String, Integer> dist)
+    {
+        System.out.println("Vertex \t\t Distance from Source");
+        for (String i:dist.keySet())
+            System.out.println(i + " \t\t " + dist.get(i));
+    }
+
+    // Function that implements Dijkstra's single source shortest path
+    // algorithm for a graph represented using adjacency matrix
+    // representation
+    static void dijkstra(HashMap<String,HashMap<String,Integer>> graph, String src)//WORKS?
+    {
+        HashMap<String,Integer> dist = new HashMap<>();
+//        int[] dist = new int[V];
+        // The output hashmap dist's value for each key will hold the shortest distance from src to key
+
+        // sptSet[i] will true if vertex i is included in shortest path tree or shortest distance from src to i is finalized
+        HashMap<String,Boolean> fin = new HashMap<>();
+        // Initialize all distances as INFINITE and fin as false
+        for (String node: graph.keySet()) {
+            dist.put(node, Integer.MAX_VALUE);
+            fin.put(node,false);
+        }
+
+        // Distance of source vertex from itself is always 0
+        dist.put(src,0);
+
+        // Find shortest path for all vertices
+//        for (int count = 0; count < V - 1; count++) {
+        for (String v:graph.keySet()) { //HOW TO MAKE THIS WORK
+
+            // Pick the minimum distance vertex from the set of vertices not yet processed. u is always equal to src in first
+            // iteration.
+            String u = minDistance(dist, fin,graph);//will rcv 0th index first ----- IS IT WORKING - YES
+//            System.out.print("u,dist[count] = "+u+" "+dist.get(v));
+
+            // Mark the picked vertex as processed
+            fin.put(u,true);
+
+            // Update dist value of the adjacent vertices of the picked vertex.
+            for (String s : graph.get(u).keySet()) {
+                // Update dist[s] only if is false in finalised array [fin] AND if there is an
+                // edge from u to s[ONLY CHECKED IN ADJACENCY MATRIX], and
+                // total weight of path from src to s through u is smaller than current value of dist[s] == Below commneted if adj matrix
+                // if (!fin.get(s) && graph.get(u).get(s)!=0&& dist.get(u) != Integer.MAX_VALUE && dist.get(u) + graph.get(u).get(s) < dist.get(s))
+                if (!fin.get(s) && (dist.get(u) + graph.get(u).get(s) < dist.get(s)))
+                    dist.put(s, dist.get(u) + graph.get(u).get(s));
+            }
+        }
+
+
+        printSolution(dist);
+    }
+
+
+    // [same as above] CODE WITHOUT COMMENTS - O[N^2]
+    static void shortestPathsDijkstra(HashMap<String,HashMap<String,Integer>> graph, String src)//WORKS?
+    {
+        HashMap<String,Integer> dist = new HashMap<>();
+        HashMap<String,Boolean> fin = new HashMap<>();
+        for (String node: graph.keySet()) {
+            dist.put(node, Integer.MAX_VALUE);
+            fin.put(node,false);
+        }
+        dist.put(src,0);
+        for (String v:graph.keySet()) {   //O[N]
+
+            String u = minDistance(dist, fin,graph); //O[N]
+            fin.put(u,true);
+            for (String s : graph.get(u).keySet()) { //O[N] in total
+                if (!fin.get(s) && (dist.get(u) + graph.get(u).get(s) < dist.get(s)))
+                    dist.put(s, dist.get(u) + graph.get(u).get(s));
+            }
+        }
+        printSolution(dist);
+    }
+    static void addWeightedEdges(HashMap<String,HashMap<String,Integer>> graph, String u, String v, int weight){
+        //First initialising the list inside current key/node position
+        if (graph.get(u)==null){
+           graph.put(u,new HashMap<String,Integer>());
+        }
+        if (graph.get(v)==null){
+            graph.put(v,new HashMap<String,Integer>());
+        }
+        graph.get(u).put(v,weight);
+        graph.get(v).put(u,weight);
+    }
+
+    public static void main(String[] args) {
+
+
+        HashMap<String,ArrayList<String>> adj = new HashMap<>();
+
+        addEdge(adj,"11","00",1);
+        addEdge(adj,"33","22",1);
+        addEdge(adj,"00","33",1);
+        addEdge(adj,"22","44",1);
+        //  addEdge(adj,3,4,1);
+        addEdge(adj,"44","55",1);
+        addEdge(adj,"44","77",1);
+        addEdge(adj,"55","66",1);
+        addEdge(adj,"77","88",1);
+        addEdge(adj,"66","99",1);
+        addEdge(adj,"88","99",1);
+
+//        bfsGeneric(adj,"33");
+        //GRAPH FOR WEIGHTED GRAPH IMPLEMENTATION
+
+        HashMap<String,HashMap<String,Integer>> graph = new HashMap<>();
+
+       /* addWNodes(graph,"11","00",10);
+        addWNodes(graph,"33","22",11);
+        addWNodes(graph,"00","33",21);
+        addWNodes(graph,"22","44",12);
+        //  addEdge(adj,3,4,1);
+        addWNodes(graph,"44","55",17);
+//        addWNodes(graph,"44","77",61);
+        addWNodes(graph,"44","77",5);
+        addWNodes(graph,"77","66",5);
+
+        addWNodes(graph,"55","66",31);
+        addWNodes(graph,"77","88",5);
+
+//        addWNodes(graph,"77","88",13);
+        addWNodes(graph,"66","99",14);
+        addWNodes(graph,"88","99",15);*/
+
+        addWeightedEdges(graph,"11","00",4);
+        addWeightedEdges(graph,"11","22",2);
+        addWeightedEdges(graph,"00","22",4);
+        addWeightedEdges(graph,"22","44",1);
+        //  addEdge(adj,3,4,1);
+        addWeightedEdges(graph,"22","33",3);
+//        addWNodes(graph,"44","77",61);
+        addWeightedEdges(graph,"22","55",6);
+        addWeightedEdges(graph,"33","55",2);
+
+        addWeightedEdges(graph,"55","44",3);
+
+        dijkstra(graph,"00");
+    }
 }
