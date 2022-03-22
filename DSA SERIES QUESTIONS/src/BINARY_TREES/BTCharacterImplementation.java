@@ -29,6 +29,92 @@ public class BTCharacterImplementation {
 
         return Math.max(d1,Math.max(d2,d3));
     }
+    //RECHECK THE DELETENNODE'S CODE OR FIND ANTHER WAY TO DELETE A NODE FROM A BT
+    //below mehod disturbs the place of the last node only if a node to be deleted is not last node
+    static void delete(Node root, char key)
+    {
+        ;
+
+        if (root == null||root.left == null && root.right == null)
+        {
+            if (root!=null && root.key == key) {
+                root = null;
+            }
+            return;
+        }
+
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+        Node temp = null, keyNode = null;
+
+        // Do level order traversal until
+        // we find key and last node.
+        while (!q.isEmpty())
+        {
+            temp = q.peek();
+            q.remove();
+
+            if (temp.key == key) {
+                keyNode = temp;
+                //break; -- DONT BREAK, AS WE HAVE TO FIND THE LAST NODE ALSO
+            }
+
+            if (temp.left != null)
+                q.add(temp.left);
+
+            if (temp.right != null)
+                q.add(temp.right);
+        }
+
+        if (keyNode != null)
+        {
+            char x = temp.key; //STORE THE LAST NODE IN A VARIABLE
+            deleteDeepest(root, temp); // DELETE THE TEMP NODE OR LAST NODE
+            keyNode.key = x; //Store the last node's value at the keyNode's position
+        }
+    }
+    static void deleteDeepest(Node root,Node delNode)
+    {
+        Queue<Node> q = new LinkedList<>();
+        q.add(root);
+
+        Node temp = null;
+
+        // Do level order traversal until last node
+        while (!q.isEmpty())
+        {
+            temp = q.peek();
+            q.remove();
+
+            if (temp == delNode)
+            {
+                temp = null;
+                return;//here the last node gets deleted
+
+            }
+            if (temp.right!=null)
+            {
+                if (temp.right == delNode)
+                {
+                    temp.right = null;// or here the last node gets deleted
+                    return;
+                }
+                else
+                    q.add(temp.right);
+            }
+
+            if (temp.left != null)
+            {
+                if (temp.left == delNode)
+                {
+                    temp.left = null;// or here the last node gets deleted
+                    return;
+                }
+                else
+                    q.add(temp.left);
+            }
+        }
+    }
     static int height(Node root)
     {
         if(root==null)

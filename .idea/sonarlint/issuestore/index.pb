@@ -398,8 +398,6 @@ d
 4DSA SERIES QUESTIONS/src/SORTING/QuickSortNaive.java,0\2\025287d7c6fbdd98948fbaecce767f0e6e5773d2
 R
 "CodeForces/src/DIV_122_EDU/Q2.java,8\3\8361fdee7c945a89296bb2f7df7993006547eab0
-a
-1DSA SERIES QUESTIONS/src/GRAPHS/DisjointSets.java,6\f\6f5552e032ae91c035dfaaf95fabb4285b411bea
 _
 /DSA SERIES QUESTIONS/src/GRAPHS/TrialClass.java,b\9\b9fe36fa59ea1c4627ce55f405cad5ae16dfb6cf
 m
@@ -418,3 +416,47 @@ O
 CodeForces/src/DIV2_751/Q2.java,5\e\5e9242ed2476d2f9a615fd7291e37bc2f56474a5
 h
 8DSA SERIES QUESTIONS/src/BINARY_TREES/BinaryTreeDFS.java,0\1\017f0173f3773179e994f04a268c456fb645a670
+U
+%Competitions/src/Hackwithinfy/P1.java,9\c\9c43d6f0701e0d7341aebc3c9bb43e20c883f021
+N
+CodeForces/src/DIV2_751/B.java,d\7\d7f509bb072f2ca4a159e9e64d6da50358ce0f6c
+U
+%Competitions/src/Hackwithinfy/P3.java,8\7\871e3669bde79d4c014d2a63e8ff51e98dfadf78
+N
+CodeForces/src/DIV2_772/B.java,8\6\867f434464a3d1b713d6c75f4cf4c79749e9cb01
+N
+CodeForces/src/DIV2_772/A.java,5\c\5c24fcf1c76f44fefa08d939653c68f2d6d91fd4
+N
+CodeForces/src/DIV2_735/B.java,d\4\d48c658c5e1447d4b5421a117fdcccca422ea5eb
+N
+CodeForces/src/DIV2_766/B.java,f\b\fbc3b9bbea1a684d005949e8946fe1475c712144
+N
+CodeForces/src/EDU2_123/A.java,8\c\8c514df3b820f1d1db673c88d0ad0155d0574243
+N
+CodeForces/src/DIV2_773/B.java,5\c\5cbd9cab0b54224690a429aab6c1e845b8edda5c
+N
+CodeForces/src/DIV2_773/A.java,9\3\934af6f9d3f2f599445063dcb04ac3192287a8e4
+P
+ CodeForces/src/DIV2_763/B__.java,b\f\bfda0443164afac303bd301915b1e14d6d53339e
+U
+%Competitions/src/Hackwithinfy/P4.java,c\7\c7a5f67cf14eb210067ced560320726006f56dc8
+N
+CodeForces/src/EDU2_121/B.java,f\0\f0d95587abbdfc554e17cee84e5a2a5fe945f3f6
+N
+CodeForces/src/DIV2_752/A.java,3\7\375a215bd4d1a65d5f4bcde7bda25e2fa7ac0a7f
+N
+CodeForces/src/DIV2_774/A.java,1\5\15419917eaf1e6ed6de128d295b9997ae7bdf31b
+N
+CodeForces/src/DIV2_774/B.java,a\8\a86dda31beef6cf74f00bfc5c3bc52d1b8437a91
+N
+CodeForces/src/EDU2_123/B.java,4\d\4d7fe523d0a962934fe1d017dc4e224cc43b7f27
+N
+CodeForces/src/DIV2_752/B.java,3\3\33d698baa1360a541be02bce747e8f05e2ea781b
+N
+CodeForces/src/DIV2_761/B.java,4\8\4804209d093779b6814de52011e91c19933e3eba
+n
+>DSA SERIES QUESTIONS/src/ARRAYS/MaximumSubarraySum_Kadane.java,f\7\f73c2ec9b78ad3fdf549d361a53961d41bd7f33f
+U
+%Competitions/src/Hackwithinfy/P2.java,b\a\ba1538a5d8c76522390eefd8f403d7f5fb10fa4b
+f
+6DSA SERIES QUESTIONS/src/ARRAYS/MaxCircularArray_.java,d\4\d406aeebb069b891e0dd48dbbce7fb323dd5b5e2
