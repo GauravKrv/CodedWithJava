@@ -1,0 +1,12 @@
+
+v
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(—¡Ò¨8’†Ìõ/
+]	java:S125"<This block of commented-out lines of code should be removed.(Œ­€ÿÿÿÿÿ8’†Ìõ/
+]	java:S125#"<This block of commented-out lines of code should be removed.(à©Æıÿÿÿÿ8 ö¬Ìõ/
+v
+java:S3012'"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(—¡Ò¨8Í¸·Ìõ/
+]	java:S125("<This block of commented-out lines of code should be removed.(Œ­€ÿÿÿÿÿ8Î¸·Ìõ/
+]	java:S125*"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ8€¥†Ìõ/
+U	java:S1060"9Replace this use of System.out or System.err by a logger.(ÇÖ»¿8 ò›Ìõ/
+U	java:S1061"9Replace this use of System.out or System.err by a logger.(®à¤ÿ8½´µÌõ/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÃŞ‘”ùÿÿÿÿ

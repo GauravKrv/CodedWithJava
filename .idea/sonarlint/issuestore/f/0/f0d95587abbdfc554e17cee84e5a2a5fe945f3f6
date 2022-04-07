@@ -1,0 +1,21 @@
+
+S
+java:S1854"8Remove this useless assignment to local variable "temp".(‘½¹Þÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¾°å”ýÿÿÿÿ
+D
+java:S1481")Remove this unused "temp" local variable.(‘½¹Þÿÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(Å­ËÝúÿÿÿÿ
+N	java:S106."9Replace this use of System.out or System.err by a logger.(‚¨Ö§
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+h
+java:S3776I"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(ñ²ä’
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(åÛýÓüÿÿÿÿ
+Q	java:S125N"<This block of commented-out lines of code should be removed.(úÇÒº
+V	java:S125["<This block of commented-out lines of code should be removed.(ªë¤õüÿÿÿÿ
+X	java:S125z"<This block of commented-out lines of code should be removed.(ÐÆ®°8´‡Á•ô/
+U	java:S106~"9Replace this use of System.out or System.err by a logger.(£©‚ß8¢¯º•ô/
+[	java:S106‚"9Replace this use of System.out or System.err by a logger.(ÙõýÅúÿÿÿÿ8ö£¾•ô/
+R	java:S125‰"<This block of commented-out lines of code should be removed.(ëœ§
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(êšû
+]
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(ˆÌé¢

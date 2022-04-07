@@ -1,0 +1,12 @@
+
+R
+java:S1854	"7Remove this useless assignment to local variable "dup".(–»Όύÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(ΰ›ª
+C
+java:S1481	"(Remove this unused "dup" local variable.(–»Όύÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(ªδώ‰
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ϊΤ¤ι
+V	java:S125"<This block of commented-out lines of code should be removed.(³£Σ¬ωÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(¬£λ„ωÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ΛÒ‚

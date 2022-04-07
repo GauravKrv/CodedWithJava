@@ -1,0 +1,21 @@
+
+Q	java:S125	"<This block of commented-out lines of code should be removed.(†¾ÿæ
+N	java:S106#"9Replace this use of System.out or System.err by a logger.( —¬Ú
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(±Ğ×şÿÿÿÿ
+\
+java:S1126'"AReplace this if-then-else statement by a single return statement.(ôêËÚüÿÿÿÿ
+S	java:S106C"9Replace this use of System.out or System.err by a logger.(ÊÀîÉúÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.( —¬Ú
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(±Ğ×şÿÿÿÿ
+\
+java:S1126H"AReplace this if-then-else statement by a single return statement.(ôêËÚüÿÿÿÿ
+Q	java:S125R"<This block of commented-out lines of code should be removed.(áçêÎ
+Q	java:S125U"<This block of commented-out lines of code should be removed.(ìÖß¤
+S	java:S106_"9Replace this use of System.out or System.err by a logger.(¢¸ûúÿÿÿÿ
+Q	java:S125Z"<This block of commented-out lines of code should be removed.(†¾ÿæ
+A
+java:S1905l"&Remove this unnecessary cast to "int".(¬«¨¦şÿÿÿÿ
+A
+java:S1905m"&Remove this unnecessary cast to "int".(îù‡±ùÿÿÿÿ
+m	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïêÏú8á…¾ç/
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ËÒ‚

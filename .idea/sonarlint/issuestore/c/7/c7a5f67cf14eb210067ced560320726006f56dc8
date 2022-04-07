@@ -1,0 +1,17 @@
+
+U
+java:S1118":Add a private constructor to hide the implicit public one.(øýŠžÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(·Š·£
+S	java:S106+"9Replace this use of System.out or System.err by a logger.(–Øç„ûÿÿÿÿ
+Q	java:S1252"<This block of commented-out lines of code should be removed.(ñý 
+V	java:S125<"<This block of commented-out lines of code should be removed.(Ó›ÝÕúÿÿÿÿ
+Q	java:S125@"<This block of commented-out lines of code should be removed.(€Ú×›
+J
+java:S2864K"4Iterate over the "entrySet" instead of the "keySet".(Þ§Û
+J
+java:S1066!"/Merge this if statement with the enclosing one.(èúð¾øÿÿÿÿ
+L
+java:S1066&"/Merge this if statement with the enclosing one.(ôïÕæ8ª¤¡´ö/
+f	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜ÆÐ
+f	java:S117	"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡˜ÆÐ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(÷ÇÎ·

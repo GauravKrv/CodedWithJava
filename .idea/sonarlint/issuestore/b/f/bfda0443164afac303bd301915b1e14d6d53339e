@@ -1,0 +1,14 @@
+
+H
+java:S1172"+Remove this unused method parameter "args".(„œê‹8À¥¶ó/
+Q	java:S125""<This block of commented-out lines of code should be removed.(·…íã
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+G
+java:S1197L"*Move the array designators [] to the type.(îè»ı8©ô²ó/
+G
+java:S1197M"*Move the array designators [] to the type.(Óìî8©ô²ó/
+I
+java:S1197N",Move the array designators [][] to the type.(¯¢˜Ğ8ªô²ó/
+U	java:S106Y"9Replace this use of System.out or System.err by a logger.(Ï†¢ë8¬ô²ó/
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ø”ÎÎıÿÿÿÿ8¶ÄŞó/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.( Êçûÿÿÿÿ

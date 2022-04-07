@@ -1,0 +1,19 @@
+
+<
+java:S1481"&Remove this unused "v" local variable.(êþƒú
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(ÚÌéŽüÿÿÿÿ
+N	java:S106A"9Replace this use of System.out or System.err by a logger.(œï…ö
+v
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ”íÿ8ß¾Š†û/
+v
+java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(õâá¨8ß¾Š†û/
+f	java:S117/"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘˜¢Ô
+@
+java:S5411"*Use the primitive boolean expression here.(ÿŒ¸«
+?
+java:S54113"*Use the primitive boolean expression here.(»¡Ûa
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ƒºîÜúÿÿÿÿ
+k
+java:S3824"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(¼ºýÛ8ÚÀŠ†û/
+k
+java:S3824 "NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(›æ‘Ÿ8ÛÀŠ†û/

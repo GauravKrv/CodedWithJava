@@ -1,0 +1,164 @@
+
+l
+java:S1149™"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¶Âôœøÿÿÿÿ
+g
+java:S1149©"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(‰—÷À
+S	java:S106"9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ª¸ãş
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+S	java:S106%"9Replace this use of System.out or System.err by a logger.(‰ÜÔëüÿÿÿÿ
+V	java:S125-"<This block of commented-out lines of code should be removed.(ô¾Û¥úÿÿÿÿ
+V	java:S1255"<This block of commented-out lines of code should be removed.(½÷ßËùÿÿÿÿ
+Q	java:S125?"<This block of commented-out lines of code should be removed.(‹õ—Ä
+Q	java:S125I"<This block of commented-out lines of code should be removed.(•´Æá
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(œ
+Q	java:S125W"<This block of commented-out lines of code should be removed.(Ë“Óì
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+V	java:S125p"<This block of commented-out lines of code should be removed.(¼ôŒôûÿÿÿÿ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(ƒ†Í şÿÿÿÿ
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(ê˜Ğ°
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(¬ñÌÃüÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(’œ½ïşÿÿÿÿ
+T	java:S106’"9Replace this use of System.out or System.err by a logger.(üªöÚùÿÿÿÿ
+W	java:S125–"<This block of commented-out lines of code should be removed.(…ˆëıûÿÿÿÿ
+R	java:S125š"<This block of commented-out lines of code should be removed.(–öÎ
+W	java:S125¡"<This block of commented-out lines of code should be removed.(ğ¥ìêûÿÿÿÿ
+O	java:S106¨"9Replace this use of System.out or System.err by a logger.(ÒƒŠ
+W	java:S125³"<This block of commented-out lines of code should be removed.(’œ½ïşÿÿÿÿ
+T	java:S106·"9Replace this use of System.out or System.err by a logger.(üªöÚùÿÿÿÿ
+W	java:S125»"<This block of commented-out lines of code should be removed.(…ˆëıûÿÿÿÿ
+R	java:S125¿"<This block of commented-out lines of code should be removed.(–öÎ
+W	java:S125Æ"<This block of commented-out lines of code should be removed.(²ç¼úÿÿÿÿ
+T	java:S106Í"9Replace this use of System.out or System.err by a logger.(šÒîÿÿÿÿÿ
+T	java:S106Ü"9Replace this use of System.out or System.err by a logger.(õ¬Òòüÿÿÿÿ
+O	java:S106Ş"9Replace this use of System.out or System.err by a logger.(ë¥­¶
+O	java:S106å"9Replace this use of System.out or System.err by a logger.(Ş²ñü
+W
+java:S1126û"AReplace this if-then-else statement by a single return statement.(Ø²È=
+O	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(Ş²ñü
+C
+java:S1125"'Remove the unnecessary boolean literal.(†˜÷óüÿÿÿÿ
+T	java:S106¦"9Replace this use of System.out or System.err by a logger.(ÖâÉ‡üÿÿÿÿ
+T	java:S106Ñ"9Replace this use of System.out or System.err by a logger.(ãğŒÀÿÿÿÿÿ
+n
+java:S3776à"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(“¯áíÿÿÿÿÿ
+O	java:S106÷"9Replace this use of System.out or System.err by a logger.(èºó…
+O	java:S106†"9Replace this use of System.out or System.err by a logger.(ªÏñø
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ÅÛã»ûÿÿÿÿ
+m
+java:S1149«"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(”Ê–¼
+Q	java:S125¤"<This block of commented-out lines of code should be removed.(»Ø™@
+i
+java:S3776©"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(¤ÎŞÊ
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(¬ñÌÃüÿÿÿÿ
+W	java:S125´"<This block of commented-out lines of code should be removed.(’œ½ïşÿÿÿÿ
+>
+java:S1125·"'Remove the unnecessary boolean literal.(ÓÁ–ß
+T	java:S106º"9Replace this use of System.out or System.err by a logger.(üªöÚùÿÿÿÿ
+>
+java:S1125½"'Remove the unnecessary boolean literal.(¿ÀŒÏ
+W	java:S125¾"<This block of commented-out lines of code should be removed.(…ˆëıûÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(–öÎ
+T	java:S106Î"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T	java:S106Ï"9Replace this use of System.out or System.err by a logger.(šÒîÿÿÿÿÿ
+T	java:S106Ş"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+T	java:S106ß"9Replace this use of System.out or System.err by a logger.(õ¬Òòüÿÿÿÿ
+O	java:S106á"9Replace this use of System.out or System.err by a logger.(şéù
+O	java:S106ë"9Replace this use of System.out or System.err by a logger.(Ş²ñü
+>
+java:S1125ğ"'Remove the unnecessary boolean literal.(®³Òå
+R
+java:S1854"6Remove this useless assignment to local variable "sc".(ğÛ²¸øÿÿÿÿ
+C
+java:S1481"'Remove this unused "sc" local variable.(ğÛ²¸øÿÿÿÿ
+W	java:S125„"<This block of commented-out lines of code should be removed.(ğÄ¯¥üÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(ÉÖôŞ
+W	java:S125•"<This block of commented-out lines of code should be removed.(¼ôŒôûÿÿÿÿ
+b	java:S116ê"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Äô’“
+p
+java:S4144¸"YUpdate this method so that its implementation is not identical to "dijkstra" on line 650.(®ş™¬
+r
+java:S1149Ê"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(¸ûøÿÿÿÿ
+Q	java:S125Ã"<This block of commented-out lines of code should be removed.(»Ø™@
+n
+java:S3776È"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ôâ„¯şÿÿÿÿ
+T	java:S106É"9Replace this use of System.out or System.err by a logger.(¬ñÌÃüÿÿÿÿ
+>
+java:S1125Ô"'Remove the unnecessary boolean literal.(ÓÁ–ß
+T	java:S106×"9Replace this use of System.out or System.err by a logger.(üªöÚùÿÿÿÿ
+>
+java:S1125Ú"'Remove the unnecessary boolean literal.(¿ÀŒÏ
+T	java:S106‚"9Replace this use of System.out or System.err by a logger.(ÁªŠ¶ùÿÿÿÿ
+K
+java:S2864ƒ"4Iterate over the "entrySet" instead of the "keySet".(‚šÑ
+T	java:S106„"9Replace this use of System.out or System.err by a logger.(Â˜‡Ìüÿÿÿÿ
+W	java:S125"<This block of commented-out lines of code should be removed.(³¢±¯øÿÿÿÿ
+W	java:S125œ"<This block of commented-out lines of code should be removed.(÷²˜ğúÿÿÿÿ
+B
+java:S1481"&Remove this unused "v" local variable.(™•¤úÿÿÿÿ
+R	java:S125¢"<This block of commented-out lines of code should be removed.(Ë£˜Õ
+R	java:S125¬"<This block of commented-out lines of code should be removed.(œ©ù‚
+=
+java:S1481Á"&Remove this unused "v" local variable.(êşƒú
+W	java:S125á"<This block of commented-out lines of code should be removed.(¼ôŒôûÿÿÿÿ
+W	java:S125é"<This block of commented-out lines of code should be removed.(°îÖ³úÿÿÿÿ
+R	java:S125î"<This block of commented-out lines of code should be removed.(‹ªÀÛ
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(¼ôŒôûÿÿÿÿ
+W	java:S125…"<This block of commented-out lines of code should be removed.(òÉÑœüÿÿÿÿ
+t
+java:S2293*"YReplace the type specification in this constructor call with the diamond operator ("<>").(î…¼Œøÿÿÿÿ
+u
+java:S2293“"YReplace the type specification in this constructor call with the diamond operator ("<>").(á«ç‡şÿÿÿÿ
+u
+java:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(Š„¦–úÿÿÿÿ
+u
+java:S2293Ğ"YReplace the type specification in this constructor call with the diamond operator ("<>").(À¡“úÿÿÿÿÿ
+u
+java:S2293²"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÌÜÔäüÿÿÿÿ
+u
+java:S2293µ"YReplace the type specification in this constructor call with the diamond operator ("<>").(Óİñûÿÿÿÿ
+p
+java:S2293Ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(µ”íÿ
+p
+java:S2293Ò"YReplace the type specification in this constructor call with the diamond operator ("<>").(õâá¨
+z
+java:S1192ƒ"^Define a constant instead of duplicating this literal "BFS TRAVERSAL OF THE GRAPH : " 3 times.(¬ñÌÃüÿÿÿÿ
+F
+java:S1066’"/Merge this if statement with the enclosing one.(¡‹¿Ê
+
+java:S1319˜"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(”ôŠªúÿÿÿÿ
+z
+java:S1319·"cThe type of "adj" should be an interface such as "List" rather than the implementation "ArrayList".(°÷“¥
+l	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+l	java:S117¸"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+l	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+l	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¦¶õøÿÿÿÿ
+g	java:S117ğ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘˜¢Ô
+A
+java:S5411·"*Use the primitive boolean expression here.(ÓÁ–ß
+A
+java:S5411ğ"*Use the primitive boolean expression here.(®³Òå
+A
+java:S5411Ô"*Use the primitive boolean expression here.(ÓÁ–ß
+@
+java:S5411õ"*Use the primitive boolean expression here.(»¡Ûa
+A
+java:S5411­"*Use the primitive boolean expression here.(ÿŒ¸«
+A
+java:S5411Æ"*Use the primitive boolean expression here.(ÿŒ¸«
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶şÿÿÿÿ
+`
+java:S2583"DChange this condition so that it does not always evaluate to "false"(†˜÷óüÿÿÿÿ
+j
+java:S3824’"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(õ°ó‡ıÿÿÿÿ
+e
+java:S3824Ñ"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(›æ‘Ÿ
+e
+java:S3824Î"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(¼ºıÛ
+j
+java:S3824±"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(õ°ó‡ıÿÿÿÿ
+j
+java:S3824´"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(Ï¹ûÜÿÿÿÿÿ
+j
+java:S3824•"NReplace this "Map.get()" and condition with a call to "Map.computeIfAbsent()".(Ï¹ûÜÿÿÿÿÿ

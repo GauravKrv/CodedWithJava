@@ -1,0 +1,10 @@
+
+9
+java:S1659"#Declare "right" on a separate line.(çùà¶
+Q	java:S125B"<This block of commented-out lines of code should be removed.(‚†¼Ş
+S	java:S106Q"9Replace this use of System.out or System.err by a logger.(ïŸÅùÿÿÿÿ
+N	java:S106U"9Replace this use of System.out or System.err by a logger.(Ë³™¸
+S	java:S106Y"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+E
+java:S1197a"*Move the array designators [] to the type.(º ìıÿÿÿÿ
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¾Œ…q

@@ -1,0 +1,24 @@
+
+9
+java:S1659"#Declare "right" on a separate line.(çùà¶
+S
+java:S1854)"8Remove this useless assignment to local variable "root".(ûªÙĞøÿÿÿÿ
+;
+java:S16590"%Declare "keyNode" on a separate line.(ğ¥éí
+7
+java:S1116$"Remove this empty statement.(Åñ­õşÿÿÿÿ
+N
+java:S1854["8Remove this useless assignment to local variable "temp".(œ¯¥³
+N	java:S106œ"9Replace this use of System.out or System.err by a logger.(•ÇÙ
+O	java:S106¥"9Replace this use of System.out or System.err by a logger.(è†˜ë
+O	java:S106¨"9Replace this use of System.out or System.err by a logger.(‚ò®ü
+T	java:S106®"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+O	java:S106¯"9Replace this use of System.out or System.err by a logger.(Èã­ã
+:
+java:S1659º"#Declare "right" on a separate line.(çùà¶
+O	java:S106á"9Replace this use of System.out or System.err by a logger.(è†˜ë
+O	java:S106ä"9Replace this use of System.out or System.err by a logger.(‚ò®ü
+N	java:S106ó"9Replace this use of System.out or System.err by a logger.(•ÇÙ
+t	java:S135†"YReduce the total number of break and continue statements in this loop to use at most one.(·Ã½şÿÿÿÿ
+t	java:S135Ì"YReduce the total number of break and continue statements in this loop to use at most one.(·Ã½şÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ñãèüÿÿÿÿ

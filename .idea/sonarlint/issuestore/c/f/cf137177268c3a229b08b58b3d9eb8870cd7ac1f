@@ -1,0 +1,41 @@
+
+F
+java:S3740"/Provide the parametrized type for this generic.( ªÑ
+;
+java:S1659" Declare "op" on a separate line.(’¢¤“øÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(§“‰q
+9
+java:S1659A"#Declare "start" on a separate line.(®íµæ
+V	java:S125D"<This block of commented-out lines of code should be removed.(•ƒñÖøÿÿÿÿ
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(ÆÅ‡˜
+S	java:S106g"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+C
+java:S1125ƒ"'Remove the unnecessary boolean literal.(‰çşúûÿÿÿÿ
+W	java:S125‡"<This block of commented-out lines of code should be removed.(—÷Ğ¾ûÿÿÿÿ
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(Àš¸
+T	java:S106“"9Replace this use of System.out or System.err by a logger.(—˜ê€üÿÿÿÿ
+W	java:S125¢"<This block of commented-out lines of code should be removed.(—÷Ğ¾ûÿÿÿÿ
+T	java:S106İ"9Replace this use of System.out or System.err by a logger.(Éı’Õÿÿÿÿÿ
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(òÒ…¦ûÿÿÿÿ
+T	java:S106É"9Replace this use of System.out or System.err by a logger.(Éı’Õÿÿÿÿÿ
+b	java:S116ó"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(µ‚ÔÊ
+i	java:S100‰"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´µ™…ıÿÿÿÿ
+O	java:S106"9Replace this use of System.out or System.err by a logger.(‰íÖ¨
+d	java:S100˜"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¡Ñ¹
+i	java:S100¥"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œÅÀ½ûÿÿÿÿ
+u
+java:S2293Ñ"YReplace the type specification in this constructor call with the diamond operator ("<>").(À÷Ş„ıÿÿÿÿ
+u
+java:S2293½"YReplace the type specification in this constructor call with the diamond operator ("<>").(À÷Ş„ıÿÿÿÿ
+E
+java:S1121¼".Extract the assignment out of this expression.(µ¡©ˆ
+E
+java:S1121¨".Extract the assignment out of this expression.(µ¡©ˆ
+l	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·ØÈÿÿÿÿÿ
+g	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úöä˜
+g	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä„æÍ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á‡Úšşÿÿÿÿ
+b
+java:S3973"GUse indentation to denote the code conditionally executed by this "if".(½¼Š•üÿÿÿÿ
+
+java:S2681"†This line will not be executed conditionally; only the first line of this 2-line block will be. The rest will execute unconditionally.(ÚìÄ–

@@ -1,0 +1,11 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(Õï²ıÿÿÿÿÿ8˜±´û/
+
+java:S1130<"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Şıÿÿÿÿ8 œû/
+U	java:S106E"9Replace this use of System.out or System.err by a logger.(à¤Ïî8¦œû/
+Z	java:S106F"9Replace this use of System.out or System.err by a logger.(‹î®®úÿÿÿÿ8¨œû/
+U	java:S106G"9Replace this use of System.out or System.err by a logger.(²Ï®¤8ªœû/
+Z	java:S106J"9Replace this use of System.out or System.err by a logger.(€çÿœüÿÿÿÿ8¬œû/
+J
+java:S1121!".Extract the assignment out of this expression.(³ŞÏ8®œû/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½åÏèøÿÿÿÿ

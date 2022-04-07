@@ -1,0 +1,31 @@
+
+a	java:S116
+"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«ìò
+f
+java:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(¸¾æ±
+f
+java:S11495"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(Êí‹Û
+E
+java:S1197"*Move the array designators [] to the type.(ş¡‡›üÿÿÿÿ
+6
+java:S2129."!Remove this "Integer" constructor(ë©É>
+D
+java:S1874."/Remove this use of "Integer"; it is deprecated.(ë©É>
+@
+java:S11978"*Move the array designators [] to the type.(ÈÃßó
+=
+java:S1125A"'Remove the unnecessary boolean literal.(ÊşÑù
+=
+java:S1125E"'Remove the unnecessary boolean literal.(‰¼Şê
+S	java:S106F"9Replace this use of System.out or System.err by a logger.(²È™ûùÿÿÿÿ
+E
+java:S1197J"*Move the array designators [] to the type.(º ìıÿÿÿÿ
+S	java:S106]"9Replace this use of System.out or System.err by a logger.(îîÔÙúÿÿÿÿ
+V	java:S125T"<This block of commented-out lines of code should be removed.(Æ¤Çªıÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(©™óãúÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(î…¼Œøÿÿÿÿ
+o
+java:S22935"YReplace the type specification in this constructor call with the diamond operator ("<>").(Êí‹Û
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶şÿÿÿÿ

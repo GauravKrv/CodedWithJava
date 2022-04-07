@@ -1,0 +1,24 @@
+
+E
+java:S1197"*Move the array designators [] to the type.(É ±åúÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(É ±åúÿÿÿÿ
+=
+java:S1659"'Declare "min_index" on a separate line.(‰˜âÔ
+E
+java:S1197"*Move the array designators [] to the type.(Þò¦úûÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ÁªŠ¶ùÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(ðš“9
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(èù
+M
+java:S1854a"7Remove this useless assignment to local variable "adj".(œ€ó 
+A
+java:S1197T",Move the array designators [][] to the type.(ƒœÚA
+>
+java:S1481a"(Remove this unused "adj" local variable.(œ€ó 
+f	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰˜âÔ
+@
+java:S5411"*Use the primitive boolean expression here.(Ë„Þæ
+E
+java:S5411H"*Use the primitive boolean expression here.(´ƒˆ‹ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶þÿÿÿÿ

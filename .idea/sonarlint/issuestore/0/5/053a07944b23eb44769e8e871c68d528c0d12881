@@ -1,0 +1,12 @@
+
+\
+java:S1126
+"AReplace this if-then-else statement by a single return statement.(ØÑÇ²øÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(˜†…é
+S	java:S106""9Replace this use of System.out or System.err by a logger.(–ž‰˜ÿÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(˜†…é
+S	java:S106="9Replace this use of System.out or System.err by a logger.(–ž‰˜ÿÿÿÿÿ
+[
+java:S2184
+"@Cast one of the operands of this addition operation to a "long".(ØÑÇ²øÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(²´×®

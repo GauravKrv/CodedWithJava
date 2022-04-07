@@ -1,0 +1,23 @@
+
+:
+java:S1659"Declare "V" on a separate line.(ñŸ’âûÿÿÿÿ
+`
+java:S1124"EReorder the modifiers to comply with the Java Language Specification.(ñŸ’âûÿÿÿÿ
+G
+java:S1197	",Move the array designators [][] to the type.(ê˜†üÿÿÿÿ
+Y
+java:S1659">Declare "j" and all following declarations on a separate line.(Æ™‚Žùÿÿÿÿ
+G
+java:S1197",Move the array designators [][] to the type.(“š¤®øÿÿÿÿ
+t
+java:S3012"YUse "Arrays.copyOf", "Arrays.asList", "Collections.addAll" or "System.arraycopy" instead.(ï£¤»ÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(Ñ—™úÿÿÿÿ
+G
+java:S1197/",Move the array designators [][] to the type.(Ñ§†ùúÿÿÿÿ
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ôãã¼þÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(«ˆìÚ
+N	java:S106:"9Replace this use of System.out or System.err by a logger.(Ñß›â
+S	java:S106<"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+B
+java:S1197L",Move the array designators [][] to the type.(€¸Éú
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶þÿÿÿÿ

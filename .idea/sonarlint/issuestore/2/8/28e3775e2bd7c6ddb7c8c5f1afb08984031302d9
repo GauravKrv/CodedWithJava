@@ -1,0 +1,13 @@
+
+R
+java:S1854"7Remove this useless assignment to local variable "min".(³¯Šóùÿÿÿÿ
+E
+java:S1197"*Move the array designators [] to the type.(ÙŽ°½úÿÿÿÿ
+S	java:S1067"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S1068"9Replace this use of System.out or System.err by a logger.(Å¶áç
+S	java:S1069"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106<"9Replace this use of System.out or System.err by a logger.(–‹Ï 
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(‘¡ì›
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÆŽáñþÿÿÿÿ
+=
+java:S21892""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ

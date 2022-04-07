@@ -1,0 +1,19 @@
+
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ
+E
+java:S1481"(Remove this unused "one" local variable.(ı®¯®8“×íÓô/
+S	java:S1061"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ
+S	java:S1062"9Replace this use of System.out or System.err by a logger.(İ’õÁşÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(ÙÆ×Êùÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(À˜ğŞ
+m
+java:S3776;"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ñ …ğıÿÿÿÿ
+B
+java:S1481>"'Remove this unused "fl" local variable.(üÈ‚Œşÿÿÿÿ
+N	java:S106\"9Replace this use of System.out or System.err by a logger.(À˜ğŞ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ
+S	java:S106a"9Replace this use of System.out or System.err by a logger.(©àûÿÿÿÿ
+Z	java:S106e"9Replace this use of System.out or System.err by a logger.( ÒšŸıÿÿÿÿ8ÚíûÓô/
+I
+java:S1144;".Remove this unused private "solution2" method.(ñ …ğıÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(·Â®¹úÿÿÿÿ

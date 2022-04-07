@@ -1,0 +1,38 @@
+
+E
+java:S3740Y"/Provide the parametrized type for this generic.(‰Þô³
+E
+java:S3740Z"/Provide the parametrized type for this generic.(ØÈÑÕ
+T
+java:S1659">Declare "w" and all following declarations on a separate line.(áòé±
+\
+java:S1126"AReplace this if-then-else statement by a single return statement.(œ«ÒÙùÿÿÿÿ
+V	java:S125+"<This block of commented-out lines of code should be removed.(áì›£úÿÿÿÿ
+U
+java:S1854>":Remove this useless assignment to local variable "length".(÷ã¥¹ÿÿÿÿÿ
+‡
+java:S1130;"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÙØ¤Þýÿÿÿÿ
+V	java:S125="<This block of commented-out lines of code should be removed.(ÂöºÒøÿÿÿÿ
+F
+java:S1481>"+Remove this unused "length" local variable.(÷ã¥¹ÿÿÿÿÿ
+V	java:S125A"<This block of commented-out lines of code should be removed.(÷Œêþÿÿÿÿ
+V	java:S125I"<This block of commented-out lines of code should be removed.(’ñ§”ûÿÿÿÿ
+V	java:S125X"<This block of commented-out lines of code should be removed.(¬ÿ¼¨üÿÿÿÿ
+V	java:S125`"<This block of commented-out lines of code should be removed.(ÂÚéçúÿÿÿÿ
+Q	java:S125b"<This block of commented-out lines of code should be removed.( ­ì‘
+Q	java:S125o"<This block of commented-out lines of code should be removed.(¤¬û‰
+Q	java:S125u"<This block of commented-out lines of code should be removed.(ô÷°œ
+W	java:S125‡"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ
+W	java:S125Š"<This block of commented-out lines of code should be removed.(±¢²Âüÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ìÑÑÈÿÿÿÿÿ
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ŠêõÝùÿÿÿÿ
+i	java:S100¦"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†»è°þÿÿÿÿ
+R	java:S125ª"<This block of commented-out lines of code should be removed.(úÝÏï
+T	java:S106¼"9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ
+O	java:S106¾"9Replace this use of System.out or System.err by a logger.(´“®
+T	java:S106À"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+f	java:S117B"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ðïû®
+k	java:S117|"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(É…ßùÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶þÿÿÿÿ
+c
+java:S3973Ž"GUse indentation to denote the code conditionally executed by this "if".(ò¡ìõùÿÿÿÿ

@@ -1,0 +1,7 @@
+
+X	java:S125""<This block of commented-out lines of code should be removed.(½ĞÒ´8èé€Ææ/
+Y
+java:S1659+">Declare "d" and all following declarations on a separate line.(°ıÑˆúÿÿÿÿ
+S	java:S106K"9Replace this use of System.out or System.err by a logger.(èîÏ¿ùÿÿÿÿ
+k	java:S117+"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°ıÑˆúÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Œ¡Í

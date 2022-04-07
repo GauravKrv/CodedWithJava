@@ -1,0 +1,39 @@
+
+r
+java:S4144j"]Update this method so that its implementation is not identical to "adjacencyList" on line 69.(“›³e
+<
+java:S1659	"'Declare "endVertex" on a separate line.(ò êG
+M	java:S106"9Replace this use of System.out or System.err by a logger.(€£ìT
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼ÅÉÜ
+N	java:S106"9Replace this use of System.out or System.err by a logger.( „È
+W	java:S125"<This block of commented-out lines of code should be removed.(ÌÑëJ8•—èÝî/
+S	java:S106"9Replace this use of System.out or System.err by a logger.(âòëÈúÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(é¼Ã´ùÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+S	java:S106="9Replace this use of System.out or System.err by a logger.(°¯ÿÁüÿÿÿÿ
+N	java:S106?"9Replace this use of System.out or System.err by a logger.(ª¸ãþ
+S	java:S106A"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+N	java:S106H"9Replace this use of System.out or System.err by a logger.(ýïÈ
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(·¬È«ùÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(©ûÒ²üÿÿÿÿ
+Q	java:S125W"<This block of commented-out lines of code should be removed.(ÀÕˆ¶
+S	java:S106^"9Replace this use of System.out or System.err by a logger.(—é½†ÿÿÿÿÿ
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(ÓÃ¸ßþÿÿÿÿ
+S	java:S106c"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+V	java:S125e"<This block of commented-out lines of code should be removed.(úÔ™µøÿÿÿÿ
+N	java:S106m"9Replace this use of System.out or System.err by a logger.(ýïÈ
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(·¬È«ùÿÿÿÿ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(©ûÒ²üÿÿÿÿ
+Q	java:S125|"<This block of commented-out lines of code should be removed.(ÀÕˆ¶
+T	java:S106ƒ"9Replace this use of System.out or System.err by a logger.(—é½†ÿÿÿÿÿ
+T	java:S106…"9Replace this use of System.out or System.err by a logger.(ÓÃ¸ßþÿÿÿÿ
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ
+W	java:S125Š"<This block of commented-out lines of code should be removed.(úÔ™µøÿÿÿÿ
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(åÖ¦Ïøÿÿÿÿ
+W	java:S125”"<This block of commented-out lines of code should be removed.(’‰¥‰ýÿÿÿÿ
+W	java:S125œ"<This block of commented-out lines of code should be removed.(ŽÙŒšúÿÿÿÿ
+W	java:S125§"<This block of commented-out lines of code should be removed.(Á¯ûÿÿÿÿ
+[	java:S106®"9Replace this use of System.out or System.err by a logger.(ªÓ¼áþÿÿÿÿ8Ò™åÝî/
+u
+java:S2293š"YReplace the type specification in this constructor call with the diamond operator ("<>").(î…¼Œøÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶þÿÿÿÿ

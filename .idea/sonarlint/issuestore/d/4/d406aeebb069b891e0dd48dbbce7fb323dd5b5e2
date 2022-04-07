@@ -1,0 +1,16 @@
+
+Q	java:S125
+"<This block of commented-out lines of code should be removed.(¯İÇ
+E
+java:S1197"*Move the array designators [] to the type.(ıÛ„»øÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(‡ØÔıÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(Úš®£
+@
+java:S1197'"*Move the array designators [] to the type.(ûúó
+E
+java:S11971"*Move the array designators [] to the type.(«åÅ¡úÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(í Âõøÿÿÿÿ
+k	java:S1171"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(«åÅ¡úÿÿÿÿ
+b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(õ˜Áà
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¬ËÒ‚

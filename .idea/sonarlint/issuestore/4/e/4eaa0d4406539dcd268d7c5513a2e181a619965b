@@ -1,0 +1,17 @@
+
+—
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Çµí‘
+P
+java:S1118
+":Add a private constructor to hide the implicit public one.(Žè‚‚
+E
+java:S1197"*Move the array designators [] to the type.(ÉïøŸüÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ú°à¬
+E
+java:S1197 "*Move the array designators [] to the type.(¨ì£ºüÿÿÿÿ
+V	java:S125""<This block of commented-out lines of code should be removed.(Ç“Îþÿÿÿÿ
+V	java:S125*"<This block of commented-out lines of code should be removed.(ÍãµÀøÿÿÿÿ
+Q	java:S125."<This block of commented-out lines of code should be removed.(¸ÊÎâ
+Q	java:S1257"<This block of commented-out lines of code should be removed.(õíà÷
+V	java:S125<"<This block of commented-out lines of code should be removed.(˜òÿ±ÿÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ã‰ÐŠ

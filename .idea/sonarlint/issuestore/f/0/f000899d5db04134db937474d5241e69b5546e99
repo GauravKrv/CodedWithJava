@@ -1,0 +1,24 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.( ªÑ
+f	java:S116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıù¹öüÿÿÿÿ
+@
+java:S1197"*Move the array designators [] to the type.(Ëœœõ
+K
+java:S1481")Remove this unused "temp" local variable.(ÔñÑ¯ùÿÿÿÿ8Ÿ„ŒŞî/
+@
+java:S1197!"*Move the array designators [] to the type.(ÈÃßó
+h	java:S100M"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(›¼‹ıÿÿÿÿ
+@
+java:S1197Q"*Move the array designators [] to the type.(ÈÃßó
+N	java:S106^"9Replace this use of System.out or System.err by a logger.(ĞÌûı
+L
+java:S1197n"*Move the array designators [] to the type.(º ìıÿÿÿÿ8±„ŒŞî/
+N	java:S106y"9Replace this use of System.out or System.err by a logger.(ıª‹
+{
+java:S2293$"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÜœØşÿÿÿÿ8¼„ŒŞî/
+T
+java:S1155,">Use isEmpty() to check whether the collection is empty or not.(“¬ÿÄ
+[
+java:S1155Z">Use isEmpty() to check whether the collection is empty or not.(“¬ÿÄ8¾„ŒŞî/
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(š³à¶şÿÿÿÿ
