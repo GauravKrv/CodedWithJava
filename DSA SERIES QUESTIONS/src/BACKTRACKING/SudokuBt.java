@@ -1,5 +1,6 @@
 package BACKTRACKING;
 //WORKS -- BOTH FUNCTIONS ARE SAME IN WORKING
+//Only gives a single Solution
 public class SudokuBt {
     static boolean isSafe(int[][] board,int x, int y,int num){
         for (int i = 0; i < board.length; i++) {
