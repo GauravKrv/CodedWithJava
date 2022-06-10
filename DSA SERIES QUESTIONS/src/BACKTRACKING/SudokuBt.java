@@ -22,6 +22,19 @@ public class SudokuBt {
             }
         }
 
+//OTHER WAY
+        /*
+        x = x/3 * 3;//int startRow = x - x%sqrt; //
+        y = y/3 * 3;// int startCol = y - y%sqrt; //
+
+        for (int i = x; i < x + 3; i++) {
+            for (int j = y; j < y + 3; j++) {
+                if (board[i][j]==num) return false;
+            }
+        }
+
+         */
+
         return true;
     }
 
