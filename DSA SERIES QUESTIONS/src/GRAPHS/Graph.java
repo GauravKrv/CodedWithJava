@@ -585,10 +585,11 @@ class BFSStringNodes{
         System.out.println("BFS TRAVERSAL OF THE GRAPH : ");
         Hashtable<String, Boolean> visited = new Hashtable<>();
 
-
+        System.out.println(adj.get("hoy"));
         for (String c : adj.keySet()) {
             visited.put(c, false);
         }
+
         visited.put(start, true);
         Queue<String> q = new LinkedList<>();
         q.add(start);

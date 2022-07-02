@@ -4,7 +4,7 @@ package BINARY_TREES;
     //SPACE = O(H)
     //TIME = O(N)
 
-
+//CREATE A BST AND FIND ITS HEIGHT
 
 public class HeightBT {
 

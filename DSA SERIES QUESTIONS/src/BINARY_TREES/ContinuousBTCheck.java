@@ -2,7 +2,11 @@ package BINARY_TREES;
 
 import java.util.LinkedList;
 import java.util.Queue;
-
+/*
+*
+* A tree is a Continuous tree if in each root to leaf path, the absolute difference between keys of two adjacent is 1.
+* We are given a binary tree, we need to check if the tree is continuous or not.
+* */
 public class ContinuousBTCheck {
     static Node root;
     static class Node{
@@ -35,6 +39,7 @@ public class ContinuousBTCheck {
                     flag = false;
                     return flag;
                 }
+
             }
         }
         return flag;

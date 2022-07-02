@@ -53,9 +53,9 @@ public class BST {
         if (t.right==null) return t;
         else return maxNode(t.right);
     }
-//5.SUCCESSOR - NEXT VALUE OF CURR VALUE
+//5.SUCCESSOR - NEXT VALUE OF CURR VALUE -- value wise
     static Node successor(Node t){
-       if (t.right != null) return minNode(t.right);
+       if (t.right != null) return minNode(t.right);//minimum node in right side -- condiition only if the keft exust
 
        Node y = t.parent;
        while (y!=null && t==y.right){
@@ -66,9 +66,9 @@ public class BST {
         }
 //PREDECESSOR - PREV VALUE ODF CURR VALUE
     static Node predecessor(Node t){
-        if (t.left != null) return maxNode(t.left);
+        if (t.left != null) return maxNode(t.left);//max node in left side -- only if left exist
 
-        Node y = t.parent;
+        Node y = t.parent; //else
         while (y!=null && t==y.left){
             t = y;
             y = y.parent;
@@ -95,7 +95,8 @@ public class BST {
            else insert(root.right,v);
        }
     }
-//6.DELETE A NODE
+
+//6.DELETE A NODE --- works??
     static void delete(Node root,int v){
        if (root==null) return;
 
@@ -115,7 +116,7 @@ public class BST {
         }
 
         //CHECK FROM HERE
-       if (root.parent==null) {root=null; return;}//(root.parent==null && root.value == v)
+       if (root.parent==null && root.value == v) {root=null; return;}//(root.parent==null && root.value == v)
        if (root.left==null && root.right==null){  //(root.left==null && root.right==null && root.value == v)
            if (root == root.parent.left){
                root.parent.left = null;
@@ -163,6 +164,9 @@ public class BST {
 
     }
 }
+
+//count how many leaf nodes are there n the given bt
+//find how many leaf non-leaf nodes are there
 
 
 

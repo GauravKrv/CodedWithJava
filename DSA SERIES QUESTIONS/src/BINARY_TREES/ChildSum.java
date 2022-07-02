@@ -2,7 +2,8 @@ package BINARY_TREES;
 
 
 /*
-Children Sum Property is a property in which the sum of values of the left child and right child should be equal to the value of their node if both children are present. Else if only one child is present then the value of the child should be equal to its node value.
+Children Sum Property is a property in which the sum of values of the left child and right child should be equal to the value of their
+node if both children are present. Else if only one child is present then the value of the child should be equal to its node value.
 * */
 
 public class ChildSum {
