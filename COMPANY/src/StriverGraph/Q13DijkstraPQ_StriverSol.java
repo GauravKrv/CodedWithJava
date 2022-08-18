@@ -2,7 +2,7 @@ package StriverGraph;
 import java.util.*;
 
 public class Q13DijkstraPQ_StriverSol {
-
+//WORKS
     //in dijkstar the graph will be represente as a weighted node which is neighbr from its given index
         static int[] shortestPath(int s, ArrayList<ArrayList<Nod>> adj, int N)
         {
@@ -19,7 +19,7 @@ public class Q13DijkstraPQ_StriverSol {
                 Nod currminnode = pq.poll();//removing the min weighted/distanced node from previous
 
                 for(Nod neigh: adj.get(currminnode.v)) {
-                    if(dist[currminnode.weight] + neigh.weight < dist[neigh.v]) {
+                    if(dist[currminnode.v] + neigh.weight < dist[neigh.v]) {
                         dist[neigh.v] = dist[currminnode.v] + neigh.weight;
                         pq.add(new Nod(neigh.v, dist[neigh.v])); //add adjacent from current node which is not finalised
                     }
