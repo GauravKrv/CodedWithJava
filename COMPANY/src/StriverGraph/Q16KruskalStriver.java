@@ -23,7 +23,7 @@ public class Q16KruskalStriver {
     }
     void KruskalAlgo(ArrayList<NodeK> adj, int N)
     {
-        Collections.sort(adj, new SortComparator());
+        Collections.sort(adj, new SortComparator());//now he edges are sorted according to weight
         int parent[] = new int[N];
         int rank[] = new int[N];
 

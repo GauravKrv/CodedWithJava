@@ -49,25 +49,25 @@ public class Q17Bridges {
                             boolean[] vis, int parent, int[] discovery, int[] low, int timer) {
         vis[i] = true;
         discovery[i]=timer;
-        low[i]=timer;
+        low[i]=timer; //minimum low can be discovery[i] only
         timer++;
         //same
 
         for (int x : adj.get(i)){
-            if (parent==x)continue;
+            if (parent==x)continue; //if adjacent is parent - ignore
 
             if (vis[x]==false){
-                dfs(x,adj,v,bridges,vis,i,discovery,low,timer);
+                dfs(x,adj,v,bridges,vis,i,discovery,low,timer); //do dfs if not visited
 
-               low[i] = Math.min(low[i],low[x]);//???
+               low[i] = Math.min(low[i],low[x]);////update the low from Min of (low[self],low[adjacent]) after visiting the adjacent
 
-                if (low[x]>discovery[i]){
+                if (low[x]>discovery[i]){ //if low[adjacent] is greater than discovery[self] then this is a bridge pair
                     //bridge
-                    bridges.add(new Pair(x,i));
+                    bridges.add(new Pair(x,i)); //add to bridge list
                 }
-            } else  {
+            } else  {  //if visited and not parent => backedge
                 //backedge
-                low[i] = Math.min(low[i],discovery[x]);
+                low[i] = Math.min(low[i],discovery[x]); //update the low from Min of (low[self],discovery[adjacent])
             }
 
         }
