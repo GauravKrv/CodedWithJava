@@ -57,7 +57,7 @@ public class Q7BipartiteGraphDFS {
                 if (color[x]==-1){   //IF -1 THEN HAVE TO COLOR
 
                     color[x]=1-color[i]; //setting opposiite color to adjacents
-                    if (isBipartiteDFSUtil(adj, x, vis, color)==false){
+                    if (!isBipartiteDFSUtil(adj, x, vis, color)){
                         return false;
                     }
                 } else if (color[x] == color[i]) { //ELSE IF ADJ NODES HVE SAME COLOR

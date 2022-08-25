@@ -5,11 +5,60 @@ import java.util.Stack;
 public class Q1 {
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String s = sc.next();
+        int arr[] = {1,-2,7,-13};
+        int a[] = s2(arr);
+        for (int x :
+                a) {
+            System.out.print(x+" ");
 
-        System.out.println( solve(s));
+        }
+    }
 
+
+    static int s(int arr[]){
+        int sum = 0;
+        for (int i = 0; i < arr.length; i++) {
+            int sq = (i+1)*(i+1);
+            if (sq>arr[i]){
+                sum+= (sq-arr[i]);
+            }
+        }
+        return sum;
+    }
+
+    static int[] s2(int arr[]){
+        int neg =0,pos=0,ni=0,pi=0;
+        for (int x :arr ) {
+            if (x<0){
+                neg++;
+            }else{
+                pos++;
+            }
+        }
+        int t[] = new int[neg];
+        int t2[] = new int[pos];
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]<0){
+                t[ni] = arr[i];
+                ni++;
+            }else{
+                t2[pi++] = arr[i];
+            }
+        }
+
+        for (int i = 0; i < t.length; i++) {
+            arr[i] = t[i];
+        }
+        for (int i = 0; i < t2.length; i++) {
+            arr[i+ni] = t2[i];
+        }
+        return arr;
+
+    }
+    static void swap(int[] a,int neg,int i){
+        int temp = a[i];
+        a[i] = a[neg];
+        a[neg]=temp;
 
     }
 

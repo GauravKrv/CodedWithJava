@@ -1,6 +1,7 @@
 package StriverTrees;
 
 public class Q29ChildrenSum {
+    //mine ans and strivers ans , both are diff but satisfies what is being asked
     public static void main(String[] args) {
         Node root = new Node(50);
         root.left = new Node(7);
@@ -13,7 +14,7 @@ public class Q29ChildrenSum {
 
         inOrder(root);
 
-        childrenSum(root);
+        changeTree(root);
         System.out.println();
         inOrder(root);
 
@@ -78,8 +79,10 @@ public class Q29ChildrenSum {
         }
 
         if (child < root . data) {
-            if (root . left!=null) root . left . data = root . data;
-            else if (root . right!=null) root . right . data = root . data;
+            int curr = root.data;
+            if (root . left!=null) root . left . data = curr;
+            else if (root . right!=null) root . right . data = curr;
+//            root.data = curr*2;
         }
 
         reorder(root . left);

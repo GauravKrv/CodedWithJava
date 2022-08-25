@@ -5,7 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Q4CycleDetectBFS_Undirected {
-   static class Pair{
+   private static class Pair{
         int first;
         int second;
         Pair(int first,int second){

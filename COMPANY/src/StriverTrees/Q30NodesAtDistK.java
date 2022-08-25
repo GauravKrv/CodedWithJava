@@ -30,13 +30,13 @@ public class Q30NodesAtDistK {
 
     private static void nodesAtDistK(StriverTrees.Node root) {
 
-        Queue<StriverTrees.Node> bfs = new LinkedList<>();
+        Queue<Node> bfs = new LinkedList<>();
         bfs.add(root);//how to store parents of each node?? -- data wise is fine[use hashmap] but node wise we hae to store--how?
 
 
     }
  //STRIVERS SOLUTION ----
-    private static void markParents(Node root, Map<Node, Node> parent_track, Node target) {
+    private static void markParents(Node root, Map<Node, Node> parent_track) {
         Queue<Node> queue = new LinkedList<Node>();
         queue.offer(root);
         while(!queue.isEmpty()) {
@@ -53,7 +53,7 @@ public class Q30NodesAtDistK {
     }
     public static List<Integer> distanceK(Node root, Node target, int k) {
         Map<Node, Node> parent_track = new HashMap<>();
-        markParents(root, parent_track, root);//MARKING PARENTS USING NODE
+        markParents(root, parent_track);//MARKING PARENTS USING NODE
         Map<Node, Boolean> visited = new HashMap<>();//KEEP TRACK OF VISITED USING HASHMAP
         Queue<Node> queue = new LinkedList<Node>();
         queue.offer(target); //ADDING THE TARGET NODE
@@ -87,4 +87,7 @@ public class Q30NodesAtDistK {
         }
         return result;
     }
+
+
+
 }

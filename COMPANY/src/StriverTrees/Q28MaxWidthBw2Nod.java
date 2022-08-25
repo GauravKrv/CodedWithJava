@@ -58,10 +58,10 @@ public class Q28MaxWidthBw2Nod {
             int size = q.size();
             int mmin = q.peek().num;    //to make the id starting from zero
             int first = 0,last = 0;
-            for(int i=0; i<size; i++){ //removing or traversing or evaluating all nodes in a level
+            for(int i=0; i<size; i++){ //removing or traversing or evaluating all nodes in a level, i.e till size
                 int cur_id = q.peek().num-mmin;//for setting currents id
                 Node node = q.peek().node;
-                q.poll();
+                q.poll();//REMOVING THE Ith INDEX OUT OF THE QUEUE
                 if(i==0) first = cur_id;//setting first index value on the current level
                 if(i==size-1) last = cur_id;//setting the last index value on the current level
                 if(node.left != null)
