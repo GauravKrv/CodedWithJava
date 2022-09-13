@@ -5,6 +5,7 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Q28MaxWidthBw2Nod {
+
     public static void main(String[] args) {
         Node root = new Node(1);
         root.left = new Node(2);
@@ -15,13 +16,12 @@ public class Q28MaxWidthBw2Nod {
         root.right.right = new Node(7);
         root.right.right.left = new Node(7);
         root.right.right.right = new Node(15);
-       int maxWidthBwNodOnALevel = widthOfBinaryTree(root);
+        int maxWidthBwNodOnALevel = widthOfBinaryTree(root);
         System.out.println(maxWidthBwNodOnALevel);
 
     }
-
-
 //    below function just returns the max no of nodes present on a level in a tree
+
 //    but we have to find the max no of nodes possible bw two nodes on a level, including the two nodes
     private static int getmaxnodes(Node root) {
         ArrayDeque<Node> q = new ArrayDeque<>();
