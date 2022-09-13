@@ -6,8 +6,8 @@ public class LCSubstringQ27 {
 
     public static void main(String[] args) {
 
-        String s1 = "afabskjhas";
-        String s2 = "aaablskndfa";
+        String s1 = "aacabdkacaa";
+        String s2 = "aacakdbacaa";
         int n1 = s1.length();
         int n2 = s2.length();
         int[][] dp = new int[n1][n2]; //since dp cannot store 0 as a value of n -- or b ranges from 0->n-1 as value
@@ -17,9 +17,9 @@ public class LCSubstringQ27 {
                 dp[i][j] = -1;
             }
         }
-        System.out.println(solve(s1,s2,n1 - 1,n2-1));
-        System.out.println(solve3p(s1,s2,n1 - 1,n2-1,0));
-        System.out.println(solveLcsTab(s1,s2,n1 ,n2));
+//        System.out.println(solve(s1,s2,n1 - 1,n2-1));
+//        System.out.println(solve3p(s1,s2,n1 - 1,n2-1,0));
+             System.out.println(solveLcsTab(s1,s2,n1 ,n2));
 
 
 
@@ -85,8 +85,37 @@ public class LCSubstringQ27 {
 
             }
         }
+        System.out.println("PRINTING DP .... ");
+        Print.print(dp);
+        System.out.println("PRINTING LCSUB .... ");
+
+        int i=0,j=0,mx=0;
+        for (int k = 0; k <= s1.length(); k++) {
+            for (int l = 0; l <= s2.length(); l++) {
+                if (dp[k][l]>mx){
+                    mx = dp[k][l];
+                    i = k;
+                    j = l;
+
+                }
+            }
+        }
+        StringBuilder sb = new StringBuilder("");
+        while (i>0&&j>0) {
+            if (dp[i][j] > dp[i - 1][j - 1] && s1.charAt(i -1)==s2.charAt(j-1)) {
+                sb.append(s2.charAt(j - 1));
+            }
+            if (dp[i][j] == 0) {
+                break;
+            }
+            i-=1;
+            j-=1;
+        }
+        System.out.println("String = "+sb);
 
         return max;
 
     }
+
+
 }
