@@ -1,0 +1,26 @@
+{
+  "crnId": "CRN12111",
+  "customerName": "Name1",
+  "city": "city1",
+  "meetingDate": "20-02-2012",
+  "conversionDate": "20-02-2012",
+  "OSName": "NameRM1",
+  "RMName": "NameRM1",
+  "NDV": 1200000,
+  "DV": 1300000,
+  "commission": 5.5,
+  "OSBookingAmount": {
+    "expected": 1.7,
+    "received": 1.2,
+    "pending": 0.5,
+    "commissionCollected": 0.7
+  },
+  "RMBookingAmount": {
+    "expected": 1.7,
+    "received": 1.2,
+    "pending": 0.5,
+    "commissionCollected": 0.7
+  },
+  "projectStatus":{"projectStatus":"ACTIVE"},
+  "handedOver": true
+}
