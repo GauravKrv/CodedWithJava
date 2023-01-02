@@ -7,8 +7,8 @@ public class PrintLCS26 {
     //use lcs tabulation function 's dp matrix to print lcs
     public static void main(String[] args) {
 
-        String s1 = "abc";
-        String s2 = "decbc";
+        String s1 = "aacabdkacaa";
+        String s2 = "aacakdbacaa";
         int n1 = s1.length();
         int n2 = s2.length();
         int[][] dp = new int[n1][n2]; //since dp cannot store 0 as a value of n -- or b ranges from 0->n-1 as value
@@ -19,7 +19,8 @@ public class PrintLCS26 {
             }
         }
         System.out.println(solveTAB(s1,s2,n1,n2));//incorrect method to print lcs -- i.e formula used after lcs calculation is incorrect
-        lcsStriver(s1,s2);
+        System.out.println(lcsStriver(s1,s2));
+
     }
 
     //my doesnt wokrs -- just change the formula of printing -- as dp is correct
@@ -66,12 +67,19 @@ public class PrintLCS26 {
         return dp[n-1][m-1];
     }
 
+    static String reverse(String s){
+        int a=0,e=s.length()-1;
+        StringBuilder sb = new StringBuilder(s);
+
+        return String.valueOf(sb.reverse());
+    }
 
     //strivers formula came after analysing amtrix bcwards and checking where the modif hapens --
     static int lcsStriver(String s1, String s2) {
 
         int n=s1.length();
         int m=s2.length();
+
 
         int dp[][]=new int[n+1][m+1];
 
